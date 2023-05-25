@@ -1,0 +1,30 @@
+{
+  "unversionedId": "livestream/livestream-any-rtmp",
+  "id": "livestream/livestream-any-rtmp",
+  "title": "Livestreaming any Video via RTMP (Custom Input)",
+  "description": "Dyte can livestream video from any application like",
+  "source": "@site/docs/guides/livestream/livestream-any-rtmp.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/livestream-any-rtmp",
+  "permalink": "/guides/livestream/livestream-any-rtmp",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/livestream/livestream-any-rtmp.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Livestreaming any Video via RTMP (Custom Input)",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started with Interactive Livestreaming",
+    "permalink": "/guides/livestream/getting-started-with-livestreaming"
+  },
+  "next": {
+    "title": "Livestreaming a Dyte Meeting via HLS",
+    "permalink": "/guides/livestream/livestream-dyte-meeting"
+  }
+}

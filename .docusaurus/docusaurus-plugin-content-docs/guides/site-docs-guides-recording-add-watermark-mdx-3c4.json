@@ -1,0 +1,30 @@
+{
+  "unversionedId": "recording/add-watermark",
+  "id": "recording/add-watermark",
+  "title": "Add Watermark to your Recording",
+  "description": "Dyte's watermark feature enables you to include an image as a watermark in your recording. To add watermark, configure the following parameters to videoconfig in the Start recording API.",
+  "source": "@site/docs/guides/recording/add-watermark.mdx",
+  "sourceDirName": "recording",
+  "slug": "/recording/add-watermark",
+  "permalink": "/guides/recording/add-watermark",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/recording/add-watermark.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Add Watermark to your Recording",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configure Video Settings",
+    "permalink": "/guides/recording/configure-codecs"
+  },
+  "next": {
+    "title": "Set Audio Configurations",
+    "permalink": "/guides/recording/configure-audio-codec"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "room-metadata",
+  "permalink": "/ios-core/tags/room-metadata",
+  "allTagsPath": "/ios-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "room-metadata",
+      "title": "Room Metadata",
+      "description": "All metadata pertaining to a meeting.",
+      "permalink": "/ios-core/room-metadata"
+    }
+  ]
+}

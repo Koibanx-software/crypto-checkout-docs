@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-emoji-picker",
+  "id": "components/dyte-emoji-picker",
+  "title": "DyteEmojiPicker",
+  "description": "A very simple emoji picker component.",
+  "source": "@site/docs/react-ui-kit/components/dyte-emoji-picker.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-emoji-picker",
+  "permalink": "/react-ui-kit/components/dyte-emoji-picker",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-emoji-picker.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-emoji-picker.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteDialog",
+    "permalink": "/react-ui-kit/components/dyte-dialog"
+  },
+  "next": {
+    "title": "DyteEndedScreen",
+    "permalink": "/react-ui-kit/components/dyte-ended-screen"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "methods",
+  "permalink": "/web-core/tags/methods",
+  "allTagsPath": "/web-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "local-user/extras",
+      "title": "Other Methods",
+      "description": "Methods to manage the loocal user.",
+      "permalink": "/web-core/local-user/extras"
+    }
+  ]
+}

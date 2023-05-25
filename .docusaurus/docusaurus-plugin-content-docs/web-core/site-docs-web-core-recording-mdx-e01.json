@@ -1,0 +1,44 @@
+{
+  "unversionedId": "recording",
+  "id": "recording",
+  "title": "Recording",
+  "description": "Control recordings in a meeting.",
+  "source": "@site/docs/web-core/recording.mdx",
+  "sourceDirName": ".",
+  "slug": "/recording",
+  "permalink": "/web-core/recording",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/recording.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "recording",
+      "permalink": "/web-core/tags/recording"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Recording",
+    "description": "Control recordings in a meeting.",
+    "sidebar_position": 9,
+    "tags": [
+      "web-core",
+      "recording"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Other methods",
+    "permalink": "/web-core/plugins/extra"
+  },
+  "next": {
+    "title": "Livestreaming State Management APIs",
+    "permalink": "/web-core/livestreaming/state-management-apis"
+  }
+}

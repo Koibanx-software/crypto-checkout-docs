@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-participants",
+  "id": "components/dyte-participants",
+  "title": "dyte-participants",
+  "description": "A component which lists all participants, with ability to",
+  "source": "@site/docs/ui-kit/components/dyte-participants.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participants",
+  "permalink": "/ui-kit/components/dyte-participants",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-participants.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participants.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participants-toggle",
+    "permalink": "/ui-kit/components/dyte-participants-toggle"
+  },
+  "next": {
+    "title": "dyte-permissions-message",
+    "permalink": "/ui-kit/components/dyte-permissions-message"
+  }
+}

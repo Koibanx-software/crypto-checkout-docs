@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/participant",
+  "id": "reference/participant",
+  "title": "DyteParticipant",
+  "description": "Properties",
+  "source": "@site/docs/javascript/reference/participant.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/participant",
+  "permalink": "/javascript/reference/participant",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/javascript/reference/participant.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Meeting",
+    "permalink": "/javascript/reference/meeting"
+  },
+  "next": {
+    "title": "DyteSelfParticipant",
+    "permalink": "/javascript/reference/self-participant"
+  }
+}

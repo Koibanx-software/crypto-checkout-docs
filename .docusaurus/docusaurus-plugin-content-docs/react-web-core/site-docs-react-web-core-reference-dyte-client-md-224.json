@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DyteClient",
+  "id": "reference/DyteClient",
+  "title": "DyteClient",
+  "description": "The DyteClient class is the main class of the web core library. An object of the",
+  "source": "@site/docs/react-web-core/reference/DyteClient.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteClient",
+  "permalink": "/react-web-core/reference/DyteClient",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/reference/DyteClient.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "web_core_version": "1.2.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Error Codes (0-16)",
+    "permalink": "/react-web-core/error-codes/error-code-zero-ten"
+  },
+  "next": {
+    "title": "DyteSelf",
+    "permalink": "/react-web-core/reference/DyteSelf"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "embed",
+  "id": "embed",
+  "title": "No Code Integration",
+  "description": "You can easily integrate Dyte into your project without any SDK using an iFrame. An iFrame is a quick and easy way to embed a live video solution into your own website or application without modifying the underlying code.",
+  "source": "@site/docs/guides/embed.mdx",
+  "sourceDirName": ".",
+  "slug": "/embed",
+  "permalink": "/guides/embed",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/embed.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Breakout Room",
+    "permalink": "/guides/breakoutroom/create-breakout-rooms"
+  },
+  "next": {
+    "title": "Export Chat Dump of a Session",
+    "permalink": "/guides/export-chat-dump"
+  }
+}

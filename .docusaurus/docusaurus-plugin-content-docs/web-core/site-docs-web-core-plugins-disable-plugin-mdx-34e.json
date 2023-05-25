@@ -1,0 +1,44 @@
+{
+  "unversionedId": "plugins/disable-plugin",
+  "id": "plugins/disable-plugin",
+  "title": "Functions to disable plugins",
+  "description": "Methods on a plugin in a meeting.",
+  "source": "@site/docs/web-core/plugins/disable-plugin.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/disable-plugin",
+  "permalink": "/web-core/plugins/disable-plugin",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/plugins/disable-plugin.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/web-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Functions to disable plugins",
+    "description": "Methods on a plugin in a meeting.",
+    "sidebar_position": 3,
+    "tags": [
+      "web-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Functions to enable plugins",
+    "permalink": "/web-core/plugins/enable-plugin"
+  },
+  "next": {
+    "title": "Other methods",
+    "permalink": "/web-core/plugins/extra"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DyteChat",
+  "id": "reference/DyteChat",
+  "title": "DyteChat",
+  "description": "This is the chat module, which can be used to send and receive messages from the",
+  "source": "@site/docs/react-web-core/reference/DyteChat.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteChat",
+  "permalink": "/react-web-core/reference/DyteChat",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/reference/DyteChat.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "web_core_version": "1.2.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteMeta",
+    "permalink": "/react-web-core/reference/DyteMeta"
+  },
+  "next": {
+    "title": "DytePolls",
+    "permalink": "/react-web-core/reference/DytePolls"
+  }
+}

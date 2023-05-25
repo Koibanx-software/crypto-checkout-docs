@@ -1,0 +1,14 @@
+{
+  "label": "quickstart",
+  "permalink": "/plugin-sdk/tags/quickstart",
+  "allTagsPath": "/plugin-sdk/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Before you start working with Dyte's Plugin SDK, make sure you've read the",
+      "permalink": "/plugin-sdk/quickstart"
+    }
+  ]
+}

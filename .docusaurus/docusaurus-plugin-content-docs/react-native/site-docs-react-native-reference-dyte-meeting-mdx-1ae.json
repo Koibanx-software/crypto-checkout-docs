@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/dyte-meeting",
+  "id": "reference/dyte-meeting",
+  "title": "DyteMeeting (React component)",
+  "description": "DyteMeeting is a React component that can be included in your React application",
+  "source": "@site/docs/react-native/reference/dyte-meeting.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/dyte-meeting",
+  "permalink": "/react-native/reference/dyte-meeting",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-native/reference/dyte-meeting.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sample app",
+    "permalink": "/react-native/sample-app"
+  },
+  "next": {
+    "title": "Connection Config",
+    "permalink": "/react-native/reference/connection-config"
+  }
+}

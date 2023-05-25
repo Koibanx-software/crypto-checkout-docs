@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-sidebar",
+  "id": "components/dyte-sidebar",
+  "title": "dyte-sidebar",
+  "description": "A component which handles the sidebar and",
+  "source": "@site/docs/ui-kit/components/dyte-sidebar.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-sidebar",
+  "permalink": "/ui-kit/components/dyte-sidebar",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-sidebar.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-sidebar.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-setup-screen",
+    "permalink": "/ui-kit/components/dyte-setup-screen"
+  },
+  "next": {
+    "title": "dyte-simple-grid",
+    "permalink": "/ui-kit/components/dyte-simple-grid"
+  }
+}

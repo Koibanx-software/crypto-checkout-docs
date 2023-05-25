@@ -1,0 +1,30 @@
+{
+  "unversionedId": "recording/start-recording",
+  "id": "recording/start-recording",
+  "title": "Start Recording a Meeting",
+  "description": "This topic explains how to use Dyte to implement composite recording.",
+  "source": "@site/docs/guides/recording/start-recording.mdx",
+  "sourceDirName": "recording",
+  "slug": "/recording/start-recording",
+  "permalink": "/guides/recording/start-recording",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/recording/start-recording.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Start Recording a Meeting",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recording Overview",
+    "permalink": "/guides/recording/recording-overview"
+  },
+  "next": {
+    "title": "Configure Video Settings",
+    "permalink": "/guides/recording/configure-codecs"
+  }
+}

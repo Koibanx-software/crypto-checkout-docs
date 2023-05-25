@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-camera-toggle",
+  "id": "components/dyte-camera-toggle",
+  "title": "dyte-camera-toggle",
+  "description": "A button which toggles your camera.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-camera-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-camera-toggle",
+  "permalink": "/angular-ui-kit/components/dyte-camera-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-camera-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-button",
+    "permalink": "/angular-ui-kit/components/dyte-button"
+  },
+  "next": {
+    "title": "dyte-chat-scope-selector",
+    "permalink": "/angular-ui-kit/components/dyte-chat-scope-selector"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "customize-meeting-ui",
+  "id": "customize-meeting-ui",
+  "title": "Customize the meeting UI",
+  "description": "Dyte offers a host of customizations for the UI of meetings, some of which also",
+  "source": "@site/docs/javascript/customize-meeting-ui.mdx",
+  "sourceDirName": ".",
+  "slug": "/customize-meeting-ui",
+  "permalink": "/javascript/customize-meeting-ui",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/javascript/customize-meeting-ui.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Usage",
+    "permalink": "/javascript/usage"
+  },
+  "next": {
+    "title": "Advanced usage",
+    "permalink": "/javascript/advanced-usage"
+  }
+}

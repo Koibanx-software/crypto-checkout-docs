@@ -1,0 +1,29 @@
+{
+  "unversionedId": "sample-app",
+  "id": "sample-app",
+  "title": "Sample app",
+  "description": "You can check out an example of this integration by cloning our",
+  "source": "@site/docs/react-native/sample-app.mdx",
+  "sourceDirName": ".",
+  "slug": "/sample-app",
+  "permalink": "/react-native/sample-app",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-native/sample-app.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/react-native/events"
+  },
+  "next": {
+    "title": "DyteMeeting (React component)",
+    "permalink": "/react-native/reference/dyte-meeting"
+  }
+}

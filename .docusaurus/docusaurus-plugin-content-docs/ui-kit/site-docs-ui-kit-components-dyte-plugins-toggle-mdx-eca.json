@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-plugins-toggle",
+  "id": "components/dyte-plugins-toggle",
+  "title": "dyte-plugins-toggle",
+  "description": "A button which toggles visibility of plugins.",
+  "source": "@site/docs/ui-kit/components/dyte-plugins-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-plugins-toggle",
+  "permalink": "/ui-kit/components/dyte-plugins-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-plugins-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-plugin-main",
+    "permalink": "/ui-kit/components/dyte-plugin-main"
+  },
+  "next": {
+    "title": "dyte-plugins",
+    "permalink": "/ui-kit/components/dyte-plugins"
+  }
+}

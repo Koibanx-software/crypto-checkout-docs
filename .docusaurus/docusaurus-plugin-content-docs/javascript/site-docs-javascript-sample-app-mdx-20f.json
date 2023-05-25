@@ -1,0 +1,29 @@
+{
+  "unversionedId": "sample-app",
+  "id": "sample-app",
+  "title": "Sample app",
+  "description": "You can check out an example of this integration by cloning our",
+  "source": "@site/docs/javascript/sample-app.mdx",
+  "sourceDirName": ".",
+  "slug": "/sample-app",
+  "permalink": "/javascript/sample-app",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/javascript/sample-app.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/javascript/events"
+  },
+  "next": {
+    "title": "Virtual Background",
+    "permalink": "/javascript/virtual-background"
+  }
+}

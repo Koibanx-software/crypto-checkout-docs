@@ -1,0 +1,14 @@
+{
+  "label": "self events",
+  "permalink": "/ios-core/tags/self-events",
+  "allTagsPath": "/ios-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "local-user/manage-permissions",
+      "title": "Media Permissions",
+      "description": "Local user media guide to manage media permissions.",
+      "permalink": "/ios-core/local-user/manage-permissions"
+    }
+  ]
+}

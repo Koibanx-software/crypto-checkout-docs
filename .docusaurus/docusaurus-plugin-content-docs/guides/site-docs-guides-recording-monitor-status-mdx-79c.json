@@ -1,0 +1,30 @@
+{
+  "unversionedId": "recording/monitor-status",
+  "id": "recording/monitor-status",
+  "title": "Monitor Recording Status",
+  "description": "There are two ways you can track what state a recording is in or view more",
+  "source": "@site/docs/guides/recording/monitor-status.mdx",
+  "sourceDirName": "recording",
+  "slug": "/recording/monitor-status",
+  "permalink": "/guides/recording/monitor-status",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/recording/monitor-status.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Monitor Recording Status",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Dyte's Default Recording Upload Settings",
+    "permalink": "/guides/recording/configure-dyte-bucket-config"
+  },
+  "next": {
+    "title": "Publish Recorded File to Your Cloud Provider",
+    "permalink": "/guides/recording/custom-cloud-storage"
+  }
+}

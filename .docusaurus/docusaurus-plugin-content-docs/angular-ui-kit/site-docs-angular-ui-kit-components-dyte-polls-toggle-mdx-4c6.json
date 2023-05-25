@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-polls-toggle",
+  "id": "components/dyte-polls-toggle",
+  "title": "dyte-polls-toggle",
+  "description": "A button which toggles visibility of polls.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-polls-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-polls-toggle",
+  "permalink": "/angular-ui-kit/components/dyte-polls-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-polls-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-poll",
+    "permalink": "/angular-ui-kit/components/dyte-poll"
+  },
+  "next": {
+    "title": "dyte-polls",
+    "permalink": "/angular-ui-kit/components/dyte-polls"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "quickstart",
+  "permalink": "/rn-core/tags/quickstart",
+  "allTagsPath": "/rn-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Quickstart guide for web-core.",
+      "permalink": "/rn-core/quickstart"
+    }
+  ]
+}

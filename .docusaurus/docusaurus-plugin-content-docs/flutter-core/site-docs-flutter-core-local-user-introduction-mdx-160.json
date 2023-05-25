@@ -1,0 +1,49 @@
+{
+  "unversionedId": "local-user/introduction",
+  "id": "local-user/introduction",
+  "title": "Introduction",
+  "description": "Local user setup guide.",
+  "source": "@site/docs/flutter-core/local-user/introduction.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/introduction",
+  "permalink": "/flutter-core/local-user/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/flutter-core/local-user/introduction.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/flutter-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/flutter-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Local user setup guide.",
+    "sidebar_position": 1,
+    "tags": [
+      "flutter-core",
+      "local-user",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/flutter-core/"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/flutter-core/local-user/events"
+  }
+}

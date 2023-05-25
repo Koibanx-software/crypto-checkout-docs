@@ -1,0 +1,49 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Quickstart guide for web-core.",
+  "source": "@site/docs/rn-core/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/rn-core/quickstart",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/quickstart.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "quickstart",
+      "permalink": "/rn-core/tags/quickstart"
+    },
+    {
+      "label": "setup",
+      "permalink": "/rn-core/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Quickstart",
+    "description": "Quickstart guide for web-core.",
+    "sidebar_position": 2,
+    "tags": [
+      "web-core",
+      "quickstart",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/rn-core/"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/rn-core/local-user/introduction"
+  }
+}

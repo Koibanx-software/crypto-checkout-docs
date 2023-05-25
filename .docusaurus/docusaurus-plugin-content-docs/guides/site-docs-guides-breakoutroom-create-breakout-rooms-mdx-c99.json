@@ -1,0 +1,30 @@
+{
+  "unversionedId": "breakoutroom/create-breakout-rooms",
+  "id": "breakoutroom/create-breakout-rooms",
+  "title": "Create a Breakout Room",
+  "description": "Breakout rooms allow the participants to split in separate sessions. The host can create breakout rooms, assign participants, start and close the breakout rooms.",
+  "source": "@site/docs/guides/breakoutroom/create-breakout-rooms.mdx",
+  "sourceDirName": "breakoutroom",
+  "slug": "/breakoutroom/create-breakout-rooms",
+  "permalink": "/guides/breakoutroom/create-breakout-rooms",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/breakoutroom/create-breakout-rooms.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Create a Breakout Room",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Dyte’s Breakout Rooms",
+    "permalink": "/guides/breakoutroom/introduction-breakout-rooms"
+  },
+  "next": {
+    "title": "No Code Integration",
+    "permalink": "/guides/embed"
+  }
+}

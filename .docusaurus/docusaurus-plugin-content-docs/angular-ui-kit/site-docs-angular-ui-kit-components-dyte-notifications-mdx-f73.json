@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-notifications",
+  "id": "components/dyte-notifications",
+  "title": "dyte-notifications",
+  "description": "A component which handles notifications.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-notifications.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-notifications",
+  "permalink": "/angular-ui-kit/components/dyte-notifications",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-notifications.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-notification",
+    "permalink": "/angular-ui-kit/components/dyte-notification"
+  },
+  "next": {
+    "title": "dyte-overlay-modal",
+    "permalink": "/angular-ui-kit/components/dyte-overlay-modal"
+  }
+}

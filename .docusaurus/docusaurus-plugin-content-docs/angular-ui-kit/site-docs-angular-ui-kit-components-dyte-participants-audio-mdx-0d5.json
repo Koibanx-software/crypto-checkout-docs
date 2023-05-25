@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-participants-audio",
+  "id": "components/dyte-participants-audio",
+  "title": "dyte-participants-audio",
+  "description": "A component which plays all the audio from participants and screenshares.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-participants-audio.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participants-audio",
+  "permalink": "/angular-ui-kit/components/dyte-participants-audio",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-participants-audio.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participants-audio.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participant",
+    "permalink": "/angular-ui-kit/components/dyte-participant"
+  },
+  "next": {
+    "title": "dyte-participants-toggle",
+    "permalink": "/angular-ui-kit/components/dyte-participants-toggle"
+  }
+}

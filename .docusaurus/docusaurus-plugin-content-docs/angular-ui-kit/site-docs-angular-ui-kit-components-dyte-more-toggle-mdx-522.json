@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-more-toggle",
+  "id": "components/dyte-more-toggle",
+  "title": "dyte-more-toggle",
+  "description": "A button which toggles visibility of a more menu.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-more-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-more-toggle",
+  "permalink": "/angular-ui-kit/components/dyte-more-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-more-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-mixed-grid",
+    "permalink": "/angular-ui-kit/components/dyte-mixed-grid"
+  },
+  "next": {
+    "title": "dyte-mute-all-button",
+    "permalink": "/angular-ui-kit/components/dyte-mute-all-button"
+  }
+}

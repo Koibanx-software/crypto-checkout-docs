@@ -1,0 +1,29 @@
+{
+  "unversionedId": "basics/components-basics",
+  "id": "basics/components-basics",
+  "title": "Components Basics",
+  "description": "Learn about the structure of an individual component and figure out how to use",
+  "source": "@site/docs/ui-kit/basics/components-basics.mdx",
+  "sourceDirName": "basics",
+  "slug": "/basics/components-basics",
+  "permalink": "/ui-kit/basics/components-basics",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/basics/components-basics.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design System",
+    "permalink": "/ui-kit/design-system"
+  },
+  "next": {
+    "title": "Pre-requisite",
+    "permalink": "/ui-kit/basics/pre-requisite"
+  }
+}

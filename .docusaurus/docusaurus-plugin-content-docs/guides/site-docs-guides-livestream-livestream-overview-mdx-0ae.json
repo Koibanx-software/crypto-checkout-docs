@@ -1,0 +1,30 @@
+{
+  "unversionedId": "livestream/livestream-overview",
+  "id": "livestream/livestream-overview",
+  "title": "Interactive Livestreaming Overview",
+  "description": "The new Interactive Live Streaming (ILS) feature is currently in beta, which means it is still being tested and evaluated, and may undergo some change. Please contact us if you encounter any issues or have suggestions for improvements to the feature.",
+  "source": "@site/docs/guides/livestream/livestream-overview.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/livestream-overview",
+  "permalink": "/guides/livestream/livestream-overview",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/livestream/livestream-overview.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Interactive Livestreaming Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interactive Livestreaming",
+    "permalink": "/guides/livestream/"
+  },
+  "next": {
+    "title": "Getting Started with Interactive Livestreaming",
+    "permalink": "/guides/livestream/getting-started-with-livestreaming"
+  }
+}

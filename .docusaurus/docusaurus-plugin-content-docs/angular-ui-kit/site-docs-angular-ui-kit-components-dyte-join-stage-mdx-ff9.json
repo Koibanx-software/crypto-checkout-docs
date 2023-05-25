@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-join-stage",
+  "id": "components/dyte-join-stage",
+  "title": "dyte-join-stage",
+  "description": "Props",
+  "source": "@site/docs/angular-ui-kit/components/dyte-join-stage.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-join-stage",
+  "permalink": "/angular-ui-kit/components/dyte-join-stage",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-join-stage.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-image-viewer",
+    "permalink": "/angular-ui-kit/components/dyte-image-viewer"
+  },
+  "next": {
+    "title": "dyte-leave-button",
+    "permalink": "/angular-ui-kit/components/dyte-leave-button"
+  }
+}

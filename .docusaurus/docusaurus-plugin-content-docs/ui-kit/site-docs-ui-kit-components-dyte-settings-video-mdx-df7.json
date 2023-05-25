@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-settings-video",
+  "id": "components/dyte-settings-video",
+  "title": "dyte-settings-video",
+  "description": "A component which lets to manage your camera devices and your video preferences.",
+  "source": "@site/docs/ui-kit/components/dyte-settings-video.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-settings-video",
+  "permalink": "/ui-kit/components/dyte-settings-video",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-settings-video.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-settings-toggle",
+    "permalink": "/ui-kit/components/dyte-settings-toggle"
+  },
+  "next": {
+    "title": "dyte-settings",
+    "permalink": "/ui-kit/components/dyte-settings"
+  }
+}

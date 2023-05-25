@@ -1,0 +1,49 @@
+{
+  "unversionedId": "polls/creating-a-poll",
+  "id": "polls/creating-a-poll",
+  "title": "Creating a poll",
+  "description": "Create polls in a meeting.",
+  "source": "@site/docs/flutter-core/polls/creating-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/creating-a-poll",
+  "permalink": "/flutter-core/polls/creating-a-poll",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/flutter-core/polls/creating-a-poll.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/flutter-core/tags/polls"
+    },
+    {
+      "label": "create",
+      "permalink": "/flutter-core/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Creating a poll",
+    "description": "Create polls in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "flutter-core",
+      "polls",
+      "create"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/flutter-core/polls/introduction"
+  },
+  "next": {
+    "title": "Voting on a poll",
+    "permalink": "/flutter-core/polls/voting-on-a-poll"
+  }
+}

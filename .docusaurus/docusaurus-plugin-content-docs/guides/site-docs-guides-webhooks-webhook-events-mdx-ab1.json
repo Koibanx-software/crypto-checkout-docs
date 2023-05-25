@@ -1,0 +1,30 @@
+{
+  "unversionedId": "webhooks/webhook-events",
+  "id": "webhooks/webhook-events",
+  "title": "Webhook Events List",
+  "description": "This topic provides an up-to-date list of all the events that can be used with",
+  "source": "@site/docs/guides/webhooks/webhook-events.mdx",
+  "sourceDirName": "webhooks",
+  "slug": "/webhooks/webhook-events",
+  "permalink": "/guides/webhooks/webhook-events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/webhooks/webhook-events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Webhook Events List",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Set Up Webhooks to Receive Real-time Updates",
+    "permalink": "/guides/webhooks/webhooks-and-events"
+  },
+  "next": {
+    "title": "Verify Webhooks Using Dyte's Signature and Webhook ID",
+    "permalink": "/guides/webhooks/signatures"
+  }
+}

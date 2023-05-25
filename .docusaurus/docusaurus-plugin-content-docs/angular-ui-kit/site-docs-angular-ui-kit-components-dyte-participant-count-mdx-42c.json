@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-participant-count",
+  "id": "components/dyte-participant-count",
+  "title": "dyte-participant-count",
+  "description": "A component which shows count of total joined participants in a meeting.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-participant-count.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant-count",
+  "permalink": "/angular-ui-kit/components/dyte-participant-count",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-participant-count.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participant-count.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-overlay-modal",
+    "permalink": "/angular-ui-kit/components/dyte-overlay-modal"
+  },
+  "next": {
+    "title": "dyte-participant-setup",
+    "permalink": "/angular-ui-kit/components/dyte-participant-setup"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-audio-visualizer",
+  "id": "components/dyte-audio-visualizer",
+  "title": "DyteAudioVisualizer",
+  "description": "An audio visualizer component which visualizes a participants audio.",
+  "source": "@site/docs/react-ui-kit/components/dyte-audio-visualizer.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-audio-visualizer",
+  "permalink": "/react-ui-kit/components/dyte-audio-visualizer",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-audio-visualizer.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-audio-visualizer.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gallery",
+    "permalink": "/react-ui-kit/components"
+  },
+  "next": {
+    "title": "DyteAvatar",
+    "permalink": "/react-ui-kit/components/dyte-avatar"
+  }
+}

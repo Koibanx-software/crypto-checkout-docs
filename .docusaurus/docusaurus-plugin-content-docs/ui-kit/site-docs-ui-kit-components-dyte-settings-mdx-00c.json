@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-settings",
+  "id": "components/dyte-settings",
+  "title": "dyte-settings",
+  "description": "A settings component to see and change your audio/video devices",
+  "source": "@site/docs/ui-kit/components/dyte-settings.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-settings",
+  "permalink": "/ui-kit/components/dyte-settings",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-settings.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-settings.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-settings-video",
+    "permalink": "/ui-kit/components/dyte-settings-video"
+  },
+  "next": {
+    "title": "dyte-setup-screen",
+    "permalink": "/ui-kit/components/dyte-setup-screen"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "quickstart",
+  "permalink": "/flutter-core/tags/quickstart",
+  "allTagsPath": "/flutter-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Quickstart guide for android mobile core.",
+      "permalink": "/flutter-core/"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/interfaces/States",
+  "id": "reference/interfaces/States",
+  "title": "Interface: States",
+  "description": "Global States object which are shared among components",
+  "source": "@site/docs/angular-ui-kit/reference/interfaces/States.md",
+  "sourceDirName": "reference/interfaces",
+  "slug": "/reference/interfaces/States",
+  "permalink": "/angular-ui-kit/reference/interfaces/States",
+  "draft": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "id": "States",
+    "title": "Interface: States",
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interface: PollObject",
+    "permalink": "/angular-ui-kit/reference/interfaces/PollObject"
+  },
+  "next": {
+    "title": "Interface: UIConfig",
+    "permalink": "/angular-ui-kit/reference/interfaces/UIConfig"
+  }
+}

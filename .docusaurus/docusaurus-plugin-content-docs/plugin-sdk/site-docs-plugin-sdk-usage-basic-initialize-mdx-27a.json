@@ -1,0 +1,30 @@
+{
+  "unversionedId": "usage/basic/initialize",
+  "id": "usage/basic/initialize",
+  "title": "Initialize Plugin",
+  "description": "The DytePlugin class is the root class of Plugin SDK. It is the main entry point",
+  "source": "@site/docs/plugin-sdk/usage/basic/initialize.mdx",
+  "sourceDirName": "usage/basic",
+  "slug": "/usage/basic/initialize",
+  "permalink": "/plugin-sdk/usage/basic/initialize",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/usage/basic/initialize.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Initialize Plugin",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/plugin-sdk/usage/installation"
+  },
+  "next": {
+    "title": "Methods",
+    "permalink": "/plugin-sdk/usage/basic/methods"
+  }
+}

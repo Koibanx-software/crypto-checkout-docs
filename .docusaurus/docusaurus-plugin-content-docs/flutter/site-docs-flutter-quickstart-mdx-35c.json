@@ -1,0 +1,28 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Quickstart guide for Dyte's Flutter UI Kit.",
+  "source": "@site/docs/flutter/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/flutter/",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/flutter/quickstart.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Quickstart",
+    "description": "Quickstart guide for Dyte's Flutter UI Kit.",
+    "sidebar_position": 1,
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Sample app",
+    "permalink": "/flutter/sample-app"
+  }
+}

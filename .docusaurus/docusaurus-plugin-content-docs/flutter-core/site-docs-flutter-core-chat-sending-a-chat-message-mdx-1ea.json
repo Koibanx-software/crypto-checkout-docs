@@ -1,0 +1,44 @@
+{
+  "unversionedId": "chat/sending-a-chat-message",
+  "id": "chat/sending-a-chat-message",
+  "title": "Sending a chat message",
+  "description": "Send a chat message in a meeting.",
+  "source": "@site/docs/flutter-core/chat/sending-a-chat-message.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/sending-a-chat-message",
+  "permalink": "/flutter-core/chat/sending-a-chat-message",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/flutter-core/chat/sending-a-chat-message.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/flutter-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Sending a chat message",
+    "description": "Send a chat message in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "flutter-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introducing chat",
+    "permalink": "/flutter-core/chat/introduction"
+  },
+  "next": {
+    "title": "Receiving chat messages",
+    "permalink": "/flutter-core/chat/receiving-chat-messages"
+  }
+}

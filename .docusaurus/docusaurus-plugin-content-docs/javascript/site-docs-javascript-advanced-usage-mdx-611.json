@@ -1,0 +1,29 @@
+{
+  "unversionedId": "advanced-usage",
+  "id": "advanced-usage",
+  "title": "Advanced usage",
+  "description": "Turn on the setup / preview screen",
+  "source": "@site/docs/javascript/advanced-usage.mdx",
+  "sourceDirName": ".",
+  "slug": "/advanced-usage",
+  "permalink": "/javascript/advanced-usage",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/javascript/advanced-usage.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Customize the meeting UI",
+    "permalink": "/javascript/customize-meeting-ui"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/javascript/events"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/dyte-meeting-events",
+  "id": "reference/dyte-meeting-events",
+  "title": "DyteMeeting.Events",
+  "description": "DyteMeeting.Events is an enum that enumerates different events that can occur",
+  "source": "@site/docs/react/reference/dyte-meeting-events.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/dyte-meeting-events",
+  "permalink": "/react/reference/dyte-meeting-events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react/reference/dyte-meeting-events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteErrors",
+    "permalink": "/react/reference/dyte-errors"
+  },
+  "next": {
+    "title": "DyteUIConfig",
+    "permalink": "/react/reference/dyte-ui-config"
+  }
+}

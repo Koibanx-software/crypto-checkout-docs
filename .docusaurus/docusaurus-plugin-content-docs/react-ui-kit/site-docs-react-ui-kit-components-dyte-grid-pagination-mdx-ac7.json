@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-grid-pagination",
+  "id": "components/dyte-grid-pagination",
+  "title": "DyteGridPagination",
+  "description": "A component which allows you to change current page and view mode",
+  "source": "@site/docs/react-ui-kit/components/dyte-grid-pagination.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-grid-pagination",
+  "permalink": "/react-ui-kit/components/dyte-grid-pagination",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-grid-pagination.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-grid-pagination.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteFullscreenToggle",
+    "permalink": "/react-ui-kit/components/dyte-fullscreen-toggle"
+  },
+  "next": {
+    "title": "DyteGrid",
+    "permalink": "/react-ui-kit/components/dyte-grid"
+  }
+}

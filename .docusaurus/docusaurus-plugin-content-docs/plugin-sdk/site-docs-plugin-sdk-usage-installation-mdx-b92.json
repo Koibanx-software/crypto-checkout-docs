@@ -1,0 +1,49 @@
+{
+  "unversionedId": "usage/installation",
+  "id": "usage/installation",
+  "title": "Installation",
+  "description": "Install plugin-sdk.",
+  "source": "@site/docs/plugin-sdk/usage/installation.mdx",
+  "sourceDirName": "usage",
+  "slug": "/usage/installation",
+  "permalink": "/plugin-sdk/usage/installation",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/usage/installation.mdx",
+  "tags": [
+    {
+      "label": "plugin-sdk",
+      "permalink": "/plugin-sdk/tags/plugin-sdk"
+    },
+    {
+      "label": "installation",
+      "permalink": "/plugin-sdk/tags/installation"
+    },
+    {
+      "label": "setup",
+      "permalink": "/plugin-sdk/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Installation",
+    "description": "Install plugin-sdk.",
+    "sidebar_position": 1,
+    "tags": [
+      "plugin-sdk",
+      "installation",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage your Plugin",
+    "permalink": "/plugin-sdk/setup/manage"
+  },
+  "next": {
+    "title": "Initialize Plugin",
+    "permalink": "/plugin-sdk/usage/basic/initialize"
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "pluginId": "plugin-sdk",
+  "version": "current",
+  "label": "1.x.x",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/plugin-sdk/",
+        "docId": "introduction"
+      },
+      {
+        "type": "link",
+        "label": "Quickstart",
+        "href": "/plugin-sdk/quickstart",
+        "docId": "quickstart"
+      },
+      {
+        "type": "category",
+        "label": "Getting Started",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Plugin",
+            "href": "/plugin-sdk/setup/create",
+            "docId": "setup/create"
+          },
+          {
+            "type": "link",
+            "label": "Configure Plugin Properties",
+            "href": "/plugin-sdk/setup/customize",
+            "docId": "setup/customize"
+          },
+          {
+            "type": "link",
+            "label": "Publish your Plugin",
+            "href": "/plugin-sdk/setup/publish",
+            "docId": "setup/publish"
+          },
+          {
+            "type": "link",
+            "label": "Set Up Development Environment",
+            "href": "/plugin-sdk/setup/develop",
+            "docId": "setup/develop"
+          },
+          {
+            "type": "link",
+            "label": "Manage your Plugin",
+            "href": "/plugin-sdk/setup/manage",
+            "docId": "setup/manage"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Usage",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Installation",
+            "href": "/plugin-sdk/usage/installation",
+            "docId": "usage/installation"
+          },
+          {
+            "type": "category",
+            "label": "Basics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Initialize Plugin",
+                "href": "/plugin-sdk/usage/basic/initialize",
+                "docId": "usage/basic/initialize"
+              },
+              {
+                "type": "link",
+                "label": "Methods",
+                "href": "/plugin-sdk/usage/basic/methods",
+                "docId": "usage/basic/methods"
+              },
+              {
+                "type": "link",
+                "label": "Events",
+                "href": "/plugin-sdk/usage/basic/events",
+                "docId": "usage/basic/events"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Meeting APIs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Methods",
+                "href": "/plugin-sdk/usage/rooms-api/methods",
+                "docId": "usage/rooms-api/methods"
+              },
+              {
+                "type": "link",
+                "label": "Events",
+                "href": "/plugin-sdk/usage/rooms-api/events",
+                "docId": "usage/rooms-api/events"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Realtime Data Stores",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/plugin-sdk/usage/stores-api/introduction",
+                "docId": "usage/stores-api/introduction"
+              },
+              {
+                "type": "link",
+                "label": "Operations on Store",
+                "href": "/plugin-sdk/usage/stores-api/manage-stores",
+                "docId": "usage/stores-api/manage-stores"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Guides",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "How to work with Plugin Stores",
+            "href": "/plugin-sdk/guides/how-to-work-with-plugin-stores",
+            "docId": "guides/how-to-work-with-plugin-stores"
+          },
+          {
+            "type": "link",
+            "label": "Exchange data between plugin and meeting",
+            "href": "/plugin-sdk/guides/exchange-data-between-plugin-and-meeting",
+            "docId": "guides/exchange-data-between-plugin-and-meeting"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Frequently Asked Questions",
+        "href": "/plugin-sdk/frequently-asked-questions",
+        "docId": "frequently-asked-questions"
+      }
+    ]
+  },
+  "docs": {
+    "frequently-asked-questions": {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "description": "Here are some frequently asked questions about the Plugin SDK.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guides/exchange-data-between-plugin-and-meeting": {
+      "id": "guides/exchange-data-between-plugin-and-meeting",
+      "title": "Exchange data between plugin and meeting",
+      "description": "Plugin SDK allows you to exchange data between the dyte meeting and the plugin.",
+      "sidebar": "tutorialSidebar"
+    },
+    "guides/how-to-work-with-plugin-stores": {
+      "id": "guides/how-to-work-with-plugin-stores",
+      "title": "How to work with Plugin Stores",
+      "description": "The plugin SDK offers a realtime key-value database. This can be accessed under",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction": {
+      "id": "introduction",
+      "title": "Introduction",
+      "description": "Plugin-SDK is currently in beta phase. To use this SDK, please contact",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart": {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Before you start working with Dyte's Plugin SDK, make sure you've read the",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/create": {
+      "id": "setup/create",
+      "title": "Create a Plugin",
+      "description": "- Ensure that Dyte CLI is installed on your machine. Run the command dyte help",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/customize": {
+      "id": "setup/customize",
+      "title": "Configure Plugin Properties",
+      "description": "Dyte allows you to customize various parameters of the Plugins. Using",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/develop": {
+      "id": "setup/develop",
+      "title": "Set Up Development Environment",
+      "description": "Dyte's devTools module provides a live playground like experience to help you",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/manage": {
+      "id": "setup/manage",
+      "title": "Manage your Plugin",
+      "description": "Version specific deployments",
+      "sidebar": "tutorialSidebar"
+    },
+    "setup/publish": {
+      "id": "setup/publish",
+      "title": "Publish your Plugin",
+      "description": "Once you've created a plugin, The next step would be publishing it. You can publish multiple versions of your plugin.",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/basic/events": {
+      "id": "usage/basic/events",
+      "title": "Events",
+      "description": "The plugin provides certain methods to emit custom events to other peers in the",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/basic/initialize": {
+      "id": "usage/basic/initialize",
+      "title": "Initialize Plugin",
+      "description": "The DytePlugin class is the root class of Plugin SDK. It is the main entry point",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/basic/methods": {
+      "id": "usage/basic/methods",
+      "title": "Methods",
+      "description": "Initialize",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/installation": {
+      "id": "usage/installation",
+      "title": "Installation",
+      "description": "Install plugin-sdk.",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/rooms-api/events": {
+      "id": "usage/rooms-api/events",
+      "title": "Events",
+      "description": "Emit events to the meeting",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/rooms-api/methods": {
+      "id": "usage/rooms-api/methods",
+      "title": "Methods",
+      "description": "Get Room ID",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/stores-api/introduction": {
+      "id": "usage/stores-api/introduction",
+      "title": "Introduction",
+      "description": "The stores module exposes methods for creating and managing plugin stores.",
+      "sidebar": "tutorialSidebar"
+    },
+    "usage/stores-api/manage-stores": {
+      "id": "usage/stores-api/manage-stores",
+      "title": "Operations on Store",
+      "description": "There are two kinds of stores global (realtime) and local (accessible only to",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

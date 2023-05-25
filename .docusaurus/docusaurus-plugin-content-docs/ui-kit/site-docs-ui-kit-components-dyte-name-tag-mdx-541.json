@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-name-tag",
+  "id": "components/dyte-name-tag",
+  "title": "dyte-name-tag",
+  "description": "A component which shows a participant's name.",
+  "source": "@site/docs/ui-kit/components/dyte-name-tag.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-name-tag",
+  "permalink": "/ui-kit/components/dyte-name-tag",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-name-tag.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-name-tag.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-mute-all-confirmation",
+    "permalink": "/ui-kit/components/dyte-mute-all-confirmation"
+  },
+  "next": {
+    "title": "dyte-notification",
+    "permalink": "/ui-kit/components/dyte-notification"
+  }
+}

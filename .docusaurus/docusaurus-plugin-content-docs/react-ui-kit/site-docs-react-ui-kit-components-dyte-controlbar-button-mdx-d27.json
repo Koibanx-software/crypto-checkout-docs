@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-controlbar-button",
+  "id": "components/dyte-controlbar-button",
+  "title": "DyteControlbarButton",
+  "description": "A skeleton component used for composing buttons.",
+  "source": "@site/docs/react-ui-kit/components/dyte-controlbar-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-controlbar-button",
+  "permalink": "/react-ui-kit/components/dyte-controlbar-button",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-controlbar-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-controlbar-button.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteConfirmationModal",
+    "permalink": "/react-ui-kit/components/dyte-confirmation-modal"
+  },
+  "next": {
+    "title": "DyteControlbar",
+    "permalink": "/react-ui-kit/components/dyte-controlbar"
+  }
+}

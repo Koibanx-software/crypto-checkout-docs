@@ -1,0 +1,54 @@
+{
+  "unversionedId": "polls/other-poll-functions",
+  "id": "polls/other-poll-functions",
+  "title": "Other poll functions",
+  "description": "Other poll functions",
+  "source": "@site/docs/web-core/polls/other-poll-functions.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/other-poll-functions",
+  "permalink": "/web-core/polls/other-poll-functions",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/polls/other-poll-functions.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/web-core/tags/polls"
+    },
+    {
+      "label": "results",
+      "permalink": "/web-core/tags/results"
+    },
+    {
+      "label": "updates",
+      "permalink": "/web-core/tags/updates"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Other poll functions",
+    "description": "Other poll functions",
+    "sidebar_position": 4,
+    "tags": [
+      "web-core",
+      "polls",
+      "results",
+      "updates"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voting on a poll",
+    "permalink": "/web-core/polls/voting-on-a-poll"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/web-core/plugins/introduction"
+  }
+}

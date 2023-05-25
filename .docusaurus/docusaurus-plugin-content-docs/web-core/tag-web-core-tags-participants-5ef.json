@@ -1,0 +1,26 @@
+{
+  "label": "participants",
+  "permalink": "/web-core/tags/participants",
+  "allTagsPath": "/web-core/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "participants/events",
+      "title": "Participant Events",
+      "description": "Event handling for participants.",
+      "permalink": "/web-core/participants/events"
+    },
+    {
+      "id": "participants/participants",
+      "title": "Participants",
+      "description": "Events, methods and data pertaining to meeting participants.",
+      "permalink": "/web-core/participants/"
+    },
+    {
+      "id": "participants/participant-object",
+      "title": "The participant object",
+      "description": "The object corresponding to a particular participant.",
+      "permalink": "/web-core/participants/participant-object"
+    }
+  ]
+}

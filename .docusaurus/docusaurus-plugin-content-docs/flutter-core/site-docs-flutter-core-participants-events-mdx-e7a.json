@@ -1,0 +1,49 @@
+{
+  "unversionedId": "participants/events",
+  "id": "participants/events",
+  "title": "Participant Events",
+  "description": "Event handling for participants.",
+  "source": "@site/docs/flutter-core/participants/events.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/events",
+  "permalink": "/flutter-core/participants/events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/flutter-core/participants/events.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/flutter-core/tags/participants"
+    },
+    {
+      "label": "self",
+      "permalink": "/flutter-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Participant Events",
+    "description": "Event handling for participants.",
+    "sidebar_position": 3,
+    "tags": [
+      "flutter-core",
+      "participants",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The participant object",
+    "permalink": "/flutter-core/participants/participant-object"
+  },
+  "next": {
+    "title": "Introducing chat",
+    "permalink": "/flutter-core/chat/introduction"
+  }
+}

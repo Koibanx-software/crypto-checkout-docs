@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-mic-toggle",
+  "id": "components/dyte-mic-toggle",
+  "title": "dyte-mic-toggle",
+  "description": "A button which toggles your microphone.",
+  "source": "@site/docs/ui-kit/components/dyte-mic-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-mic-toggle",
+  "permalink": "/ui-kit/components/dyte-mic-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-mic-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-menu",
+    "permalink": "/ui-kit/components/dyte-menu"
+  },
+  "next": {
+    "title": "dyte-mixed-grid",
+    "permalink": "/ui-kit/components/dyte-mixed-grid"
+  }
+}

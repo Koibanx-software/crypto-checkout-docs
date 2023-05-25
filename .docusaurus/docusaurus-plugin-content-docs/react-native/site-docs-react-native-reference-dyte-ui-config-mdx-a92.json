@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/dyte-ui-config",
+  "id": "reference/dyte-ui-config",
+  "title": "DyteUIConfig",
+  "description": "| Property name                   | Data type       | Required                 | Use                                                                                                                                                   |",
+  "source": "@site/docs/react-native/reference/dyte-ui-config.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/dyte-ui-config",
+  "permalink": "/react-native/reference/dyte-ui-config",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-native/reference/dyte-ui-config.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteMeeting.Events",
+    "permalink": "/react-native/reference/dyte-meeting-events"
+  },
+  "next": {
+    "title": "ChatMessage",
+    "permalink": "/react-native/reference/chat-message"
+  }
+}

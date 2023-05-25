@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DyteParticipantMap",
+  "id": "reference/DyteParticipantMap",
+  "title": "DyteParticipantMap",
+  "description": "This is a map of participants, indexed by participant.id (a participant's peer",
+  "source": "@site/docs/web-core/reference/DyteParticipantMap.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteParticipantMap",
+  "permalink": "/web-core/reference/DyteParticipantMap",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/reference/DyteParticipantMap.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "web_core_version": "1.2.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteParticipants",
+    "permalink": "/web-core/reference/DyteParticipants"
+  },
+  "next": {
+    "title": "DyteParticipant",
+    "permalink": "/web-core/reference/DyteParticipant"
+  }
+}

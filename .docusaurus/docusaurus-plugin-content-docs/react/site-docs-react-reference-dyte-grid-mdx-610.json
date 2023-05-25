@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/dyte-grid",
+  "id": "reference/dyte-grid",
+  "title": "DyteGrid",
+  "description": "Properties",
+  "source": "@site/docs/react/reference/dyte-grid.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/dyte-grid",
+  "permalink": "/react/reference/dyte-grid",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react/reference/dyte-grid.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteUIConfig",
+    "permalink": "/react/reference/dyte-ui-config"
+  },
+  "next": {
+    "title": "DyteControlBar",
+    "permalink": "/react/reference/dyte-control-bar"
+  }
+}

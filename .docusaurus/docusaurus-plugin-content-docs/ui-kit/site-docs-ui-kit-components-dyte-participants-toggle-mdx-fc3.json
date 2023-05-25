@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-participants-toggle",
+  "id": "components/dyte-participants-toggle",
+  "title": "dyte-participants-toggle",
+  "description": "A button which toggles visibility of participants.",
+  "source": "@site/docs/ui-kit/components/dyte-participants-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participants-toggle",
+  "permalink": "/ui-kit/components/dyte-participants-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-participants-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participants-audio",
+    "permalink": "/ui-kit/components/dyte-participants-audio"
+  },
+  "next": {
+    "title": "dyte-participants",
+    "permalink": "/ui-kit/components/dyte-participants"
+  }
+}

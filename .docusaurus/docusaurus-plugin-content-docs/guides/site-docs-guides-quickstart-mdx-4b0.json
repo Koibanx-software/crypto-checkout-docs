@@ -1,0 +1,30 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Crypto Checkout Quickstart",
+  "description": "Dyte’s API follows the",
+  "source": "@site/docs/guides/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/guides/quickstart",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/quickstart.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Crypto Checkout Quickstart",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "v2 REST API",
+    "permalink": "/guides/v2-migration-guide"
+  },
+  "next": {
+    "title": "Webhooks Overview",
+    "permalink": "/guides/webhooks/webhooks-overview"
+  }
+}

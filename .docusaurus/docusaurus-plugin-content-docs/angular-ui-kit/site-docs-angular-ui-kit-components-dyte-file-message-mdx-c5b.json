@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-file-message",
+  "id": "components/dyte-file-message",
+  "title": "dyte-file-message",
+  "description": "A component which renders a file message from chat.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-file-message.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-file-message",
+  "permalink": "/angular-ui-kit/components/dyte-file-message",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-file-message.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-ended-screen",
+    "permalink": "/angular-ui-kit/components/dyte-ended-screen"
+  },
+  "next": {
+    "title": "dyte-fullscreen-toggle",
+    "permalink": "/angular-ui-kit/components/dyte-fullscreen-toggle"
+  }
+}

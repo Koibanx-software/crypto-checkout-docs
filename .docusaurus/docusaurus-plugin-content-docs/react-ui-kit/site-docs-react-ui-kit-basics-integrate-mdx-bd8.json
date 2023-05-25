@@ -1,0 +1,29 @@
+{
+  "unversionedId": "basics/integrate",
+  "id": "basics/integrate",
+  "title": "Prerequisite",
+  "description": "Before you begin, review and understand the",
+  "source": "@site/docs/react-ui-kit/basics/integrate.mdx",
+  "sourceDirName": "basics",
+  "slug": "/basics/integrate",
+  "permalink": "/react-ui-kit/basics/integrate",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/basics/integrate.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components Basics",
+    "permalink": "/react-ui-kit/basics/components-basics"
+  },
+  "next": {
+    "title": "Render participant videos",
+    "permalink": "/react-ui-kit/basics/display-videos"
+  }
+}

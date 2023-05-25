@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DyteParticipants",
+  "id": "reference/DyteParticipants",
+  "title": "DyteParticipants",
+  "description": "This module represents all the participants in the meeting (except the local",
+  "source": "@site/docs/web-core/reference/DyteParticipants.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteParticipants",
+  "permalink": "/web-core/reference/DyteParticipants",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/reference/DyteParticipants.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "web_core_version": "1.2.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteSelf",
+    "permalink": "/web-core/reference/DyteSelf"
+  },
+  "next": {
+    "title": "DyteParticipantMap",
+    "permalink": "/web-core/reference/DyteParticipantMap"
+  }
+}

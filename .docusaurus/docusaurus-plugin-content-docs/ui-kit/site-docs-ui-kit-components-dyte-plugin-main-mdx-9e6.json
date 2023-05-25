@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-plugin-main",
+  "id": "components/dyte-plugin-main",
+  "title": "dyte-plugin-main",
+  "description": "A component which loads a plugin.",
+  "source": "@site/docs/ui-kit/components/dyte-plugin-main.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-plugin-main",
+  "permalink": "/ui-kit/components/dyte-plugin-main",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-plugin-main.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-plugin-main.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-pip-toggle",
+    "permalink": "/ui-kit/components/dyte-pip-toggle"
+  },
+  "next": {
+    "title": "dyte-plugins-toggle",
+    "permalink": "/ui-kit/components/dyte-plugins-toggle"
+  }
+}

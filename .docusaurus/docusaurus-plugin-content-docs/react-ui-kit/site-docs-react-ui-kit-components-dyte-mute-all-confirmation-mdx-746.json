@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-mute-all-confirmation",
+  "id": "components/dyte-mute-all-confirmation",
+  "title": "DyteMuteAllConfirmation",
+  "description": "Props",
+  "source": "@site/docs/react-ui-kit/components/dyte-mute-all-confirmation.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-mute-all-confirmation",
+  "permalink": "/react-ui-kit/components/dyte-mute-all-confirmation",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-mute-all-confirmation.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteMuteAllButton",
+    "permalink": "/react-ui-kit/components/dyte-mute-all-button"
+  },
+  "next": {
+    "title": "DyteNameTag",
+    "permalink": "/react-ui-kit/components/dyte-name-tag"
+  }
+}

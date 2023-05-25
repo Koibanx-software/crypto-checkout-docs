@@ -1,0 +1,49 @@
+{
+  "unversionedId": "participants/events",
+  "id": "participants/events",
+  "title": "Participant Events",
+  "description": "Event handling for participants.",
+  "source": "@site/docs/react-web-core/participants/events.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/events",
+  "permalink": "/react-web-core/participants/events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/participants/events.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/react-web-core/tags/participants"
+    },
+    {
+      "label": "self",
+      "permalink": "/react-web-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Participant Events",
+    "description": "Event handling for participants.",
+    "sidebar_position": 3,
+    "tags": [
+      "web-core",
+      "participants",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The participant object",
+    "permalink": "/react-web-core/participants/participant-object"
+  },
+  "next": {
+    "title": "Introducing chat",
+    "permalink": "/react-web-core/chat/introduction"
+  }
+}

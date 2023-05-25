@@ -1,0 +1,29 @@
+{
+  "unversionedId": "plugins",
+  "id": "plugins",
+  "title": "Plugins",
+  "description": "You may create, manage, and host your own custom plugins with the help of the",
+  "source": "@site/docs/cli/plugins.mdx",
+  "sourceDirName": ".",
+  "slug": "/plugins",
+  "permalink": "/cli/plugins",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/cli/plugins.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recordings",
+    "permalink": "/cli/recording"
+  },
+  "next": {
+    "title": "Webhooks",
+    "permalink": "/cli/webhooks"
+  }
+}

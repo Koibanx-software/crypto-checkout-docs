@@ -1,0 +1,40 @@
+{
+  "unversionedId": "release-notes",
+  "id": "release-notes",
+  "title": "Release Notes",
+  "description": "The release notes lists all new features, resolved issues, and known issues of Web Core in chronological order.",
+  "source": "@site/docs/web-core/release-notes.mdx",
+  "sourceDirName": ".",
+  "slug": "/release-notes",
+  "permalink": "/web-core/release-notes",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/release-notes.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "releasenotes",
+      "permalink": "/web-core/tags/releasenotes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 101,
+  "frontMatter": {
+    "title": "Release Notes",
+    "sidebar_position": 101,
+    "sidebar_class_name": "releaseSidebarHeading",
+    "tags": [
+      "web-core",
+      "releasenotes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteRecording",
+    "permalink": "/web-core/reference/DyteRecording"
+  }
+}

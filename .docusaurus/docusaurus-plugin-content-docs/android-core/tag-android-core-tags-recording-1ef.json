@@ -1,0 +1,14 @@
+{
+  "label": "recording",
+  "permalink": "/android-core/tags/recording",
+  "allTagsPath": "/android-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "recording",
+      "title": "Recording",
+      "description": "Control recordings in a meeting.",
+      "permalink": "/android-core/recording"
+    }
+  ]
+}

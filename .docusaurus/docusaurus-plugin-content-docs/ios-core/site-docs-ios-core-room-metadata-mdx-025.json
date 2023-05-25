@@ -1,0 +1,44 @@
+{
+  "unversionedId": "room-metadata",
+  "id": "room-metadata",
+  "title": "Room Metadata",
+  "description": "All metadata pertaining to a meeting.",
+  "source": "@site/docs/ios-core/room-metadata.mdx",
+  "sourceDirName": ".",
+  "slug": "/room-metadata",
+  "permalink": "/ios-core/room-metadata",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ios-core/room-metadata.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/ios-core/tags/mobile-core"
+    },
+    {
+      "label": "room-metadata",
+      "permalink": "/ios-core/tags/room-metadata"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Room Metadata",
+    "description": "All metadata pertaining to a meeting.",
+    "sidebar_position": 4,
+    "tags": [
+      "mobile-core",
+      "room-metadata"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Permissions",
+    "permalink": "/ios-core/local-user/manage-permissions"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/ios-core/participants/introduction"
+  }
+}

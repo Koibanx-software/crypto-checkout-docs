@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/self-participant",
+  "id": "reference/self-participant",
+  "title": "DyteSelfParticipant",
+  "description": "Being a subclass of DyteParticipant, all the properties and",
+  "source": "@site/docs/react-native/reference/self-participant.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/self-participant",
+  "permalink": "/react-native/reference/self-participant",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-native/reference/self-participant.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteParticipant",
+    "permalink": "/react-native/reference/participant"
+  },
+  "next": {
+    "title": "DyteErrors",
+    "permalink": "/react-native/reference/dyte-errors"
+  }
+}

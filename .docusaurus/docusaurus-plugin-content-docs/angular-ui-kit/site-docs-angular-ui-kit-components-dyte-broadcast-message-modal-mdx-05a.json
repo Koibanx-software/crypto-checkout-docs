@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-broadcast-message-modal",
+  "id": "components/dyte-broadcast-message-modal",
+  "title": "dyte-broadcast-message-modal",
+  "description": "Props",
+  "source": "@site/docs/angular-ui-kit/components/dyte-broadcast-message-modal.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-broadcast-message-modal",
+  "permalink": "/angular-ui-kit/components/dyte-broadcast-message-modal",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-broadcast-message-modal.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-avatar",
+    "permalink": "/angular-ui-kit/components/dyte-avatar"
+  },
+  "next": {
+    "title": "dyte-button",
+    "permalink": "/angular-ui-kit/components/dyte-button"
+  }
+}

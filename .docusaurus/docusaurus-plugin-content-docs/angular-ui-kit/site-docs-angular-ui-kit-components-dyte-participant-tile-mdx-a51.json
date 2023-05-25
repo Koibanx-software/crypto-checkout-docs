@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-participant-tile",
+  "id": "components/dyte-participant-tile",
+  "title": "dyte-participant-tile",
+  "description": "A component which plays a participants video and allows for placement",
+  "source": "@site/docs/angular-ui-kit/components/dyte-participant-tile.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant-tile",
+  "permalink": "/angular-ui-kit/components/dyte-participant-tile",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-participant-tile.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participant-tile.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participant-setup",
+    "permalink": "/angular-ui-kit/components/dyte-participant-setup"
+  },
+  "next": {
+    "title": "dyte-participant",
+    "permalink": "/angular-ui-kit/components/dyte-participant"
+  }
+}

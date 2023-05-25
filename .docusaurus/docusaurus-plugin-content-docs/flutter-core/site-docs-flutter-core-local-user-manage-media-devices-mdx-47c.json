@@ -1,0 +1,54 @@
+{
+  "unversionedId": "local-user/manage-media-devices",
+  "id": "local-user/manage-media-devices",
+  "title": "Manage Media Devices",
+  "description": "Local user media guide to manage media permissions.",
+  "source": "@site/docs/flutter-core/local-user/manage-media-devices.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/manage-media-devices",
+  "permalink": "/flutter-core/local-user/manage-media-devices",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/flutter-core/local-user/manage-media-devices.mdx",
+  "tags": [
+    {
+      "label": "flutter-core",
+      "permalink": "/flutter-core/tags/flutter-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/flutter-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/flutter-core/tags/self"
+    },
+    {
+      "label": "self events",
+      "permalink": "/flutter-core/tags/self-events"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Manage Media Devices",
+    "description": "Local user media guide to manage media permissions.",
+    "sidebar_position": 3,
+    "tags": [
+      "flutter-core",
+      "local-user",
+      "self",
+      "self events"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/flutter-core/local-user/events"
+  },
+  "next": {
+    "title": "Room Metadata",
+    "permalink": "/flutter-core/room-metadata"
+  }
+}

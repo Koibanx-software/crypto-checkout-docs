@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-switch",
+  "id": "components/dyte-switch",
+  "title": "dyte-switch",
+  "description": "A switch component which follows Dyte's Design System.",
+  "source": "@site/docs/ui-kit/components/dyte-switch.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-switch",
+  "permalink": "/ui-kit/components/dyte-switch",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-switch.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-switch.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-stage",
+    "permalink": "/ui-kit/components/dyte-stage"
+  },
+  "next": {
+    "title": "dyte-text-field",
+    "permalink": "/ui-kit/components/dyte-text-field"
+  }
+}

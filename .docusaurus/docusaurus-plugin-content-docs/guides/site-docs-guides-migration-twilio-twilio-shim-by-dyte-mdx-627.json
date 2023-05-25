@@ -1,0 +1,30 @@
+{
+  "unversionedId": "migration/twilio/twilio-shim-by-dyte",
+  "id": "migration/twilio/twilio-shim-by-dyte",
+  "title": "Migrate from Twilio to Dyte with Shim",
+  "description": "The Twilio Shim by Dyte is a package that allows you to migrate your video calling applications from Twilio to Dyte infrastructure.",
+  "source": "@site/docs/guides/migration/twilio/twilio-shim-by-dyte.mdx",
+  "sourceDirName": "migration/twilio",
+  "slug": "/migration/twilio/twilio-shim-by-dyte",
+  "permalink": "/guides/migration/twilio/twilio-shim-by-dyte",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/migration/twilio/twilio-shim-by-dyte.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Migrate from Twilio to Dyte with Shim",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concepts: Media",
+    "permalink": "/guides/migration/twilio/concept-media"
+  },
+  "next": {
+    "title": "Supported Features: Dyte Shim for Twilio",
+    "permalink": "/guides/migration/twilio/compatibility-shim-twilio"
+  }
+}

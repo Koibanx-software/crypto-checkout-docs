@@ -1,0 +1,25 @@
+{
+  "unversionedId": "reference/dyte-plugin",
+  "id": "reference/dyte-plugin",
+  "title": "DytePlugin",
+  "description": "Properties",
+  "source": "@site/docs/react-native/reference/dyte-plugin.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/dyte-plugin",
+  "permalink": "/react-native/reference/dyte-plugin",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-native/reference/dyte-plugin.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ChatMessage",
+    "permalink": "/react-native/reference/chat-message"
+  }
+}

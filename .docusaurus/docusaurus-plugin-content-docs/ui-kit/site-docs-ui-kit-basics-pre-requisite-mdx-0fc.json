@@ -1,0 +1,29 @@
+{
+  "unversionedId": "basics/pre-requisite",
+  "id": "basics/pre-requisite",
+  "title": "Pre-requisite",
+  "description": "Make sure to read this before you start integrating the UI Kit into your app.",
+  "source": "@site/docs/ui-kit/basics/pre-requisite.mdx",
+  "sourceDirName": "basics",
+  "slug": "/basics/pre-requisite",
+  "permalink": "/ui-kit/basics/pre-requisite",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/basics/pre-requisite.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Components Basics",
+    "permalink": "/ui-kit/basics/components-basics"
+  },
+  "next": {
+    "title": "Gallery",
+    "permalink": "/ui-kit/components"
+  }
+}

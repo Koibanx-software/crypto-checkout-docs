@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-setup-screen",
+  "id": "components/dyte-setup-screen",
+  "title": "DyteSetupScreen",
+  "description": "A screen shown before joining the meeting, where you can edit your display name,",
+  "source": "@site/docs/react-ui-kit/components/dyte-setup-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-setup-screen",
+  "permalink": "/react-ui-kit/components/dyte-setup-screen",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-setup-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-setup-screen.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteSettings",
+    "permalink": "/react-ui-kit/components/dyte-settings"
+  },
+  "next": {
+    "title": "DyteSidebar",
+    "permalink": "/react-ui-kit/components/dyte-sidebar"
+  }
+}

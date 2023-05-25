@@ -1,0 +1,14 @@
+{
+  "label": "quickstart",
+  "permalink": "/ios-core/tags/quickstart",
+  "allTagsPath": "/ios-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Quickstart guide for iOS mobile core.",
+      "permalink": "/ios-core/"
+    }
+  ]
+}

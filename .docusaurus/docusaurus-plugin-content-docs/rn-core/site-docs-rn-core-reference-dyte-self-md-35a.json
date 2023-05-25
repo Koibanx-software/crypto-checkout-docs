@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DyteSelf",
+  "id": "reference/DyteSelf",
+  "title": "DyteSelf",
+  "description": "The DyteSelf module represents the current user, and allows to modify the state",
+  "source": "@site/docs/rn-core/reference/DyteSelf.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteSelf",
+  "permalink": "/rn-core/reference/DyteSelf",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/reference/DyteSelf.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "web_core_version": "0.42.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteClient",
+    "permalink": "/rn-core/reference/DyteClient"
+  },
+  "next": {
+    "title": "DyteParticipants",
+    "permalink": "/rn-core/reference/DyteParticipants"
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "pluginId": "guides",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Migration Guides",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Migrate from Twilio",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Concepts: Basics",
+                "href": "/guides/migration/twilio/concepts-basic",
+                "docId": "migration/twilio/concepts-basic"
+              },
+              {
+                "type": "link",
+                "label": "Concepts: Media",
+                "href": "/guides/migration/twilio/concept-media",
+                "docId": "migration/twilio/concept-media"
+              },
+              {
+                "type": "link",
+                "label": "Migrate from Twilio to Dyte with Shim",
+                "href": "/guides/migration/twilio/twilio-shim-by-dyte",
+                "docId": "migration/twilio/twilio-shim-by-dyte"
+              },
+              {
+                "type": "link",
+                "label": "Supported Features: Dyte Shim for Twilio",
+                "href": "/guides/migration/twilio/compatibility-shim-twilio",
+                "docId": "migration/twilio/compatibility-shim-twilio"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Migrate from OpenTok",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Concepts: Basic",
+                "href": "/guides/migration/opentok/concepts-opentok-vs-dyte",
+                "docId": "migration/opentok/concepts-opentok-vs-dyte"
+              },
+              {
+                "type": "link",
+                "label": "Concepts: Media",
+                "href": "/guides/migration/opentok/concept-media-opentok",
+                "docId": "migration/opentok/concept-media-opentok"
+              },
+              {
+                "type": "link",
+                "label": "Migrate from OpenTok to Dyte with Shim",
+                "href": "/guides/migration/opentok/opentok-shim-by-dyte",
+                "docId": "migration/opentok/opentok-shim-by-dyte"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "v2 REST API",
+            "href": "/guides/v2-migration-guide",
+            "docId": "migration/v2-migration-guide"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Crypto Checkout Quickstart",
+        "href": "/guides/quickstart",
+        "docId": "quickstart"
+      },
+      {
+        "type": "category",
+        "label": "Webhooks & Events",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Webhooks Overview",
+            "href": "/guides/webhooks/webhooks-overview",
+            "docId": "webhooks/webhooks-overview"
+          },
+          {
+            "type": "link",
+            "label": "Set Up Webhooks to Receive Real-time Updates",
+            "href": "/guides/webhooks/webhooks-and-events",
+            "docId": "webhooks/webhooks-and-events"
+          },
+          {
+            "type": "link",
+            "label": "Webhook Events List",
+            "href": "/guides/webhooks/webhook-events",
+            "docId": "webhooks/webhook-events"
+          },
+          {
+            "type": "link",
+            "label": "Verify Webhooks Using Dyte's Signature and Webhook ID",
+            "href": "/guides/webhooks/signatures",
+            "docId": "webhooks/signatures"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Interactive Livestreaming",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Interactive Livestreaming Overview",
+            "href": "/guides/livestream/livestream-overview",
+            "docId": "livestream/livestream-overview"
+          },
+          {
+            "type": "link",
+            "label": "Getting Started with Interactive Livestreaming",
+            "href": "/guides/livestream/getting-started-with-livestreaming",
+            "docId": "livestream/getting-started-with-livestreaming"
+          },
+          {
+            "type": "link",
+            "label": "Livestreaming any Video via RTMP (Custom Input)",
+            "href": "/guides/livestream/livestream-any-rtmp",
+            "docId": "livestream/livestream-any-rtmp"
+          },
+          {
+            "type": "link",
+            "label": "Livestreaming a Dyte Meeting via HLS",
+            "href": "/guides/livestream/livestream-dyte-meeting",
+            "docId": "livestream/livestream-dyte-meeting"
+          },
+          {
+            "type": "link",
+            "label": "Livestream Dyte Meetings to Other Platforms",
+            "href": "/guides/livestream/livestreaming-other-platforms",
+            "docId": "livestream/livestreaming-other-platforms"
+          },
+          {
+            "type": "link",
+            "label": "Livestreaming Webhooks",
+            "href": "/guides/livestream/livestream-webhooks",
+            "docId": "livestream/livestream-webhooks"
+          }
+        ],
+        "href": "/guides/livestream/"
+      },
+      {
+        "type": "category",
+        "label": "Recording",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Recording Overview",
+            "href": "/guides/recording/recording-overview",
+            "docId": "recording/recording-overview"
+          },
+          {
+            "type": "link",
+            "label": "Start Recording a Meeting",
+            "href": "/guides/recording/start-recording",
+            "docId": "recording/start-recording"
+          },
+          {
+            "type": "link",
+            "label": "Configure Video Settings",
+            "href": "/guides/recording/configure-codecs",
+            "docId": "recording/configure-codecs"
+          },
+          {
+            "type": "link",
+            "label": "Add Watermark to your Recording",
+            "href": "/guides/recording/add-watermark",
+            "docId": "recording/add-watermark"
+          },
+          {
+            "type": "link",
+            "label": "Set Audio Configurations",
+            "href": "/guides/recording/configure-audio-codec",
+            "docId": "recording/configure-audio-codec"
+          },
+          {
+            "type": "link",
+            "label": "Livestream the Recording to an External RTMP Endpoint",
+            "href": "/guides/recording/livestream-recording",
+            "docId": "recording/livestream-recording"
+          },
+          {
+            "type": "link",
+            "label": "Stop Recording a Meeting",
+            "href": "/guides/recording/stop-recording",
+            "docId": "recording/stop-recording"
+          },
+          {
+            "type": "link",
+            "label": "Manage Dyte's Default Recording Upload Settings",
+            "href": "/guides/recording/configure-dyte-bucket-config",
+            "docId": "recording/configure-dyte-bucket-config"
+          },
+          {
+            "type": "link",
+            "label": "Monitor Recording Status",
+            "href": "/guides/recording/monitor-status",
+            "docId": "recording/monitor-status"
+          },
+          {
+            "type": "link",
+            "label": "Publish Recorded File to Your Cloud Provider",
+            "href": "/guides/recording/custom-cloud-storage",
+            "docId": "recording/custom-cloud-storage"
+          },
+          {
+            "type": "link",
+            "label": "Interactive Recording",
+            "href": "/guides/recording/interactive-recording",
+            "docId": "recording/interactive-recording"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Breakout Rooms",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction to Dyte’s Breakout Rooms",
+            "href": "/guides/breakoutroom/introduction-breakout-rooms",
+            "docId": "breakoutroom/introduction-breakout-rooms"
+          },
+          {
+            "type": "link",
+            "label": "Create a Breakout Room",
+            "href": "/guides/breakoutroom/create-breakout-rooms",
+            "docId": "breakoutroom/create-breakout-rooms"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "No Code Integration",
+        "href": "/guides/embed",
+        "docId": "embed"
+      },
+      {
+        "type": "link",
+        "label": "Export Chat Dump of a Session",
+        "href": "/guides/export-chat-dump",
+        "docId": "export-chat-dump"
+      }
+    ]
+  },
+  "docs": {
+    "breakoutroom/create-breakout-rooms": {
+      "id": "breakoutroom/create-breakout-rooms",
+      "title": "Create a Breakout Room",
+      "description": "Breakout rooms allow the participants to split in separate sessions. The host can create breakout rooms, assign participants, start and close the breakout rooms.",
+      "sidebar": "tutorialSidebar"
+    },
+    "breakoutroom/introduction-breakout-rooms": {
+      "id": "breakoutroom/introduction-breakout-rooms",
+      "title": "Introduction to Dyte’s Breakout Rooms",
+      "description": "The breakout rooms feature is currently in beta, which means it is still being tested and evaluated, and may undergo some change. Please contact us if you encounter any issues or have suggestions for improvements to the feature.",
+      "sidebar": "tutorialSidebar"
+    },
+    "embed": {
+      "id": "embed",
+      "title": "No Code Integration",
+      "description": "You can easily integrate Dyte into your project without any SDK using an iFrame. An iFrame is a quick and easy way to embed a live video solution into your own website or application without modifying the underlying code.",
+      "sidebar": "tutorialSidebar"
+    },
+    "export-chat-dump": {
+      "id": "export-chat-dump",
+      "title": "Export Chat Dump of a Session",
+      "description": "You can programmatically retrieve all chat messages of a Dyte session in the following ways:",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/getting-started-with-livestreaming": {
+      "id": "livestream/getting-started-with-livestreaming",
+      "title": "Getting Started with Interactive Livestreaming",
+      "description": "The new Interactive Live Streaming (ILS) feature is currently in beta and may not be available for your organization by default. If you would like to use this feature, please contact us and we can enable it for you.",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/index": {
+      "id": "livestream/index",
+      "title": "Interactive Livestreaming",
+      "description": "Learn how to build an interactive livestreaming experience with Dyte. Using Dyte you can livestream any video via RTMP, a Dyte meeting via HLS, or other platforms like YouTube or Twitch.",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/livestream-any-rtmp": {
+      "id": "livestream/livestream-any-rtmp",
+      "title": "Livestreaming any Video via RTMP (Custom Input)",
+      "description": "Dyte can livestream video from any application like",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/livestream-dyte-meeting": {
+      "id": "livestream/livestream-dyte-meeting",
+      "title": "Livestreaming a Dyte Meeting via HLS",
+      "description": "In this guide you will learn how to start and stop livestreaming a Dyte meeting.",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/livestream-overview": {
+      "id": "livestream/livestream-overview",
+      "title": "Interactive Livestreaming Overview",
+      "description": "The new Interactive Live Streaming (ILS) feature is currently in beta, which means it is still being tested and evaluated, and may undergo some change. Please contact us if you encounter any issues or have suggestions for improvements to the feature.",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/livestream-webhooks": {
+      "id": "livestream/livestream-webhooks",
+      "title": "Livestreaming Webhooks",
+      "description": "You can use webhooks to notify your application when the status of a livestream changes, such as when it is live or offline.",
+      "sidebar": "tutorialSidebar"
+    },
+    "livestream/livestreaming-other-platforms": {
+      "id": "livestream/livestreaming-other-platforms",
+      "title": "Livestream Dyte Meetings to Other Platforms",
+      "description": "Dyte can livestream your meeting live to any platform that supports an RTMP",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/opentok/concept-media-opentok": {
+      "id": "migration/opentok/concept-media-opentok",
+      "title": "Concepts: Media",
+      "description": "This topic compares how OpenTok and Dyte handle media publishing and subscription behavior.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/opentok/concepts-opentok-vs-dyte": {
+      "id": "migration/opentok/concepts-opentok-vs-dyte",
+      "title": "Concepts: Basic",
+      "description": "This topic guides you through the standard practices utilized in OpenTok Video API and illustrates how they correspond with Dyte's API. The main purpose of this tutorial is to support you in migrating an existing application from OpenTok to Dyte's video and audio APIs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/opentok/opentok-shim-by-dyte": {
+      "id": "migration/opentok/opentok-shim-by-dyte",
+      "title": "Migrate from OpenTok to Dyte with Shim",
+      "description": "The OpenTok Shim by Dyte is a package that allows you to migrate your video calling applications from OpenTok to Dyte infrastructure.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/twilio/compatibility-shim-twilio": {
+      "id": "migration/twilio/compatibility-shim-twilio",
+      "title": "Supported Features: Dyte Shim for Twilio",
+      "description": "The Twilio Shim is a library that allows you to migrate your Twilio real-time communication apps to Dyte platform.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/twilio/concept-media": {
+      "id": "migration/twilio/concept-media",
+      "title": "Concepts: Media",
+      "description": "This topic compares how Twilio and Dyte handle media publishing and subscription behavior.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/twilio/concepts-basic": {
+      "id": "migration/twilio/concepts-basic",
+      "title": "Concepts: Basics",
+      "description": "This topic guides you through the standard practices utilized in Twilio Video API and illustrates how they correspond with Dyte's API. The main purpose of this tutorial is to support you in migrating an existing application from Twilio to Dyte's video and audio APIs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/twilio/twilio-shim-by-dyte": {
+      "id": "migration/twilio/twilio-shim-by-dyte",
+      "title": "Migrate from Twilio to Dyte with Shim",
+      "description": "The Twilio Shim by Dyte is a package that allows you to migrate your video calling applications from Twilio to Dyte infrastructure.",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration/v2-migration-guide": {
+      "id": "migration/v2-migration-guide",
+      "title": "v2 REST API",
+      "description": "Dyte v2 REST API is now the primary API for Dyte and the focus of development",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart": {
+      "id": "quickstart",
+      "title": "Crypto Checkout Quickstart",
+      "description": "Dyte’s API follows the",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/add-watermark": {
+      "id": "recording/add-watermark",
+      "title": "Add Watermark to your Recording",
+      "description": "Dyte's watermark feature enables you to include an image as a watermark in your recording. To add watermark, configure the following parameters to videoconfig in the Start recording API.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/configure-audio-codec": {
+      "id": "recording/configure-audio-codec",
+      "title": "Set Audio Configurations",
+      "description": "Recording audio requires configuring the codec and channel parameters to guarantee optimal quality and compatibility with your application's demands.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/configure-codecs": {
+      "id": "recording/configure-codecs",
+      "title": "Configure Video Settings",
+      "description": "Video codecs are software programs that compress and decompress digital video data for transmission, storage, or playback. Configuring the appropriate video codec can help reduce file size, enhance video quality, and ensure compatibility with different playback devices.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/configure-dyte-bucket-config": {
+      "id": "recording/configure-dyte-bucket-config",
+      "title": "Manage Dyte's Default Recording Upload Settings",
+      "description": "Once the recording is complete, by default, Dyte uploads all recordings to Dyte's S3 bucket in the AWS ap-south-1 region. Additionally, a presigned URL is generated with a 7-day expiry. The recording can be accessed using the downloadUrl associated with each recording.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/custom-cloud-storage": {
+      "id": "recording/custom-cloud-storage",
+      "title": "Publish Recorded File to Your Cloud Provider",
+      "description": "You can pass an optional object storage_config in the start recording request",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/interactive-recording": {
+      "id": "recording/interactive-recording",
+      "title": "Interactive Recording",
+      "description": "Dyte's interactive recording feature allows you to add timed metadata to your video stream. Timed metadata serves as cue points for clients to display information and trigger time-aligned actions. The metadata is available to clients in the form of ID3 tags on the playback timeline.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/livestream-recording": {
+      "id": "recording/livestream-recording",
+      "title": "Livestream the Recording to an External RTMP Endpoint",
+      "description": "You can stream Dyte recordings in real-time to any external RTMP endpoint (such as YouTube, Facebook, LinkedIn, Restream, Twitch, etc.) while the meeting is in progress.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/monitor-status": {
+      "id": "recording/monitor-status",
+      "title": "Monitor Recording Status",
+      "description": "There are two ways you can track what state a recording is in or view more",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/recording-overview": {
+      "id": "recording/recording-overview",
+      "title": "Recording Overview",
+      "description": "Recording a meeting means storing a video and audio call of a meeting to a file",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/start-recording": {
+      "id": "recording/start-recording",
+      "title": "Start Recording a Meeting",
+      "description": "This topic explains how to use Dyte to implement composite recording.",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording/stop-recording": {
+      "id": "recording/stop-recording",
+      "title": "Stop Recording a Meeting",
+      "description": "Dyte recordings can be stopped in any of the following ways:",
+      "sidebar": "tutorialSidebar"
+    },
+    "webhooks/signatures": {
+      "id": "webhooks/signatures",
+      "title": "Verify Webhooks Using Dyte's Signature and Webhook ID",
+      "description": "You can verify webhooks using Dyte's signature and webhook IDs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "webhooks/webhook-events": {
+      "id": "webhooks/webhook-events",
+      "title": "Webhook Events List",
+      "description": "This topic provides an up-to-date list of all the events that can be used with",
+      "sidebar": "tutorialSidebar"
+    },
+    "webhooks/webhooks-and-events": {
+      "id": "webhooks/webhooks-and-events",
+      "title": "Set Up Webhooks to Receive Real-time Updates",
+      "description": "This topic explains how to set up webhooks to receive real-time updates for",
+      "sidebar": "tutorialSidebar"
+    },
+    "webhooks/webhooks-overview": {
+      "id": "webhooks/webhooks-overview",
+      "title": "Webhooks Overview",
+      "description": "Webhooks are",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

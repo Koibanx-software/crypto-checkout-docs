@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DyteMeta",
+  "id": "reference/DyteMeta",
+  "title": "DyteMeta",
+  "description": "This consists of the metadata of the meeting, such as the room name and the",
+  "source": "@site/docs/react-web-core/reference/DyteMeta.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DyteMeta",
+  "permalink": "/react-web-core/reference/DyteMeta",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/reference/DyteMeta.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "web_core_version": "1.2.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePermissionsPreset",
+    "permalink": "/react-web-core/reference/DytePermissionsPreset"
+  },
+  "next": {
+    "title": "DyteChat",
+    "permalink": "/react-web-core/reference/DyteChat"
+  }
+}

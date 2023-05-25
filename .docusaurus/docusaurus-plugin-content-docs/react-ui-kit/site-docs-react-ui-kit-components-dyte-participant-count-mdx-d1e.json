@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-participant-count",
+  "id": "components/dyte-participant-count",
+  "title": "DyteParticipantCount",
+  "description": "A component which shows count of total joined participants in a meeting.",
+  "source": "@site/docs/react-ui-kit/components/dyte-participant-count.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant-count",
+  "permalink": "/react-ui-kit/components/dyte-participant-count",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-participant-count.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-participant-count.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteOverlayModal",
+    "permalink": "/react-ui-kit/components/dyte-overlay-modal"
+  },
+  "next": {
+    "title": "DyteParticipantSetup",
+    "permalink": "/react-ui-kit/components/dyte-participant-setup"
+  }
+}

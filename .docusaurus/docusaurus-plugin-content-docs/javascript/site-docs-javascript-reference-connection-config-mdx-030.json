@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference/connection-config",
+  "id": "reference/connection-config",
+  "title": "Connection Config",
+  "description": "| Property name   | Data type | Required                | Use                                                                                                                                                                                                                      |",
+  "source": "@site/docs/javascript/reference/connection-config.mdx",
+  "sourceDirName": "reference",
+  "slug": "/reference/connection-config",
+  "permalink": "/javascript/reference/connection-config",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/javascript/reference/connection-config.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteClient",
+    "permalink": "/javascript/reference/dyte-client"
+  },
+  "next": {
+    "title": "Meeting",
+    "permalink": "/javascript/reference/meeting"
+  }
+}

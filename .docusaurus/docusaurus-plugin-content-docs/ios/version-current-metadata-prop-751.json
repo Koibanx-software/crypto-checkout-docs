@@ -1,0 +1,52 @@
+{
+  "pluginId": "ios",
+  "version": "current",
+  "label": "1.33.x",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Quickstart",
+        "href": "/ios/",
+        "docId": "quickstart"
+      },
+      {
+        "type": "link",
+        "label": "Events",
+        "href": "/ios/events",
+        "docId": "events"
+      },
+      {
+        "type": "link",
+        "label": "Sample app",
+        "href": "/ios/sample-app",
+        "docId": "sample-app"
+      }
+    ]
+  },
+  "docs": {
+    "events": {
+      "id": "events",
+      "title": "Events",
+      "description": "Local User - Events",
+      "sidebar": "tutorialSidebar"
+    },
+    "quickstart": {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "This quickstart shows how to use Dyte's iOS UI Kit SDK to add live video and",
+      "sidebar": "tutorialSidebar"
+    },
+    "sample-app": {
+      "id": "sample-app",
+      "title": "Sample app",
+      "description": "You can check out an example of this integration by cloning our",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

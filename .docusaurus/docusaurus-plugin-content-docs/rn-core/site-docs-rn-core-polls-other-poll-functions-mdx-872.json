@@ -1,0 +1,54 @@
+{
+  "unversionedId": "polls/other-poll-functions",
+  "id": "polls/other-poll-functions",
+  "title": "Other poll functions",
+  "description": "Other poll functions",
+  "source": "@site/docs/rn-core/polls/other-poll-functions.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/other-poll-functions",
+  "permalink": "/rn-core/polls/other-poll-functions",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/polls/other-poll-functions.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/rn-core/tags/polls"
+    },
+    {
+      "label": "results",
+      "permalink": "/rn-core/tags/results"
+    },
+    {
+      "label": "updates",
+      "permalink": "/rn-core/tags/updates"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Other poll functions",
+    "description": "Other poll functions",
+    "sidebar_position": 4,
+    "tags": [
+      "web-core",
+      "polls",
+      "results",
+      "updates"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voting on a poll",
+    "permalink": "/rn-core/polls/voting-on-a-poll"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/rn-core/plugins/introduction"
+  }
+}

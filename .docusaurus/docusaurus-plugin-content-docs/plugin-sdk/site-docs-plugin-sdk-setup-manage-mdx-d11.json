@@ -1,0 +1,30 @@
+{
+  "unversionedId": "setup/manage",
+  "id": "setup/manage",
+  "title": "Manage your Plugin",
+  "description": "Version specific deployments",
+  "source": "@site/docs/plugin-sdk/setup/manage.mdx",
+  "sourceDirName": "setup",
+  "slug": "/setup/manage",
+  "permalink": "/plugin-sdk/setup/manage",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/setup/manage.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Manage your Plugin",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Set Up Development Environment",
+    "permalink": "/plugin-sdk/setup/develop"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/plugin-sdk/usage/installation"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "introduction",
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "The Dyte Core SDK is designed to provide developers with an easy way to incorporate real-time communication (RTC) solutions into their apps and websites. With full customization and branding options, you can build your own user interface from the ground up without dealing with complicated media layers.",
+  "source": "@site/docs/react-web-core/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/react-web-core/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/react-web-core/"
+  }
+}

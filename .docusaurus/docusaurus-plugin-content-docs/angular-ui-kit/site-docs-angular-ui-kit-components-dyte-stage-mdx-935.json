@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-stage",
+  "id": "components/dyte-stage",
+  "title": "dyte-stage",
+  "description": "A component used as a stage that commonly houses",
+  "source": "@site/docs/angular-ui-kit/components/dyte-stage.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-stage",
+  "permalink": "/angular-ui-kit/components/dyte-stage",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-stage.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-spotlight-indicator",
+    "permalink": "/angular-ui-kit/components/dyte-spotlight-indicator"
+  },
+  "next": {
+    "title": "dyte-switch",
+    "permalink": "/angular-ui-kit/components/dyte-switch"
+  }
+}

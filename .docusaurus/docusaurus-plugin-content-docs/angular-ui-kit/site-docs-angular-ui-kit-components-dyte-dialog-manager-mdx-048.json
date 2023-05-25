@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-dialog-manager",
+  "id": "components/dyte-dialog-manager",
+  "title": "dyte-dialog-manager",
+  "description": "A component which handles all dialog elements in a component such as:",
+  "source": "@site/docs/angular-ui-kit/components/dyte-dialog-manager.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-dialog-manager",
+  "permalink": "/angular-ui-kit/components/dyte-dialog-manager",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-dialog-manager.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-counter",
+    "permalink": "/angular-ui-kit/components/dyte-counter"
+  },
+  "next": {
+    "title": "dyte-dialog",
+    "permalink": "/angular-ui-kit/components/dyte-dialog"
+  }
+}

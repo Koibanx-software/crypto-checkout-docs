@@ -1,0 +1,54 @@
+{
+  "unversionedId": "local-user/extras",
+  "id": "local-user/extras",
+  "title": "Other Methods",
+  "description": "Methods to manage the loocal user.",
+  "source": "@site/docs/react-web-core/local-user/extras.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/extras",
+  "permalink": "/react-web-core/local-user/extras",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/local-user/extras.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/react-web-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/react-web-core/tags/self"
+    },
+    {
+      "label": "methods",
+      "permalink": "/react-web-core/tags/methods"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Other Methods",
+    "description": "Methods to manage the loocal user.",
+    "sidebar_position": 5,
+    "tags": [
+      "web-core",
+      "local-user",
+      "self",
+      "methods"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Media Permission Errors",
+    "permalink": "/react-web-core/local-user/media-permission-errors"
+  },
+  "next": {
+    "title": "Room Metadata",
+    "permalink": "/react-web-core/room-metadata"
+  }
+}

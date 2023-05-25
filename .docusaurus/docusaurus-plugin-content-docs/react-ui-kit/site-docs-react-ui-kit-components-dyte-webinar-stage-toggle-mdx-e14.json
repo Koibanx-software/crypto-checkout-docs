@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-webinar-stage-toggle",
+  "id": "components/dyte-webinar-stage-toggle",
+  "title": "DyteWebinarStageToggle",
+  "description": "Props",
+  "source": "@site/docs/react-ui-kit/components/dyte-webinar-stage-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-webinar-stage-toggle",
+  "permalink": "/react-ui-kit/components/dyte-webinar-stage-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-webinar-stage-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteWaitingScreen",
+    "permalink": "/react-ui-kit/components/dyte-waiting-screen"
+  },
+  "next": {
+    "title": "Customize Meeting Icons",
+    "permalink": "/react-ui-kit/customizations/custom-iconpack"
+  }
+}

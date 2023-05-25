@@ -1,0 +1,44 @@
+{
+  "unversionedId": "chat/other-chat-functions",
+  "id": "chat/other-chat-functions",
+  "title": "Other chat functions",
+  "description": "Other functionality associated with chat.",
+  "source": "@site/docs/react-web-core/chat/other-chat-functions.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/other-chat-functions",
+  "permalink": "/react-web-core/chat/other-chat-functions",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/chat/other-chat-functions.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/react-web-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Other chat functions",
+    "description": "Other functionality associated with chat.",
+    "sidebar_position": 5,
+    "tags": [
+      "web-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Editing Chat Messages",
+    "permalink": "/react-web-core/chat/edit-chat-messages"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/react-web-core/polls/introduction"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-ended-screen",
+  "id": "components/dyte-ended-screen",
+  "title": "dyte-ended-screen",
+  "description": "A screen which shows a meeting has ended.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-ended-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-ended-screen",
+  "permalink": "/angular-ui-kit/components/dyte-ended-screen",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-ended-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-ended-screen.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-emoji-picker",
+    "permalink": "/angular-ui-kit/components/dyte-emoji-picker"
+  },
+  "next": {
+    "title": "dyte-file-message",
+    "permalink": "/angular-ui-kit/components/dyte-file-message"
+  }
+}

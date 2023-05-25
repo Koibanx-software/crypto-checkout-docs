@@ -1,0 +1,44 @@
+{
+  "unversionedId": "plugins/enable-plugin",
+  "id": "plugins/enable-plugin",
+  "title": "Functions to enable plugins",
+  "description": "Methods on a plugin in a meeting.",
+  "source": "@site/docs/web-core/plugins/enable-plugin.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/enable-plugin",
+  "permalink": "/web-core/plugins/enable-plugin",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/web-core/plugins/enable-plugin.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/web-core/tags/web-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/web-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Functions to enable plugins",
+    "description": "Methods on a plugin in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "web-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/web-core/plugins/introduction"
+  },
+  "next": {
+    "title": "Functions to disable plugins",
+    "permalink": "/web-core/plugins/disable-plugin"
+  }
+}

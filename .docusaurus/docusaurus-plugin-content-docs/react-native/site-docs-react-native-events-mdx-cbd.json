@@ -1,0 +1,29 @@
+{
+  "unversionedId": "events",
+  "id": "events",
+  "title": "Events",
+  "description": "To integrate well with modern JS frameworks and workflows, Dyte SDK also emits a",
+  "source": "@site/docs/react-native/events.mdx",
+  "sourceDirName": ".",
+  "slug": "/events",
+  "permalink": "/react-native/events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-native/events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced usage",
+    "permalink": "/react-native/advanced-usage"
+  },
+  "next": {
+    "title": "Sample app",
+    "permalink": "/react-native/sample-app"
+  }
+}

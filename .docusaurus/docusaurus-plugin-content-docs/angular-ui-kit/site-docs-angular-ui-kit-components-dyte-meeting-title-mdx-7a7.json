@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-meeting-title",
+  "id": "components/dyte-meeting-title",
+  "title": "dyte-meeting-title",
+  "description": "A component which displays the title of the meeting.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-meeting-title.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-meeting-title",
+  "permalink": "/angular-ui-kit/components/dyte-meeting-title",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-meeting-title.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-meeting-title.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-logo",
+    "permalink": "/angular-ui-kit/components/dyte-logo"
+  },
+  "next": {
+    "title": "dyte-meeting",
+    "permalink": "/angular-ui-kit/components/dyte-meeting"
+  }
+}

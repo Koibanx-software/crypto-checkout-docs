@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-button",
+  "id": "components/dyte-button",
+  "title": "dyte-button",
+  "description": "A button that follows Dyte's Design System.",
+  "source": "@site/docs/ui-kit/components/dyte-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-button",
+  "permalink": "/ui-kit/components/dyte-button",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-button.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-broadcast-message-modal",
+    "permalink": "/ui-kit/components/dyte-broadcast-message-modal"
+  },
+  "next": {
+    "title": "dyte-camera-toggle",
+    "permalink": "/ui-kit/components/dyte-camera-toggle"
+  }
+}

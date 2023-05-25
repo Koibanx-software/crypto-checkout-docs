@@ -1,0 +1,49 @@
+{
+  "unversionedId": "local-user/introduction",
+  "id": "local-user/introduction",
+  "title": "Introduction",
+  "description": "Local user setup guide.",
+  "source": "@site/docs/android-core/local-user/introduction.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/introduction",
+  "permalink": "/android-core/local-user/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/android-core/local-user/introduction.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/android-core/tags/mobile-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/android-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/android-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Local user setup guide.",
+    "sidebar_position": 1,
+    "tags": [
+      "mobile-core",
+      "local-user",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/android-core/"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/android-core/local-user/events"
+  }
+}

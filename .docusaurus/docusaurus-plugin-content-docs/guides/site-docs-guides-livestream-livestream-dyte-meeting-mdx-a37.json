@@ -1,0 +1,30 @@
+{
+  "unversionedId": "livestream/livestream-dyte-meeting",
+  "id": "livestream/livestream-dyte-meeting",
+  "title": "Livestreaming a Dyte Meeting via HLS",
+  "description": "In this guide you will learn how to start and stop livestreaming a Dyte meeting.",
+  "source": "@site/docs/guides/livestream/livestream-dyte-meeting.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/livestream-dyte-meeting",
+  "permalink": "/guides/livestream/livestream-dyte-meeting",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/livestream/livestream-dyte-meeting.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Livestreaming a Dyte Meeting via HLS",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Livestreaming any Video via RTMP (Custom Input)",
+    "permalink": "/guides/livestream/livestream-any-rtmp"
+  },
+  "next": {
+    "title": "Livestream Dyte Meetings to Other Platforms",
+    "permalink": "/guides/livestream/livestreaming-other-platforms"
+  }
+}

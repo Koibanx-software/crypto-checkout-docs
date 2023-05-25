@@ -1,0 +1,29 @@
+{
+  "unversionedId": "basics/components-basics",
+  "id": "basics/components-basics",
+  "title": "Components Basics",
+  "description": "Let's look at the structure of individual components and how to use them when",
+  "source": "@site/docs/react-ui-kit/basics/components-basics.mdx",
+  "sourceDirName": "basics",
+  "slug": "/basics/components-basics",
+  "permalink": "/react-ui-kit/basics/components-basics",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/basics/components-basics.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Web Core Hooks",
+    "permalink": "/react-ui-kit/using-hooks"
+  },
+  "next": {
+    "title": "Prerequisite",
+    "permalink": "/react-ui-kit/basics/integrate"
+  }
+}

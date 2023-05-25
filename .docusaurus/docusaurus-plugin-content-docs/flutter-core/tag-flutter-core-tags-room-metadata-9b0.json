@@ -1,0 +1,14 @@
+{
+  "label": "room-metadata",
+  "permalink": "/flutter-core/tags/room-metadata",
+  "allTagsPath": "/flutter-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "room-metadata",
+      "title": "Room Metadata",
+      "description": "All metadata pertaining to a meeting.",
+      "permalink": "/flutter-core/room-metadata"
+    }
+  ]
+}

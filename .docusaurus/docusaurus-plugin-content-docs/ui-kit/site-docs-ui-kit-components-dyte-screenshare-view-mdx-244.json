@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-screenshare-view",
+  "id": "components/dyte-screenshare-view",
+  "title": "dyte-screenshare-view",
+  "description": "A component which plays a participant's screenshared video.",
+  "source": "@site/docs/ui-kit/components/dyte-screenshare-view.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-screenshare-view",
+  "permalink": "/ui-kit/components/dyte-screenshare-view",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-screenshare-view.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-screenshare-view.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-screen-share-toggle",
+    "permalink": "/ui-kit/components/dyte-screen-share-toggle"
+  },
+  "next": {
+    "title": "dyte-settings-audio",
+    "permalink": "/ui-kit/components/dyte-settings-audio"
+  }
+}

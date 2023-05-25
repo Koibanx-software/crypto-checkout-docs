@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-poll",
+  "id": "components/dyte-poll",
+  "title": "dyte-poll",
+  "description": "A poll component.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-poll.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-poll",
+  "permalink": "/angular-ui-kit/components/dyte-poll",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-poll.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-poll-form",
+    "permalink": "/angular-ui-kit/components/dyte-poll-form"
+  },
+  "next": {
+    "title": "dyte-polls-toggle",
+    "permalink": "/angular-ui-kit/components/dyte-polls-toggle"
+  }
+}

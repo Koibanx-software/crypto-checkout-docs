@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-plugins",
+  "id": "components/dyte-plugins",
+  "title": "dyte-plugins",
+  "description": "A component which lists all available plugins from their preset,",
+  "source": "@site/docs/angular-ui-kit/components/dyte-plugins.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-plugins",
+  "permalink": "/angular-ui-kit/components/dyte-plugins",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-plugins.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-plugins.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-plugins-toggle",
+    "permalink": "/angular-ui-kit/components/dyte-plugins-toggle"
+  },
+  "next": {
+    "title": "dyte-poll-form",
+    "permalink": "/angular-ui-kit/components/dyte-poll-form"
+  }
+}

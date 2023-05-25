@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-participant",
+  "id": "components/dyte-participant",
+  "title": "dyte-participant",
+  "description": "A participant entry component used inside dyte-participants which shows data like:",
+  "source": "@site/docs/angular-ui-kit/components/dyte-participant.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant",
+  "permalink": "/angular-ui-kit/components/dyte-participant",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-participant.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-participant-tile",
+    "permalink": "/angular-ui-kit/components/dyte-participant-tile"
+  },
+  "next": {
+    "title": "dyte-participants-audio",
+    "permalink": "/angular-ui-kit/components/dyte-participants-audio"
+  }
+}

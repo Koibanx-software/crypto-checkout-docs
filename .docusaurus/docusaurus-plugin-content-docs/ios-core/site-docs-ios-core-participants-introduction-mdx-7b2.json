@@ -1,0 +1,49 @@
+{
+  "unversionedId": "participants/introduction",
+  "id": "participants/introduction",
+  "title": "Introduction",
+  "description": "Events, methods and data pertaining to meeting participants.",
+  "source": "@site/docs/ios-core/participants/introduction.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/introduction",
+  "permalink": "/ios-core/participants/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ios-core/participants/introduction.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/ios-core/tags/mobile-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/ios-core/tags/participants"
+    },
+    {
+      "label": "participant",
+      "permalink": "/ios-core/tags/participant"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Events, methods and data pertaining to meeting participants.",
+    "sidebar_position": 1,
+    "tags": [
+      "mobile-core",
+      "participants",
+      "participant"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Room Metadata",
+    "permalink": "/ios-core/room-metadata"
+  },
+  "next": {
+    "title": "The participant object",
+    "permalink": "/ios-core/participants/participant-object"
+  }
+}

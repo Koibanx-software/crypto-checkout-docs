@@ -1,0 +1,49 @@
+{
+  "unversionedId": "polls/voting-on-a-poll",
+  "id": "polls/voting-on-a-poll",
+  "title": "Voting on a poll",
+  "description": "Voting on polls in a meeting.",
+  "source": "@site/docs/ios-core/polls/voting-on-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/voting-on-a-poll",
+  "permalink": "/ios-core/polls/voting-on-a-poll",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ios-core/polls/voting-on-a-poll.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/ios-core/tags/mobile-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/ios-core/tags/polls"
+    },
+    {
+      "label": "votes",
+      "permalink": "/ios-core/tags/votes"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Voting on a poll",
+    "description": "Voting on polls in a meeting.",
+    "sidebar_position": 3,
+    "tags": [
+      "mobile-core",
+      "polls",
+      "votes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a poll",
+    "permalink": "/ios-core/polls/creating-a-poll"
+  },
+  "next": {
+    "title": "Plugins",
+    "permalink": "/ios-core/plugins"
+  }
+}

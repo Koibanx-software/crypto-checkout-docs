@@ -1,0 +1,45 @@
+{
+  "unversionedId": "introduction",
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "Plugin-SDK is currently in beta phase. To use this SDK, please contact",
+  "source": "@site/docs/plugin-sdk/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/plugin-sdk/",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/introduction.mdx",
+  "tags": [
+    {
+      "label": "plugin-sdk",
+      "permalink": "/plugin-sdk/tags/plugin-sdk"
+    },
+    {
+      "label": "installation",
+      "permalink": "/plugin-sdk/tags/installation"
+    },
+    {
+      "label": "setup",
+      "permalink": "/plugin-sdk/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "sidebar_position": 1,
+    "slug": "/",
+    "tags": [
+      "plugin-sdk",
+      "installation",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/plugin-sdk/quickstart"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "unversionedId": "plugins/extra",
+  "id": "plugins/extra",
+  "title": "Other methods",
+  "description": "Methods on a plugin in a meeting.",
+  "source": "@site/docs/react-web-core/plugins/extra.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/extra",
+  "permalink": "/react-web-core/plugins/extra",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/plugins/extra.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/react-web-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Other methods",
+    "description": "Methods on a plugin in a meeting.",
+    "sidebar_position": 4,
+    "tags": [
+      "web-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Functions to disable plugins",
+    "permalink": "/react-web-core/plugins/disable-plugin"
+  },
+  "next": {
+    "title": "Recording",
+    "permalink": "/react-web-core/recording"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unversionedId": "usage/basic/events",
+  "id": "usage/basic/events",
+  "title": "Events",
+  "description": "The plugin provides certain methods to emit custom events to other peers in the",
+  "source": "@site/docs/plugin-sdk/usage/basic/events.mdx",
+  "sourceDirName": "usage/basic",
+  "slug": "/usage/basic/events",
+  "permalink": "/plugin-sdk/usage/basic/events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/usage/basic/events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Events",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Methods",
+    "permalink": "/plugin-sdk/usage/basic/methods"
+  },
+  "next": {
+    "title": "Methods",
+    "permalink": "/plugin-sdk/usage/rooms-api/methods"
+  }
+}

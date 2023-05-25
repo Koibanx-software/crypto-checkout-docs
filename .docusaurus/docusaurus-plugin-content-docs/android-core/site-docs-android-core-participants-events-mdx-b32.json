@@ -1,0 +1,49 @@
+{
+  "unversionedId": "participants/events",
+  "id": "participants/events",
+  "title": "Participant Events",
+  "description": "Event handling for participants.",
+  "source": "@site/docs/android-core/participants/events.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/events",
+  "permalink": "/android-core/participants/events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/android-core/participants/events.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/android-core/tags/mobile-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/android-core/tags/participants"
+    },
+    {
+      "label": "self",
+      "permalink": "/android-core/tags/self"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Participant Events",
+    "description": "Event handling for participants.",
+    "sidebar_position": 3,
+    "tags": [
+      "mobile-core",
+      "participants",
+      "self"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The participant object",
+    "permalink": "/android-core/participants/participant-object"
+  },
+  "next": {
+    "title": "Introducing chat",
+    "permalink": "/android-core/chat/introduction"
+  }
+}

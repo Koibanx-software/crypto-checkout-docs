@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-settings-toggle",
+  "id": "components/dyte-settings-toggle",
+  "title": "dyte-settings-toggle",
+  "description": "A button which toggles visibility of chat.",
+  "source": "@site/docs/ui-kit/components/dyte-settings-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-settings-toggle",
+  "permalink": "/ui-kit/components/dyte-settings-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-settings-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-settings-audio",
+    "permalink": "/ui-kit/components/dyte-settings-audio"
+  },
+  "next": {
+    "title": "dyte-settings-video",
+    "permalink": "/ui-kit/components/dyte-settings-video"
+  }
+}

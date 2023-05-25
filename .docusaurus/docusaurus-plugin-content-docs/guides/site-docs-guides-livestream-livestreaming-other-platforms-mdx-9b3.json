@@ -1,0 +1,30 @@
+{
+  "unversionedId": "livestream/livestreaming-other-platforms",
+  "id": "livestream/livestreaming-other-platforms",
+  "title": "Livestream Dyte Meetings to Other Platforms",
+  "description": "Dyte can livestream your meeting live to any platform that supports an RTMP",
+  "source": "@site/docs/guides/livestream/livestreaming-other-platforms.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/livestreaming-other-platforms",
+  "permalink": "/guides/livestream/livestreaming-other-platforms",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/livestream/livestreaming-other-platforms.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Livestream Dyte Meetings to Other Platforms",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Livestreaming a Dyte Meeting via HLS",
+    "permalink": "/guides/livestream/livestream-dyte-meeting"
+  },
+  "next": {
+    "title": "Livestreaming Webhooks",
+    "permalink": "/guides/livestream/livestream-webhooks"
+  }
+}

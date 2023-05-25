@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-participant-setup",
+  "id": "components/dyte-participant-setup",
+  "title": "DyteParticipantSetup",
+  "description": "Props",
+  "source": "@site/docs/react-ui-kit/components/dyte-participant-setup.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-participant-setup",
+  "permalink": "/react-ui-kit/components/dyte-participant-setup",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-participant-setup.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteParticipantCount",
+    "permalink": "/react-ui-kit/components/dyte-participant-count"
+  },
+  "next": {
+    "title": "DyteParticipantTile",
+    "permalink": "/react-ui-kit/components/dyte-participant-tile"
+  }
+}

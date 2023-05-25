@@ -1,0 +1,88 @@
+{
+  "pluginId": "cli",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Dyte CLI",
+        "href": "/cli/",
+        "docId": "installation"
+      },
+      {
+        "type": "link",
+        "label": "Getting started",
+        "href": "/cli/getting-started",
+        "docId": "getting-started"
+      },
+      {
+        "type": "link",
+        "label": "Meetings",
+        "href": "/cli/meetings",
+        "docId": "meetings"
+      },
+      {
+        "type": "link",
+        "label": "Recordings",
+        "href": "/cli/recording",
+        "docId": "recording"
+      },
+      {
+        "type": "link",
+        "label": "Plugins",
+        "href": "/cli/plugins",
+        "docId": "plugins"
+      },
+      {
+        "type": "link",
+        "label": "Webhooks",
+        "href": "/cli/webhooks",
+        "docId": "webhooks"
+      }
+    ]
+  },
+  "docs": {
+    "getting-started": {
+      "id": "getting-started",
+      "title": "Getting started",
+      "description": "The Dyte CLI needs a little bit of work to get started. We're working on",
+      "sidebar": "tutorialSidebar"
+    },
+    "installation": {
+      "id": "installation",
+      "title": "Dyte CLI",
+      "description": "The Dyte CLI is a unified utility that helps you manage Dyte services for your",
+      "sidebar": "tutorialSidebar"
+    },
+    "meetings": {
+      "id": "meetings",
+      "title": "Meetings",
+      "description": "The CLI allows you to perform some basic functions with meetings, including",
+      "sidebar": "tutorialSidebar"
+    },
+    "plugins": {
+      "id": "plugins",
+      "title": "Plugins",
+      "description": "You may create, manage, and host your own custom plugins with the help of the",
+      "sidebar": "tutorialSidebar"
+    },
+    "recording": {
+      "id": "recording",
+      "title": "Recordings",
+      "description": "The CLI lets you start, stop, view and configure meeting recordings.",
+      "sidebar": "tutorialSidebar"
+    },
+    "webhooks": {
+      "id": "webhooks",
+      "title": "Webhooks",
+      "description": "Instead of polling our APIs, you can use webhooks to get information as it is",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

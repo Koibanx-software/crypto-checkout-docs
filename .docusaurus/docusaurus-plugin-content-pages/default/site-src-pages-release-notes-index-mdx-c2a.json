@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/release-notes/",
+  "source": "@site/src/pages/release-notes/index.mdx",
+  "title": "Release Notes",
+  "description": "Stay informed about all updates to Dyte SDKs and APIs.",
+  "frontMatter": {}
+}

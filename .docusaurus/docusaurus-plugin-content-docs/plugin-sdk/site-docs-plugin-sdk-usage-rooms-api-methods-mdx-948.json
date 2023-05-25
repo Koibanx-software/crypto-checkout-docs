@@ -1,0 +1,30 @@
+{
+  "unversionedId": "usage/rooms-api/methods",
+  "id": "usage/rooms-api/methods",
+  "title": "Methods",
+  "description": "Get Room ID",
+  "source": "@site/docs/plugin-sdk/usage/rooms-api/methods.mdx",
+  "sourceDirName": "usage/rooms-api",
+  "slug": "/usage/rooms-api/methods",
+  "permalink": "/plugin-sdk/usage/rooms-api/methods",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/usage/rooms-api/methods.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Methods",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Events",
+    "permalink": "/plugin-sdk/usage/basic/events"
+  },
+  "next": {
+    "title": "Events",
+    "permalink": "/plugin-sdk/usage/rooms-api/events"
+  }
+}

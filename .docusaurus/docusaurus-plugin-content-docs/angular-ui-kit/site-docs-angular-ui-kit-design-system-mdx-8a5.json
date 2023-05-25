@@ -1,0 +1,30 @@
+{
+  "unversionedId": "design-system",
+  "id": "design-system",
+  "title": "Design System",
+  "description": "Details about the Design System in Dyte's UI Kit.",
+  "source": "@site/docs/angular-ui-kit/design-system.mdx",
+  "sourceDirName": ".",
+  "slug": "/design-system",
+  "permalink": "/angular-ui-kit/design-system",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/design-system.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Details about the Design System in Dyte's UI Kit."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Quickstart",
+    "permalink": "/angular-ui-kit/quickstart"
+  },
+  "next": {
+    "title": "Components Basics",
+    "permalink": "/angular-ui-kit/basics/components-basics"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "unversionedId": "local-user/manage-permissions",
+  "id": "local-user/manage-permissions",
+  "title": "Media Permissions",
+  "description": "Local user media guide to manage media permissions.",
+  "source": "@site/docs/ios-core/local-user/manage-permissions.mdx",
+  "sourceDirName": "local-user",
+  "slug": "/local-user/manage-permissions",
+  "permalink": "/ios-core/local-user/manage-permissions",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ios-core/local-user/manage-permissions.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/ios-core/tags/mobile-core"
+    },
+    {
+      "label": "local-user",
+      "permalink": "/ios-core/tags/local-user"
+    },
+    {
+      "label": "self",
+      "permalink": "/ios-core/tags/self"
+    },
+    {
+      "label": "self events",
+      "permalink": "/ios-core/tags/self-events"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Media Permissions",
+    "description": "Local user media guide to manage media permissions.",
+    "sidebar_position": 4,
+    "tags": [
+      "mobile-core",
+      "local-user",
+      "self",
+      "self events"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Media Devices",
+    "permalink": "/ios-core/local-user/manage-media-devices"
+  },
+  "next": {
+    "title": "Room Metadata",
+    "permalink": "/ios-core/room-metadata"
+  }
+}

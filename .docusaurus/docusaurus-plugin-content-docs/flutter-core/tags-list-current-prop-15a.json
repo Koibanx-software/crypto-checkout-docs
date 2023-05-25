@@ -1,0 +1,67 @@
+[
+  {
+    "label": "flutter-core",
+    "permalink": "/flutter-core/tags/flutter-core",
+    "count": 15
+  },
+  {
+    "label": "chat",
+    "permalink": "/flutter-core/tags/chat",
+    "count": 3
+  },
+  {
+    "label": "local-user",
+    "permalink": "/flutter-core/tags/local-user",
+    "count": 3
+  },
+  {
+    "label": "self",
+    "permalink": "/flutter-core/tags/self",
+    "count": 4
+  },
+  {
+    "label": "self events",
+    "permalink": "/flutter-core/tags/self-events",
+    "count": 1
+  },
+  {
+    "label": "participants",
+    "permalink": "/flutter-core/tags/participants",
+    "count": 3
+  },
+  {
+    "label": "participant",
+    "permalink": "/flutter-core/tags/participant",
+    "count": 2
+  },
+  {
+    "label": "polls",
+    "permalink": "/flutter-core/tags/polls",
+    "count": 3
+  },
+  {
+    "label": "create",
+    "permalink": "/flutter-core/tags/create",
+    "count": 1
+  },
+  {
+    "label": "votes",
+    "permalink": "/flutter-core/tags/votes",
+    "count": 1
+  },
+  {
+    "label": "quickstart",
+    "permalink": "/flutter-core/tags/quickstart",
+    "count": 1
+  },
+  {
+    "label": "recording",
+    "permalink": "/flutter-core/tags/recording",
+    "count": 1
+  },
+  {
+    "label": "room-metadata",
+    "permalink": "/flutter-core/tags/room-metadata",
+    "count": 1
+  }
+]

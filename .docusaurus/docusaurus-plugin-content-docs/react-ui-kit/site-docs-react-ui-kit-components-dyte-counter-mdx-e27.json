@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-counter",
+  "id": "components/dyte-counter",
+  "title": "DyteCounter",
+  "description": "Props",
+  "source": "@site/docs/react-ui-kit/components/dyte-counter.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-counter",
+  "permalink": "/react-ui-kit/components/dyte-counter",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-counter.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteControlbar",
+    "permalink": "/react-ui-kit/components/dyte-controlbar"
+  },
+  "next": {
+    "title": "DyteDialogManager",
+    "permalink": "/react-ui-kit/components/dyte-dialog-manager"
+  }
+}

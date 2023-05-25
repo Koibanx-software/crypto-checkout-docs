@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-idle-screen",
+  "id": "components/dyte-idle-screen",
+  "title": "dyte-idle-screen",
+  "description": "A screen that handles the idle state,",
+  "source": "@site/docs/ui-kit/components/dyte-idle-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-idle-screen",
+  "permalink": "/ui-kit/components/dyte-idle-screen",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-idle-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-idle-screen.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-icon",
+    "permalink": "/ui-kit/components/dyte-icon"
+  },
+  "next": {
+    "title": "dyte-image-message",
+    "permalink": "/ui-kit/components/dyte-image-message"
+  }
+}

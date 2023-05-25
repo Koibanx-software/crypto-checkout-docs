@@ -1,0 +1,48 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Before you start working with Dyte's Plugin SDK, make sure you've read the",
+  "source": "@site/docs/plugin-sdk/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/plugin-sdk/quickstart",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/quickstart.mdx",
+  "tags": [
+    {
+      "label": "plugin-sdk",
+      "permalink": "/plugin-sdk/tags/plugin-sdk"
+    },
+    {
+      "label": "quickstart",
+      "permalink": "/plugin-sdk/tags/quickstart"
+    },
+    {
+      "label": "setup",
+      "permalink": "/plugin-sdk/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Quickstart",
+    "sidebar_position": 2,
+    "tags": [
+      "plugin-sdk",
+      "quickstart",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/plugin-sdk/"
+  },
+  "next": {
+    "title": "Create a Plugin",
+    "permalink": "/plugin-sdk/setup/create"
+  }
+}

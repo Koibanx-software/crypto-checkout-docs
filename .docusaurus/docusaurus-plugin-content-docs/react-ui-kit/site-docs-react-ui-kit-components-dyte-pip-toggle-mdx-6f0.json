@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-pip-toggle",
+  "id": "components/dyte-pip-toggle",
+  "title": "DytePipToggle",
+  "description": "Props",
+  "source": "@site/docs/react-ui-kit/components/dyte-pip-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-pip-toggle",
+  "permalink": "/react-ui-kit/components/dyte-pip-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-pip-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DytePermissionsMessage",
+    "permalink": "/react-ui-kit/components/dyte-permissions-message"
+  },
+  "next": {
+    "title": "DytePluginMain",
+    "permalink": "/react-ui-kit/components/dyte-plugin-main"
+  }
+}

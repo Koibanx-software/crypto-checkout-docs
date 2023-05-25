@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-screen-share-toggle",
+  "id": "components/dyte-screen-share-toggle",
+  "title": "dyte-screen-share-toggle",
+  "description": "A button which toggles your screenshare.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-screen-share-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-screen-share-toggle",
+  "permalink": "/angular-ui-kit/components/dyte-screen-share-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-screen-share-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-remote-access-manager",
+    "permalink": "/angular-ui-kit/components/dyte-remote-access-manager"
+  },
+  "next": {
+    "title": "dyte-screenshare-view",
+    "permalink": "/angular-ui-kit/components/dyte-screenshare-view"
+  }
+}

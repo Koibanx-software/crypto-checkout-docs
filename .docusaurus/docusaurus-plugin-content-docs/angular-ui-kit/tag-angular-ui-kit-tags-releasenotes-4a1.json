@@ -1,0 +1,14 @@
+{
+  "label": "releasenotes",
+  "permalink": "/angular-ui-kit/tags/releasenotes",
+  "allTagsPath": "/angular-ui-kit/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "The release notes lists all new features, resolved issues, and known issues of Angular UI Kit in chronological order.",
+      "permalink": "/angular-ui-kit/release-notes"
+    }
+  ]
+}

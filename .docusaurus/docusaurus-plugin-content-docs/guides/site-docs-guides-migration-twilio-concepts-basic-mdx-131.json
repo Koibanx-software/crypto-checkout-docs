@@ -1,0 +1,26 @@
+{
+  "unversionedId": "migration/twilio/concepts-basic",
+  "id": "migration/twilio/concepts-basic",
+  "title": "Concepts: Basics",
+  "description": "This topic guides you through the standard practices utilized in Twilio Video API and illustrates how they correspond with Dyte's API. The main purpose of this tutorial is to support you in migrating an existing application from Twilio to Dyte's video and audio APIs.",
+  "source": "@site/docs/guides/migration/twilio/concepts-basic.mdx",
+  "sourceDirName": "migration/twilio",
+  "slug": "/migration/twilio/concepts-basic",
+  "permalink": "/guides/migration/twilio/concepts-basic",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/migration/twilio/concepts-basic.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Concepts: Basics",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Concepts: Media",
+    "permalink": "/guides/migration/twilio/concept-media"
+  }
+}

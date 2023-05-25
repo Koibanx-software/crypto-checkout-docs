@@ -1,0 +1,44 @@
+{
+  "unversionedId": "chat/other-chat-functions",
+  "id": "chat/other-chat-functions",
+  "title": "Other chat functions",
+  "description": "Other functionality associated with chat.",
+  "source": "@site/docs/rn-core/chat/other-chat-functions.mdx",
+  "sourceDirName": "chat",
+  "slug": "/chat/other-chat-functions",
+  "permalink": "/rn-core/chat/other-chat-functions",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/chat/other-chat-functions.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "chat",
+      "permalink": "/rn-core/tags/chat"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Other chat functions",
+    "description": "Other functionality associated with chat.",
+    "sidebar_position": 4,
+    "tags": [
+      "web-core",
+      "chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receiving chat messages",
+    "permalink": "/rn-core/chat/receiving-chat-messages"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/rn-core/polls/introduction"
+  }
+}

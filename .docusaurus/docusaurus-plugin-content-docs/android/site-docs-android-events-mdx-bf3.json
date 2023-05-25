@@ -1,0 +1,29 @@
+{
+  "unversionedId": "events",
+  "id": "events",
+  "title": "Events",
+  "description": "Local User - Events",
+  "source": "@site/docs/android/events.mdx",
+  "sourceDirName": ".",
+  "slug": "/events",
+  "permalink": "/android/events",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/android/events.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced usage",
+    "permalink": "/android/advanced-usage"
+  },
+  "next": {
+    "title": "Sample app",
+    "permalink": "/android/sample-app"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Before you start integrating Dyte into your application, make sure you've read",
+  "source": "@site/docs/react/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/react/quickstart",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react/quickstart.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/react/"
+  },
+  "next": {
+    "title": "Basic Usage",
+    "permalink": "/react/usage"
+  }
+}

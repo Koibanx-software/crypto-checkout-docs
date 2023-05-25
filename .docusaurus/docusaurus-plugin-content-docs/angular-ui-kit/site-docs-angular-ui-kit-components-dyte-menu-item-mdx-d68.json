@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-menu-item",
+  "id": "components/dyte-menu-item",
+  "title": "dyte-menu-item",
+  "description": "A menu item component.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-menu-item.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-menu-item",
+  "permalink": "/angular-ui-kit/components/dyte-menu-item",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-menu-item.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-meeting",
+    "permalink": "/angular-ui-kit/components/dyte-meeting"
+  },
+  "next": {
+    "title": "dyte-menu-list",
+    "permalink": "/angular-ui-kit/components/dyte-menu-list"
+  }
+}

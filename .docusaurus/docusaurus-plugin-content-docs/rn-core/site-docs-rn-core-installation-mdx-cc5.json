@@ -1,0 +1,46 @@
+{
+  "unversionedId": "installation",
+  "id": "installation",
+  "title": "Installation",
+  "description": "Install web-core.",
+  "source": "@site/docs/rn-core/installation.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/rn-core/",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/installation.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "installation",
+      "permalink": "/rn-core/tags/installation"
+    },
+    {
+      "label": "setup",
+      "permalink": "/rn-core/tags/setup"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Installation",
+    "description": "Install web-core.",
+    "sidebar_position": 1,
+    "slug": "/",
+    "tags": [
+      "web-core",
+      "installation",
+      "setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/rn-core/quickstart"
+  }
+}

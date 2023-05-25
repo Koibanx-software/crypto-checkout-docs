@@ -1,0 +1,44 @@
+{
+  "unversionedId": "polls/introduction",
+  "id": "polls/introduction",
+  "title": "Introduction",
+  "description": "Create, receive and interact with polls in a meeting.",
+  "source": "@site/docs/ios-core/polls/introduction.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/introduction",
+  "permalink": "/ios-core/polls/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ios-core/polls/introduction.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/ios-core/tags/mobile-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/ios-core/tags/polls"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Create, receive and interact with polls in a meeting.",
+    "sidebar_position": 1,
+    "tags": [
+      "mobile-core",
+      "polls"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Receiving chat messages",
+    "permalink": "/ios-core/chat/receiving-chat-messages"
+  },
+  "next": {
+    "title": "Creating a poll",
+    "permalink": "/ios-core/polls/creating-a-poll"
+  }
+}

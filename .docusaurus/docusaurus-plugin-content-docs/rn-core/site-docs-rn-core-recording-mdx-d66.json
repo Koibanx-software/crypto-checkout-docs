@@ -1,0 +1,44 @@
+{
+  "unversionedId": "recording",
+  "id": "recording",
+  "title": "Recording",
+  "description": "Control recordings in a meeting.",
+  "source": "@site/docs/rn-core/recording.mdx",
+  "sourceDirName": ".",
+  "slug": "/recording",
+  "permalink": "/rn-core/recording",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/recording.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "recording",
+      "permalink": "/rn-core/tags/recording"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Recording",
+    "description": "Control recordings in a meeting.",
+    "sidebar_position": 9,
+    "tags": [
+      "web-core",
+      "recording"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Functions to disable plugins",
+    "permalink": "/rn-core/plugins/disable-plugin"
+  },
+  "next": {
+    "title": "DyteClient",
+    "permalink": "/rn-core/reference/DyteClient"
+  }
+}

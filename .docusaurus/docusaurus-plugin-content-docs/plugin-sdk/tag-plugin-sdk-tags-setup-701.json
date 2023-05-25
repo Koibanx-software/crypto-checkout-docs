@@ -1,0 +1,26 @@
+{
+  "label": "setup",
+  "permalink": "/plugin-sdk/tags/setup",
+  "allTagsPath": "/plugin-sdk/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "usage/installation",
+      "title": "Installation",
+      "description": "Install plugin-sdk.",
+      "permalink": "/plugin-sdk/usage/installation"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "description": "Plugin-SDK is currently in beta phase. To use this SDK, please contact",
+      "permalink": "/plugin-sdk/"
+    },
+    {
+      "id": "quickstart",
+      "title": "Quickstart",
+      "description": "Before you start working with Dyte's Plugin SDK, make sure you've read the",
+      "permalink": "/plugin-sdk/quickstart"
+    }
+  ]
+}

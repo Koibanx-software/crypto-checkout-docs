@@ -1,0 +1,14 @@
+{
+  "label": "waitlist",
+  "permalink": "/ios-core/tags/waitlist",
+  "allTagsPath": "/ios-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "waitlist-events",
+      "title": "Waitlist Events",
+      "description": "Waitlist Events Listener",
+      "permalink": "/ios-core/waitlist-events"
+    }
+  ]
+}

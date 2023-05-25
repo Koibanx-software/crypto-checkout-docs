@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-avatar",
+  "id": "components/dyte-avatar",
+  "title": "dyte-avatar",
+  "description": "Avatar component which renders a participant's image or their initials.",
+  "source": "@site/docs/angular-ui-kit/components/dyte-avatar.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-avatar",
+  "permalink": "/angular-ui-kit/components/dyte-avatar",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/angular-ui-kit/components/dyte-avatar.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-avatar.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-audio-visualizer",
+    "permalink": "/angular-ui-kit/components/dyte-audio-visualizer"
+  },
+  "next": {
+    "title": "dyte-broadcast-message-modal",
+    "permalink": "/angular-ui-kit/components/dyte-broadcast-message-modal"
+  }
+}

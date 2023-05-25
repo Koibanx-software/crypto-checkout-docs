@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-text-field",
+  "id": "components/dyte-text-field",
+  "title": "dyte-text-field",
+  "description": "A text field component.",
+  "source": "@site/docs/ui-kit/components/dyte-text-field.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-text-field",
+  "permalink": "/ui-kit/components/dyte-text-field",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-text-field.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-switch",
+    "permalink": "/ui-kit/components/dyte-switch"
+  },
+  "next": {
+    "title": "dyte-text-message",
+    "permalink": "/ui-kit/components/dyte-text-message"
+  }
+}

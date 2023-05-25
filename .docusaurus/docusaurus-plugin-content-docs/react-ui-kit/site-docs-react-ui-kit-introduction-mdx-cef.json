@@ -1,0 +1,27 @@
+{
+  "unversionedId": "introduction",
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "Dyte's React UI Kit is a prebuilt design library of UI components that makes it",
+  "source": "@site/docs/react-ui-kit/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/react-ui-kit/",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/",
+    "image": "/static/ui-kit/1.x.x/ui-kit-cover.jpg"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Quickstart",
+    "permalink": "/react-ui-kit/quickstart"
+  }
+}

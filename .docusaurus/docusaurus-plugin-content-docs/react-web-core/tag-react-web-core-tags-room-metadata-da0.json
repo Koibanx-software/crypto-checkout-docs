@@ -1,0 +1,14 @@
+{
+  "label": "room-metadata",
+  "permalink": "/react-web-core/tags/room-metadata",
+  "allTagsPath": "/react-web-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "room-metadata",
+      "title": "Room Metadata",
+      "description": "All metadata pertaining to a meeting.",
+      "permalink": "/react-web-core/room-metadata"
+    }
+  ]
+}

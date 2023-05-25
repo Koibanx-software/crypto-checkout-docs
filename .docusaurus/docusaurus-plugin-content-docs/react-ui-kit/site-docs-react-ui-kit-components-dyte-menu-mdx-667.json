@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-menu",
+  "id": "components/dyte-menu",
+  "title": "DyteMenu",
+  "description": "A menu component.",
+  "source": "@site/docs/react-ui-kit/components/dyte-menu.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-menu",
+  "permalink": "/react-ui-kit/components/dyte-menu",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-menu.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-menu.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteMenuList",
+    "permalink": "/react-ui-kit/components/dyte-menu-list"
+  },
+  "next": {
+    "title": "DyteMicToggle",
+    "permalink": "/react-ui-kit/components/dyte-mic-toggle"
+  }
+}

@@ -1,0 +1,3427 @@
+{
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-5FDFFSS",
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "guides": {
+      "path": "/guides",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/guides",
+          "mainDocId": "migration/twilio/concepts-basic",
+          "docs": [
+            {
+              "id": "breakoutroom/create-breakout-rooms",
+              "path": "/guides/breakoutroom/create-breakout-rooms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "breakoutroom/introduction-breakout-rooms",
+              "path": "/guides/breakoutroom/introduction-breakout-rooms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "embed",
+              "path": "/guides/embed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "export-chat-dump",
+              "path": "/guides/export-chat-dump",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/getting-started-with-livestreaming",
+              "path": "/guides/livestream/getting-started-with-livestreaming",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/index",
+              "path": "/guides/livestream/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/livestream-any-rtmp",
+              "path": "/guides/livestream/livestream-any-rtmp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/livestream-dyte-meeting",
+              "path": "/guides/livestream/livestream-dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/livestream-overview",
+              "path": "/guides/livestream/livestream-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/livestream-webhooks",
+              "path": "/guides/livestream/livestream-webhooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestream/livestreaming-other-platforms",
+              "path": "/guides/livestream/livestreaming-other-platforms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/opentok/concept-media-opentok",
+              "path": "/guides/migration/opentok/concept-media-opentok",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/opentok/concepts-opentok-vs-dyte",
+              "path": "/guides/migration/opentok/concepts-opentok-vs-dyte",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/opentok/opentok-shim-by-dyte",
+              "path": "/guides/migration/opentok/opentok-shim-by-dyte",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/twilio/compatibility-shim-twilio",
+              "path": "/guides/migration/twilio/compatibility-shim-twilio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/twilio/concept-media",
+              "path": "/guides/migration/twilio/concept-media",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/twilio/concepts-basic",
+              "path": "/guides/migration/twilio/concepts-basic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/twilio/twilio-shim-by-dyte",
+              "path": "/guides/migration/twilio/twilio-shim-by-dyte",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration/v2-migration-guide",
+              "path": "/guides/v2-migration-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/guides/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/add-watermark",
+              "path": "/guides/recording/add-watermark",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/configure-audio-codec",
+              "path": "/guides/recording/configure-audio-codec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/configure-codecs",
+              "path": "/guides/recording/configure-codecs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/configure-dyte-bucket-config",
+              "path": "/guides/recording/configure-dyte-bucket-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/custom-cloud-storage",
+              "path": "/guides/recording/custom-cloud-storage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/interactive-recording",
+              "path": "/guides/recording/interactive-recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/livestream-recording",
+              "path": "/guides/recording/livestream-recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/monitor-status",
+              "path": "/guides/recording/monitor-status",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/recording-overview",
+              "path": "/guides/recording/recording-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/start-recording",
+              "path": "/guides/recording/start-recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording/stop-recording",
+              "path": "/guides/recording/stop-recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks/signatures",
+              "path": "/guides/webhooks/signatures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks/webhook-events",
+              "path": "/guides/webhooks/webhook-events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks/webhooks-and-events",
+              "path": "/guides/webhooks/webhooks-and-events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks/webhooks-overview",
+              "path": "/guides/webhooks/webhooks-overview",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/guides/migration/twilio/concepts-basic",
+                "label": "migration/twilio/concepts-basic"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "cli": {
+      "path": "/cli",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/cli",
+          "mainDocId": "installation",
+          "docs": [
+            {
+              "id": "getting-started",
+              "path": "/cli/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/cli/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "meetings",
+              "path": "/cli/meetings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins",
+              "path": "/cli/plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/cli/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "webhooks",
+              "path": "/cli/webhooks",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/cli/",
+                "label": "installation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "android": {
+      "path": "/android",
+      "versions": [
+        {
+          "name": "current",
+          "label": "0.14.x",
+          "isLast": true,
+          "path": "/android",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "advanced-usage",
+              "path": "/android/advanced-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customize-meeting-ui",
+              "path": "/android/customize-meeting-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events",
+              "path": "/android/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/android/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/android/sample-app",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/android/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "flutter": {
+      "path": "/flutter",
+      "versions": [
+        {
+          "name": "current",
+          "label": "0.7.x",
+          "isLast": true,
+          "path": "/flutter",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "quickstart",
+              "path": "/flutter/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/flutter/sample-app",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/flutter/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "ios": {
+      "path": "/ios",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.33.x",
+          "isLast": true,
+          "path": "/ios",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "events",
+              "path": "/ios/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/ios/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/ios/sample-app",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ios/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "react-native": {
+      "path": "/react-native",
+      "versions": [
+        {
+          "name": "current",
+          "label": "0.25.x",
+          "isLast": true,
+          "path": "/react-native",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "advanced-usage",
+              "path": "/react-native/advanced-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customize-meeting-ui",
+              "path": "/react-native/customize-meeting-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events",
+              "path": "/react-native/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/react-native/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/react-native/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/chat-message",
+              "path": "/react-native/reference/chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/connection-config",
+              "path": "/react-native/reference/connection-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-errors",
+              "path": "/react-native/reference/dyte-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-meeting",
+              "path": "/react-native/reference/dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-meeting-events",
+              "path": "/react-native/reference/dyte-meeting-events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-plugin",
+              "path": "/react-native/reference/dyte-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-ui-config",
+              "path": "/react-native/reference/dyte-ui-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/meeting",
+              "path": "/react-native/reference/meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/participant",
+              "path": "/react-native/reference/participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/self-participant",
+              "path": "/react-native/reference/self-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/react-native/sample-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage",
+              "path": "/react-native/usage",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/react-native/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "react": {
+      "path": "/react",
+      "versions": [
+        {
+          "name": "current",
+          "label": "0.37.0",
+          "isLast": true,
+          "path": "/react",
+          "mainDocId": "installation",
+          "docs": [
+            {
+              "id": "advanced-usage",
+              "path": "/react/advanced-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customize-meeting-ui",
+              "path": "/react/customize-meeting-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events",
+              "path": "/react/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/react/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/react/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/chat-message",
+              "path": "/react/reference/chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/connection-config",
+              "path": "/react/reference/connection-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-control-bar",
+              "path": "/react/reference/dyte-control-bar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-errors",
+              "path": "/react/reference/dyte-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-grid",
+              "path": "/react/reference/dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-meeting",
+              "path": "/react/reference/dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-meeting-events",
+              "path": "/react/reference/dyte-meeting-events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-plugin",
+              "path": "/react/reference/dyte-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-ui-config",
+              "path": "/react/reference/dyte-ui-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/meeting",
+              "path": "/react/reference/meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/participant",
+              "path": "/react/reference/participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/self-participant",
+              "path": "/react/reference/self-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/react/sample-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage",
+              "path": "/react/usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "virtual-background",
+              "path": "/react/virtual-background",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/react/",
+                "label": "installation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "javascript": {
+      "path": "/javascript",
+      "versions": [
+        {
+          "name": "current",
+          "label": "0.37.0",
+          "isLast": true,
+          "path": "/javascript",
+          "mainDocId": "installation",
+          "docs": [
+            {
+              "id": "advanced-usage",
+              "path": "/javascript/advanced-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customize-meeting-ui",
+              "path": "/javascript/customize-meeting-ui",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "events",
+              "path": "/javascript/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/javascript/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/javascript/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/chat-message",
+              "path": "/javascript/reference/chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/connection-config",
+              "path": "/javascript/reference/connection-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-client",
+              "path": "/javascript/reference/dyte-client",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-control-bar",
+              "path": "/javascript/reference/dyte-control-bar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-errors",
+              "path": "/javascript/reference/dyte-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-grid",
+              "path": "/javascript/reference/dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-meeting-events",
+              "path": "/javascript/reference/dyte-meeting-events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-plugin",
+              "path": "/javascript/reference/dyte-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/dyte-ui-config",
+              "path": "/javascript/reference/dyte-ui-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/meeting",
+              "path": "/javascript/reference/meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/participant",
+              "path": "/javascript/reference/participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/self-participant",
+              "path": "/javascript/reference/self-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sample-app",
+              "path": "/javascript/sample-app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage",
+              "path": "/javascript/usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "virtual-background",
+              "path": "/javascript/virtual-background",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/javascript/",
+                "label": "installation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "plugin-sdk": {
+      "path": "/plugin-sdk",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/plugin-sdk",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "frequently-asked-questions",
+              "path": "/plugin-sdk/frequently-asked-questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/exchange-data-between-plugin-and-meeting",
+              "path": "/plugin-sdk/guides/exchange-data-between-plugin-and-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/how-to-work-with-plugin-stores",
+              "path": "/plugin-sdk/guides/how-to-work-with-plugin-stores",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/plugin-sdk/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/plugin-sdk/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/create",
+              "path": "/plugin-sdk/setup/create",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/customize",
+              "path": "/plugin-sdk/setup/customize",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/develop",
+              "path": "/plugin-sdk/setup/develop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/manage",
+              "path": "/plugin-sdk/setup/manage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "setup/publish",
+              "path": "/plugin-sdk/setup/publish",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/basic/events",
+              "path": "/plugin-sdk/usage/basic/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/basic/initialize",
+              "path": "/plugin-sdk/usage/basic/initialize",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/basic/methods",
+              "path": "/plugin-sdk/usage/basic/methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/installation",
+              "path": "/plugin-sdk/usage/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/rooms-api/events",
+              "path": "/plugin-sdk/usage/rooms-api/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/rooms-api/methods",
+              "path": "/plugin-sdk/usage/rooms-api/methods",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/stores-api/introduction",
+              "path": "/plugin-sdk/usage/stores-api/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/stores-api/manage-stores",
+              "path": "/plugin-sdk/usage/stores-api/manage-stores",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/plugin-sdk/",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "ui-kit": {
+      "path": "/ui-kit",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/ui-kit",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "basics/components-basics",
+              "path": "/ui-kit/basics/components-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basics/pre-requisite",
+              "path": "/ui-kit/basics/pre-requisite",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-audio-visualizer",
+              "path": "/ui-kit/components/dyte-audio-visualizer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-avatar",
+              "path": "/ui-kit/components/dyte-avatar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-broadcast-message-modal",
+              "path": "/ui-kit/components/dyte-broadcast-message-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-button",
+              "path": "/ui-kit/components/dyte-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-camera-toggle",
+              "path": "/ui-kit/components/dyte-camera-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat",
+              "path": "/ui-kit/components/dyte-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-scope-selector",
+              "path": "/ui-kit/components/dyte-chat-scope-selector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-toggle",
+              "path": "/ui-kit/components/dyte-chat-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-clock",
+              "path": "/ui-kit/components/dyte-clock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-confirmation-modal",
+              "path": "/ui-kit/components/dyte-confirmation-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar",
+              "path": "/ui-kit/components/dyte-controlbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar-button",
+              "path": "/ui-kit/components/dyte-controlbar-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-counter",
+              "path": "/ui-kit/components/dyte-counter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog",
+              "path": "/ui-kit/components/dyte-dialog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog-manager",
+              "path": "/ui-kit/components/dyte-dialog-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-emoji-picker",
+              "path": "/ui-kit/components/dyte-emoji-picker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-ended-screen",
+              "path": "/ui-kit/components/dyte-ended-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-file-message",
+              "path": "/ui-kit/components/dyte-file-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-fullscreen-toggle",
+              "path": "/ui-kit/components/dyte-fullscreen-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid",
+              "path": "/ui-kit/components/dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid-pagination",
+              "path": "/ui-kit/components/dyte-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-header",
+              "path": "/ui-kit/components/dyte-header",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-icon",
+              "path": "/ui-kit/components/dyte-icon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-idle-screen",
+              "path": "/ui-kit/components/dyte-idle-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-message",
+              "path": "/ui-kit/components/dyte-image-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-viewer",
+              "path": "/ui-kit/components/dyte-image-viewer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-join-stage",
+              "path": "/ui-kit/components/dyte-join-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-button",
+              "path": "/ui-kit/components/dyte-leave-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-meeting",
+              "path": "/ui-kit/components/dyte-leave-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-logo",
+              "path": "/ui-kit/components/dyte-logo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting",
+              "path": "/ui-kit/components/dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting-title",
+              "path": "/ui-kit/components/dyte-meeting-title",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu",
+              "path": "/ui-kit/components/dyte-menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-item",
+              "path": "/ui-kit/components/dyte-menu-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-list",
+              "path": "/ui-kit/components/dyte-menu-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mic-toggle",
+              "path": "/ui-kit/components/dyte-mic-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mixed-grid",
+              "path": "/ui-kit/components/dyte-mixed-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-more-toggle",
+              "path": "/ui-kit/components/dyte-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mute-all-button",
+              "path": "/ui-kit/components/dyte-mute-all-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mute-all-confirmation",
+              "path": "/ui-kit/components/dyte-mute-all-confirmation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-name-tag",
+              "path": "/ui-kit/components/dyte-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notification",
+              "path": "/ui-kit/components/dyte-notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notifications",
+              "path": "/ui-kit/components/dyte-notifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-overlay-modal",
+              "path": "/ui-kit/components/dyte-overlay-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant",
+              "path": "/ui-kit/components/dyte-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-count",
+              "path": "/ui-kit/components/dyte-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-setup",
+              "path": "/ui-kit/components/dyte-participant-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-tile",
+              "path": "/ui-kit/components/dyte-participant-tile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants",
+              "path": "/ui-kit/components/dyte-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-audio",
+              "path": "/ui-kit/components/dyte-participants-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-toggle",
+              "path": "/ui-kit/components/dyte-participants-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-permissions-message",
+              "path": "/ui-kit/components/dyte-permissions-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-pip-toggle",
+              "path": "/ui-kit/components/dyte-pip-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugin-main",
+              "path": "/ui-kit/components/dyte-plugin-main",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins",
+              "path": "/ui-kit/components/dyte-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins-toggle",
+              "path": "/ui-kit/components/dyte-plugins-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll",
+              "path": "/ui-kit/components/dyte-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll-form",
+              "path": "/ui-kit/components/dyte-poll-form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls",
+              "path": "/ui-kit/components/dyte-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls-toggle",
+              "path": "/ui-kit/components/dyte-polls-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-indicator",
+              "path": "/ui-kit/components/dyte-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-toggle",
+              "path": "/ui-kit/components/dyte-recording-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-remote-access-manager",
+              "path": "/ui-kit/components/dyte-remote-access-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screen-share-toggle",
+              "path": "/ui-kit/components/dyte-screen-share-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screenshare-view",
+              "path": "/ui-kit/components/dyte-screenshare-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings",
+              "path": "/ui-kit/components/dyte-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-audio",
+              "path": "/ui-kit/components/dyte-settings-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-toggle",
+              "path": "/ui-kit/components/dyte-settings-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-video",
+              "path": "/ui-kit/components/dyte-settings-video",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-setup-screen",
+              "path": "/ui-kit/components/dyte-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-sidebar",
+              "path": "/ui-kit/components/dyte-sidebar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-simple-grid",
+              "path": "/ui-kit/components/dyte-simple-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spinner",
+              "path": "/ui-kit/components/dyte-spinner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-grid",
+              "path": "/ui-kit/components/dyte-spotlight-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-indicator",
+              "path": "/ui-kit/components/dyte-spotlight-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-stage",
+              "path": "/ui-kit/components/dyte-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-switch",
+              "path": "/ui-kit/components/dyte-switch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-field",
+              "path": "/ui-kit/components/dyte-text-field",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-message",
+              "path": "/ui-kit/components/dyte-text-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-tooltip",
+              "path": "/ui-kit/components/dyte-tooltip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-waiting-screen",
+              "path": "/ui-kit/components/dyte-waiting-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-webinar-stage-toggle",
+              "path": "/ui-kit/components/dyte-webinar-stage-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/gallery",
+              "path": "/ui-kit/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-system",
+              "path": "/ui-kit/design-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/ui-kit/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/ui-kit/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/classes/DyteNotificationsAudio",
+              "path": "/ui-kit/reference/classes/DyteNotificationsAudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/Notification",
+              "path": "/ui-kit/reference/interfaces/Notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/PollObject",
+              "path": "/ui-kit/reference/interfaces/PollObject",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/States",
+              "path": "/ui-kit/reference/interfaces/States",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UIConfig",
+              "path": "/ui-kit/reference/interfaces/UIConfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UserPreferences",
+              "path": "/ui-kit/reference/interfaces/UserPreferences",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/reference",
+              "path": "/ui-kit/reference/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/ui-kit/release-notes",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ui-kit/",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "react-ui-kit": {
+      "path": "/react-ui-kit",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/react-ui-kit",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "basics/components-basics",
+              "path": "/react-ui-kit/basics/components-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basics/display-videos",
+              "path": "/react-ui-kit/basics/display-videos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basics/integrate",
+              "path": "/react-ui-kit/basics/integrate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-audio-visualizer",
+              "path": "/react-ui-kit/components/dyte-audio-visualizer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-avatar",
+              "path": "/react-ui-kit/components/dyte-avatar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-button",
+              "path": "/react-ui-kit/components/dyte-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-camera-toggle",
+              "path": "/react-ui-kit/components/dyte-camera-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat",
+              "path": "/react-ui-kit/components/dyte-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-scope-selector",
+              "path": "/react-ui-kit/components/dyte-chat-scope-selector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-toggle",
+              "path": "/react-ui-kit/components/dyte-chat-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-clock",
+              "path": "/react-ui-kit/components/dyte-clock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-confirmation-modal",
+              "path": "/react-ui-kit/components/dyte-confirmation-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar",
+              "path": "/react-ui-kit/components/dyte-controlbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar-button",
+              "path": "/react-ui-kit/components/dyte-controlbar-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-counter",
+              "path": "/react-ui-kit/components/dyte-counter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog",
+              "path": "/react-ui-kit/components/dyte-dialog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog-manager",
+              "path": "/react-ui-kit/components/dyte-dialog-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-emoji-picker",
+              "path": "/react-ui-kit/components/dyte-emoji-picker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-ended-screen",
+              "path": "/react-ui-kit/components/dyte-ended-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-file-message",
+              "path": "/react-ui-kit/components/dyte-file-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-fullscreen-toggle",
+              "path": "/react-ui-kit/components/dyte-fullscreen-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid",
+              "path": "/react-ui-kit/components/dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid-pagination",
+              "path": "/react-ui-kit/components/dyte-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-header",
+              "path": "/react-ui-kit/components/dyte-header",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-icon",
+              "path": "/react-ui-kit/components/dyte-icon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-idle-screen",
+              "path": "/react-ui-kit/components/dyte-idle-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-message",
+              "path": "/react-ui-kit/components/dyte-image-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-viewer",
+              "path": "/react-ui-kit/components/dyte-image-viewer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-join-stage",
+              "path": "/react-ui-kit/components/dyte-join-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-button",
+              "path": "/react-ui-kit/components/dyte-leave-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-meeting",
+              "path": "/react-ui-kit/components/dyte-leave-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-logo",
+              "path": "/react-ui-kit/components/dyte-logo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting",
+              "path": "/react-ui-kit/components/dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting-title",
+              "path": "/react-ui-kit/components/dyte-meeting-title",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu",
+              "path": "/react-ui-kit/components/dyte-menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-item",
+              "path": "/react-ui-kit/components/dyte-menu-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-list",
+              "path": "/react-ui-kit/components/dyte-menu-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mic-toggle",
+              "path": "/react-ui-kit/components/dyte-mic-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mixed-grid",
+              "path": "/react-ui-kit/components/dyte-mixed-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-more-toggle",
+              "path": "/react-ui-kit/components/dyte-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mute-all-button",
+              "path": "/react-ui-kit/components/dyte-mute-all-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mute-all-confirmation",
+              "path": "/react-ui-kit/components/dyte-mute-all-confirmation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-name-tag",
+              "path": "/react-ui-kit/components/dyte-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notification",
+              "path": "/react-ui-kit/components/dyte-notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notifications",
+              "path": "/react-ui-kit/components/dyte-notifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-overlay-modal",
+              "path": "/react-ui-kit/components/dyte-overlay-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant",
+              "path": "/react-ui-kit/components/dyte-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-count",
+              "path": "/react-ui-kit/components/dyte-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-setup",
+              "path": "/react-ui-kit/components/dyte-participant-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-tile",
+              "path": "/react-ui-kit/components/dyte-participant-tile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants",
+              "path": "/react-ui-kit/components/dyte-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-audio",
+              "path": "/react-ui-kit/components/dyte-participants-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-toggle",
+              "path": "/react-ui-kit/components/dyte-participants-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-permissions-message",
+              "path": "/react-ui-kit/components/dyte-permissions-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-pip-toggle",
+              "path": "/react-ui-kit/components/dyte-pip-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugin-main",
+              "path": "/react-ui-kit/components/dyte-plugin-main",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins",
+              "path": "/react-ui-kit/components/dyte-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins-toggle",
+              "path": "/react-ui-kit/components/dyte-plugins-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll",
+              "path": "/react-ui-kit/components/dyte-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll-form",
+              "path": "/react-ui-kit/components/dyte-poll-form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls",
+              "path": "/react-ui-kit/components/dyte-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls-toggle",
+              "path": "/react-ui-kit/components/dyte-polls-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-indicator",
+              "path": "/react-ui-kit/components/dyte-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-toggle",
+              "path": "/react-ui-kit/components/dyte-recording-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-remote-access-manager",
+              "path": "/react-ui-kit/components/dyte-remote-access-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screen-share-toggle",
+              "path": "/react-ui-kit/components/dyte-screen-share-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screenshare-view",
+              "path": "/react-ui-kit/components/dyte-screenshare-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings",
+              "path": "/react-ui-kit/components/dyte-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-audio",
+              "path": "/react-ui-kit/components/dyte-settings-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-toggle",
+              "path": "/react-ui-kit/components/dyte-settings-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-video",
+              "path": "/react-ui-kit/components/dyte-settings-video",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-setup-screen",
+              "path": "/react-ui-kit/components/dyte-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-sidebar",
+              "path": "/react-ui-kit/components/dyte-sidebar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-simple-grid",
+              "path": "/react-ui-kit/components/dyte-simple-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spinner",
+              "path": "/react-ui-kit/components/dyte-spinner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-grid",
+              "path": "/react-ui-kit/components/dyte-spotlight-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-indicator",
+              "path": "/react-ui-kit/components/dyte-spotlight-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-stage",
+              "path": "/react-ui-kit/components/dyte-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-switch",
+              "path": "/react-ui-kit/components/dyte-switch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-field",
+              "path": "/react-ui-kit/components/dyte-text-field",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-message",
+              "path": "/react-ui-kit/components/dyte-text-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-tooltip",
+              "path": "/react-ui-kit/components/dyte-tooltip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-waiting-screen",
+              "path": "/react-ui-kit/components/dyte-waiting-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-webinar-stage-toggle",
+              "path": "/react-ui-kit/components/dyte-webinar-stage-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/gallery",
+              "path": "/react-ui-kit/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "customizations/custom-iconpack",
+              "path": "/react-ui-kit/customizations/custom-iconpack",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-system",
+              "path": "/react-ui-kit/design-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/react-ui-kit/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/react-ui-kit/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/classes/DyteNotificationsAudio",
+              "path": "/react-ui-kit/reference/classes/DyteNotificationsAudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/Notification",
+              "path": "/react-ui-kit/reference/interfaces/Notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/PollObject",
+              "path": "/react-ui-kit/reference/interfaces/PollObject",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/States",
+              "path": "/react-ui-kit/reference/interfaces/States",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UIConfig",
+              "path": "/react-ui-kit/reference/interfaces/UIConfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UserPreferences",
+              "path": "/react-ui-kit/reference/interfaces/UserPreferences",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/reference",
+              "path": "/react-ui-kit/reference/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/react-ui-kit/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "using-hooks",
+              "path": "/react-ui-kit/using-hooks",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/react-ui-kit/",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "angular-ui-kit": {
+      "path": "/angular-ui-kit",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/angular-ui-kit",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "basics/components-basics",
+              "path": "/angular-ui-kit/basics/components-basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basics/pre-requisite",
+              "path": "/angular-ui-kit/basics/pre-requisite",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-audio-visualizer",
+              "path": "/angular-ui-kit/components/dyte-audio-visualizer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-avatar",
+              "path": "/angular-ui-kit/components/dyte-avatar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-broadcast-message-modal",
+              "path": "/angular-ui-kit/components/dyte-broadcast-message-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-button",
+              "path": "/angular-ui-kit/components/dyte-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-camera-toggle",
+              "path": "/angular-ui-kit/components/dyte-camera-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat",
+              "path": "/angular-ui-kit/components/dyte-chat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-scope-selector",
+              "path": "/angular-ui-kit/components/dyte-chat-scope-selector",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-chat-toggle",
+              "path": "/angular-ui-kit/components/dyte-chat-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-clock",
+              "path": "/angular-ui-kit/components/dyte-clock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-confirmation-modal",
+              "path": "/angular-ui-kit/components/dyte-confirmation-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar",
+              "path": "/angular-ui-kit/components/dyte-controlbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-controlbar-button",
+              "path": "/angular-ui-kit/components/dyte-controlbar-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-counter",
+              "path": "/angular-ui-kit/components/dyte-counter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog",
+              "path": "/angular-ui-kit/components/dyte-dialog",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-dialog-manager",
+              "path": "/angular-ui-kit/components/dyte-dialog-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-emoji-picker",
+              "path": "/angular-ui-kit/components/dyte-emoji-picker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-ended-screen",
+              "path": "/angular-ui-kit/components/dyte-ended-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-file-message",
+              "path": "/angular-ui-kit/components/dyte-file-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-fullscreen-toggle",
+              "path": "/angular-ui-kit/components/dyte-fullscreen-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid",
+              "path": "/angular-ui-kit/components/dyte-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-grid-pagination",
+              "path": "/angular-ui-kit/components/dyte-grid-pagination",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-header",
+              "path": "/angular-ui-kit/components/dyte-header",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-icon",
+              "path": "/angular-ui-kit/components/dyte-icon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-idle-screen",
+              "path": "/angular-ui-kit/components/dyte-idle-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-message",
+              "path": "/angular-ui-kit/components/dyte-image-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-image-viewer",
+              "path": "/angular-ui-kit/components/dyte-image-viewer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-join-stage",
+              "path": "/angular-ui-kit/components/dyte-join-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-button",
+              "path": "/angular-ui-kit/components/dyte-leave-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-leave-meeting",
+              "path": "/angular-ui-kit/components/dyte-leave-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-logo",
+              "path": "/angular-ui-kit/components/dyte-logo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting",
+              "path": "/angular-ui-kit/components/dyte-meeting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-meeting-title",
+              "path": "/angular-ui-kit/components/dyte-meeting-title",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu",
+              "path": "/angular-ui-kit/components/dyte-menu",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-item",
+              "path": "/angular-ui-kit/components/dyte-menu-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-menu-list",
+              "path": "/angular-ui-kit/components/dyte-menu-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mic-toggle",
+              "path": "/angular-ui-kit/components/dyte-mic-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mixed-grid",
+              "path": "/angular-ui-kit/components/dyte-mixed-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-more-toggle",
+              "path": "/angular-ui-kit/components/dyte-more-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mute-all-button",
+              "path": "/angular-ui-kit/components/dyte-mute-all-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-mute-all-confirmation",
+              "path": "/angular-ui-kit/components/dyte-mute-all-confirmation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-name-tag",
+              "path": "/angular-ui-kit/components/dyte-name-tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notification",
+              "path": "/angular-ui-kit/components/dyte-notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-notifications",
+              "path": "/angular-ui-kit/components/dyte-notifications",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-overlay-modal",
+              "path": "/angular-ui-kit/components/dyte-overlay-modal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant",
+              "path": "/angular-ui-kit/components/dyte-participant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-count",
+              "path": "/angular-ui-kit/components/dyte-participant-count",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-setup",
+              "path": "/angular-ui-kit/components/dyte-participant-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participant-tile",
+              "path": "/angular-ui-kit/components/dyte-participant-tile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants",
+              "path": "/angular-ui-kit/components/dyte-participants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-audio",
+              "path": "/angular-ui-kit/components/dyte-participants-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-participants-toggle",
+              "path": "/angular-ui-kit/components/dyte-participants-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-permissions-message",
+              "path": "/angular-ui-kit/components/dyte-permissions-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-pip-toggle",
+              "path": "/angular-ui-kit/components/dyte-pip-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugin-main",
+              "path": "/angular-ui-kit/components/dyte-plugin-main",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins",
+              "path": "/angular-ui-kit/components/dyte-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-plugins-toggle",
+              "path": "/angular-ui-kit/components/dyte-plugins-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll",
+              "path": "/angular-ui-kit/components/dyte-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-poll-form",
+              "path": "/angular-ui-kit/components/dyte-poll-form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls",
+              "path": "/angular-ui-kit/components/dyte-polls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-polls-toggle",
+              "path": "/angular-ui-kit/components/dyte-polls-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-indicator",
+              "path": "/angular-ui-kit/components/dyte-recording-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-recording-toggle",
+              "path": "/angular-ui-kit/components/dyte-recording-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-remote-access-manager",
+              "path": "/angular-ui-kit/components/dyte-remote-access-manager",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screen-share-toggle",
+              "path": "/angular-ui-kit/components/dyte-screen-share-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-screenshare-view",
+              "path": "/angular-ui-kit/components/dyte-screenshare-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings",
+              "path": "/angular-ui-kit/components/dyte-settings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-audio",
+              "path": "/angular-ui-kit/components/dyte-settings-audio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-toggle",
+              "path": "/angular-ui-kit/components/dyte-settings-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-settings-video",
+              "path": "/angular-ui-kit/components/dyte-settings-video",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-setup-screen",
+              "path": "/angular-ui-kit/components/dyte-setup-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-sidebar",
+              "path": "/angular-ui-kit/components/dyte-sidebar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-simple-grid",
+              "path": "/angular-ui-kit/components/dyte-simple-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spinner",
+              "path": "/angular-ui-kit/components/dyte-spinner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-grid",
+              "path": "/angular-ui-kit/components/dyte-spotlight-grid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-spotlight-indicator",
+              "path": "/angular-ui-kit/components/dyte-spotlight-indicator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-stage",
+              "path": "/angular-ui-kit/components/dyte-stage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-switch",
+              "path": "/angular-ui-kit/components/dyte-switch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-field",
+              "path": "/angular-ui-kit/components/dyte-text-field",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-text-message",
+              "path": "/angular-ui-kit/components/dyte-text-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-tooltip",
+              "path": "/angular-ui-kit/components/dyte-tooltip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-waiting-screen",
+              "path": "/angular-ui-kit/components/dyte-waiting-screen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/dyte-webinar-stage-toggle",
+              "path": "/angular-ui-kit/components/dyte-webinar-stage-toggle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "components/gallery",
+              "path": "/angular-ui-kit/components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "design-system",
+              "path": "/angular-ui-kit/design-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/angular-ui-kit/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/angular-ui-kit/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/classes/DyteNotificationsAudio",
+              "path": "/angular-ui-kit/reference/classes/DyteNotificationsAudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/Notification",
+              "path": "/angular-ui-kit/reference/interfaces/Notification",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/PollObject",
+              "path": "/angular-ui-kit/reference/interfaces/PollObject",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/States",
+              "path": "/angular-ui-kit/reference/interfaces/States",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UIConfig",
+              "path": "/angular-ui-kit/reference/interfaces/UIConfig",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/interfaces/UserPreferences",
+              "path": "/angular-ui-kit/reference/interfaces/UserPreferences",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/reference",
+              "path": "/angular-ui-kit/reference/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/angular-ui-kit/release-notes",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/angular-ui-kit/",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "web-core": {
+      "path": "/web-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/web-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "chat/edit-chat-messages",
+              "path": "/web-core/chat/edit-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/introduction",
+              "path": "/web-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/other-chat-functions",
+              "path": "/web-core/chat/other-chat-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/web-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/web-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes/error-code",
+              "path": "/web-core/error-codes/error-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes/error-code-zero-ten",
+              "path": "/web-core/error-codes/error-code-zero-ten",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction",
+              "path": "/web-core/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestreaming/livestream-apis",
+              "path": "/web-core/livestreaming/livestream-apis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestreaming/state-management-apis",
+              "path": "/web-core/livestreaming/state-management-apis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/web-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/extras",
+              "path": "/web-core/local-user/extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/web-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/web-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/media-permission-errors",
+              "path": "/web-core/local-user/media-permission-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/web-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/web-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participants",
+              "path": "/web-core/participants/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/disable-plugin",
+              "path": "/web-core/plugins/disable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/enable-plugin",
+              "path": "/web-core/plugins/enable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/extra",
+              "path": "/web-core/plugins/extra",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/introduction",
+              "path": "/web-core/plugins/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/web-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/web-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/other-poll-functions",
+              "path": "/web-core/polls/other-poll-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/web-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/web-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/web-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteChat",
+              "path": "/web-core/reference/DyteChat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteClient",
+              "path": "/web-core/reference/DyteClient",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteLivestream",
+              "path": "/web-core/reference/DyteLivestream",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteMeta",
+              "path": "/web-core/reference/DyteMeta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipant",
+              "path": "/web-core/reference/DyteParticipant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipantMap",
+              "path": "/web-core/reference/DyteParticipantMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipants",
+              "path": "/web-core/reference/DyteParticipants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePermissionsPreset",
+              "path": "/web-core/reference/DytePermissionsPreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePlugin",
+              "path": "/web-core/reference/DytePlugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePluginMap",
+              "path": "/web-core/reference/DytePluginMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePlugins",
+              "path": "/web-core/reference/DytePlugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePolls",
+              "path": "/web-core/reference/DytePolls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteRecording",
+              "path": "/web-core/reference/DyteRecording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteRemote",
+              "path": "/web-core/reference/DyteRemote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteSelf",
+              "path": "/web-core/reference/DyteSelf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteStage",
+              "path": "/web-core/reference/DyteStage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteThemePreset",
+              "path": "/web-core/reference/DyteThemePreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/web-core/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/web-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/web-core/Introduction",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "react-web-core": {
+      "path": "/react-web-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/react-web-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "chat/edit-chat-messages",
+              "path": "/react-web-core/chat/edit-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/introduction",
+              "path": "/react-web-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/other-chat-functions",
+              "path": "/react-web-core/chat/other-chat-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/react-web-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/react-web-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes/error-code",
+              "path": "/react-web-core/error-codes/error-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-codes/error-code-zero-ten",
+              "path": "/react-web-core/error-codes/error-code-zero-ten",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/react-web-core/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestreaming/livestream-apis",
+              "path": "/react-web-core/livestreaming/livestream-apis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "livestreaming/state-management-apis",
+              "path": "/react-web-core/livestreaming/state-management-apis",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/react-web-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/extras",
+              "path": "/react-web-core/local-user/extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/react-web-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/react-web-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/media-permission-errors",
+              "path": "/react-web-core/local-user/media-permission-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/react-web-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/react-web-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participants",
+              "path": "/react-web-core/participants/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/disable-plugin",
+              "path": "/react-web-core/plugins/disable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/enable-plugin",
+              "path": "/react-web-core/plugins/enable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/extra",
+              "path": "/react-web-core/plugins/extra",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/introduction",
+              "path": "/react-web-core/plugins/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/react-web-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/react-web-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/other-poll-functions",
+              "path": "/react-web-core/polls/other-poll-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/react-web-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/react-web-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/react-web-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteChat",
+              "path": "/react-web-core/reference/DyteChat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteClient",
+              "path": "/react-web-core/reference/DyteClient",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteLivestream",
+              "path": "/react-web-core/reference/DyteLivestream",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteMeta",
+              "path": "/react-web-core/reference/DyteMeta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipant",
+              "path": "/react-web-core/reference/DyteParticipant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipantMap",
+              "path": "/react-web-core/reference/DyteParticipantMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipants",
+              "path": "/react-web-core/reference/DyteParticipants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePermissionsPreset",
+              "path": "/react-web-core/reference/DytePermissionsPreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePlugin",
+              "path": "/react-web-core/reference/DytePlugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePluginMap",
+              "path": "/react-web-core/reference/DytePluginMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePlugins",
+              "path": "/react-web-core/reference/DytePlugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePolls",
+              "path": "/react-web-core/reference/DytePolls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteRecording",
+              "path": "/react-web-core/reference/DyteRecording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteRemote",
+              "path": "/react-web-core/reference/DyteRemote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteSelf",
+              "path": "/react-web-core/reference/DyteSelf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteStage",
+              "path": "/react-web-core/reference/DyteStage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteThemePreset",
+              "path": "/react-web-core/reference/DyteThemePreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "release-notes",
+              "path": "/react-web-core/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/react-web-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/react-web-core/introduction",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "android-core": {
+      "path": "/android-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/android-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "chat/introduction",
+              "path": "/android-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/android-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/android-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/android-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/android-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/android-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-permissions",
+              "path": "/android-core/local-user/manage-permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/android-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/introduction",
+              "path": "/android-core/participants/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/android-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins",
+              "path": "/android-core/plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/android-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/android-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/android-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/android-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/android-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/android-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/android-core/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "flutter-core": {
+      "path": "/flutter-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/flutter-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "chat/introduction",
+              "path": "/flutter-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/flutter-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/flutter-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/flutter-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/flutter-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/flutter-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/flutter-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/introduction",
+              "path": "/flutter-core/participants/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/flutter-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/flutter-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/flutter-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/flutter-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/flutter-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/flutter-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/flutter-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/flutter-core/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "ios-core": {
+      "path": "/ios-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/ios-core",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "chat/introduction",
+              "path": "/ios-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/ios-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/ios-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/ios-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/ios-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/ios-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-permissions",
+              "path": "/ios-core/local-user/manage-permissions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/ios-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/introduction",
+              "path": "/ios-core/participants/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/ios-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins",
+              "path": "/ios-core/plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/ios-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/ios-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/ios-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/ios-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/ios-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/ios-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "waitlist-events",
+              "path": "/ios-core/waitlist-events",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ios-core/",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    },
+    "rn-core": {
+      "path": "/rn-core",
+      "versions": [
+        {
+          "name": "current",
+          "label": "1.x.x",
+          "isLast": true,
+          "path": "/rn-core",
+          "mainDocId": "installation",
+          "docs": [
+            {
+              "id": "chat/introduction",
+              "path": "/rn-core/chat/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/other-chat-functions",
+              "path": "/rn-core/chat/other-chat-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/receiving-chat-messages",
+              "path": "/rn-core/chat/receiving-chat-messages",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "chat/sending-a-chat-message",
+              "path": "/rn-core/chat/sending-a-chat-message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/rn-core/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/events",
+              "path": "/rn-core/local-user/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/introduction",
+              "path": "/rn-core/local-user/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/manage-media-devices",
+              "path": "/rn-core/local-user/manage-media-devices",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "local-user/media-permission-errors",
+              "path": "/rn-core/local-user/media-permission-errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/events",
+              "path": "/rn-core/participants/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participant-object",
+              "path": "/rn-core/participants/participant-object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participants/participants",
+              "path": "/rn-core/participants/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/disable-plugin",
+              "path": "/rn-core/plugins/disable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/enable-plugin",
+              "path": "/rn-core/plugins/enable-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "plugins/introduction",
+              "path": "/rn-core/plugins/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/creating-a-poll",
+              "path": "/rn-core/polls/creating-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/introduction",
+              "path": "/rn-core/polls/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/other-poll-functions",
+              "path": "/rn-core/polls/other-poll-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "polls/voting-on-a-poll",
+              "path": "/rn-core/polls/voting-on-a-poll",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "quickstart",
+              "path": "/rn-core/quickstart",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recording",
+              "path": "/rn-core/recording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteChat",
+              "path": "/rn-core/reference/DyteChat",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteClient",
+              "path": "/rn-core/reference/DyteClient",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteMeta",
+              "path": "/rn-core/reference/DyteMeta",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipant",
+              "path": "/rn-core/reference/DyteParticipant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipantMap",
+              "path": "/rn-core/reference/DyteParticipantMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteParticipants",
+              "path": "/rn-core/reference/DyteParticipants",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePermissionsPreset",
+              "path": "/rn-core/reference/DytePermissionsPreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePlugin",
+              "path": "/rn-core/reference/DytePlugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePluginMap",
+              "path": "/rn-core/reference/DytePluginMap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePlugins",
+              "path": "/rn-core/reference/DytePlugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DytePolls",
+              "path": "/rn-core/reference/DytePolls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteRecording",
+              "path": "/rn-core/reference/DyteRecording",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteRemote",
+              "path": "/rn-core/reference/DyteRemote",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteSelf",
+              "path": "/rn-core/reference/DyteSelf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/DyteThemePreset",
+              "path": "/rn-core/reference/DyteThemePreset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "room-metadata",
+              "path": "/rn-core/room-metadata",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/rn-core/",
+                "label": "installation"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    }
+  }
+}

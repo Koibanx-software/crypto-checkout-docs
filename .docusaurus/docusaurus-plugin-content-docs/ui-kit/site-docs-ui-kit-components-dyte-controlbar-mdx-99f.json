@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-controlbar",
+  "id": "components/dyte-controlbar",
+  "title": "dyte-controlbar",
+  "description": "Controlbar component provides you with various designs as variants.",
+  "source": "@site/docs/ui-kit/components/dyte-controlbar.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-controlbar",
+  "permalink": "/ui-kit/components/dyte-controlbar",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-controlbar.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-controlbar-button",
+    "permalink": "/ui-kit/components/dyte-controlbar-button"
+  },
+  "next": {
+    "title": "dyte-counter",
+    "permalink": "/ui-kit/components/dyte-counter"
+  }
+}

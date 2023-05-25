@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-leave-button",
+  "id": "components/dyte-leave-button",
+  "title": "DyteLeaveButton",
+  "description": "A button which toggles visilibility of the leave confirmation dialog.",
+  "source": "@site/docs/react-ui-kit/components/dyte-leave-button.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-leave-button",
+  "permalink": "/react-ui-kit/components/dyte-leave-button",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-leave-button.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteJoinStage",
+    "permalink": "/react-ui-kit/components/dyte-join-stage"
+  },
+  "next": {
+    "title": "DyteLeaveMeeting",
+    "permalink": "/react-ui-kit/components/dyte-leave-meeting"
+  }
+}

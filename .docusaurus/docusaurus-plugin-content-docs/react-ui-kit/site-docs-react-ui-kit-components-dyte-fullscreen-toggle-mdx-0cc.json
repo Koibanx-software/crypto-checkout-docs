@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-fullscreen-toggle",
+  "id": "components/dyte-fullscreen-toggle",
+  "title": "DyteFullscreenToggle",
+  "description": "A button which toggles full screen mode for any",
+  "source": "@site/docs/react-ui-kit/components/dyte-fullscreen-toggle.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-fullscreen-toggle",
+  "permalink": "/react-ui-kit/components/dyte-fullscreen-toggle",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-fullscreen-toggle.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteFileMessage",
+    "permalink": "/react-ui-kit/components/dyte-file-message"
+  },
+  "next": {
+    "title": "DyteGridPagination",
+    "permalink": "/react-ui-kit/components/dyte-grid-pagination"
+  }
+}

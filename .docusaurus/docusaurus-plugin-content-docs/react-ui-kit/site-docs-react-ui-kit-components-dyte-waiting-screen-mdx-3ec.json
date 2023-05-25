@@ -1,0 +1,26 @@
+{
+  "unversionedId": "components/dyte-waiting-screen",
+  "id": "components/dyte-waiting-screen",
+  "title": "DyteWaitingScreen",
+  "description": "Props",
+  "source": "@site/docs/react-ui-kit/components/dyte-waiting-screen.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-waiting-screen",
+  "permalink": "/react-ui-kit/components/dyte-waiting-screen",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/dyte-waiting-screen.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteTooltip",
+    "permalink": "/react-ui-kit/components/dyte-tooltip"
+  },
+  "next": {
+    "title": "DyteWebinarStageToggle",
+    "permalink": "/react-ui-kit/components/dyte-webinar-stage-toggle"
+  }
+}

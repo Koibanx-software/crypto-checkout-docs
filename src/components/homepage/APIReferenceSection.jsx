@@ -23,15 +23,13 @@ export default function APIReferenceSection() {
         <div className="flex-1">
           <h2 className="text-4xl">API Reference</h2>
           <p className="text-zinc-400">
-            Don&apos;t worry, they are&apos;t complex. Use our
-            developer-friendly APIs and integrate video and voice communication
-            into your web, mobile, or desktop applications programmatically.
+            Aenean tincidunt, nisi dignissim eleifend elementum, massa erat porttitor nisl, ut tempus felis sem a erat. Class aptent taciti sociosqu ad litora torquent
           </p>
           <Link
             href="/api"
             className="font-medium text-primary-100 dark:text-primary"
           >
-            Get started with Dyte APIs &rarr;
+            Get started with Crypto checkout APIs &rarr;
           </Link>
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-1">
@@ -39,13 +37,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/createMeeting"
                 className="group font-jakarta font-semibold text-current"
               >
-                Create a meeting
+                Create payment
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-                Create a meeting for your organization
+                Create payment for cryptos
               </div>
             </li>
             <li className="flex flex-col gap-1">
@@ -53,13 +51,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/addPreset"
                 className="group font-jakarta font-semibold text-current"
               >
-                Add a preset
+                Create stores
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-                Add a preset for the given organization ID
+                Add a stores to your account
               </div>
             </li>
             <li className="flex flex-col gap-1">
@@ -67,13 +65,13 @@ export default function APIReferenceSection() {
                 href="/api/#/operations/deleteParticipant"
                 className="group font-jakarta font-semibold text-current"
               >
-                Delete a participant
+                Anlytics
                 <span className="ml-2 opacity-0 transition group-hover:translate-x-2 group-hover:opacity-100">
                   &rarr;
                 </span>
               </Link>
               <div className="text-zinc-400">
-                Delete a particpant from the meeting
+                get analytics from your oders
               </div>
             </li>
           </ul>

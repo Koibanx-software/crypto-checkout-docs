@@ -1,0 +1,30 @@
+{
+  "unversionedId": "reference/DytePermissionsPreset",
+  "id": "reference/DytePermissionsPreset",
+  "title": "DytePermissionsPreset",
+  "description": "The DytePermissionsPreset class represents the meeting permissions for the",
+  "source": "@site/docs/rn-core/reference/DytePermissionsPreset.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/DytePermissionsPreset",
+  "permalink": "/rn-core/reference/DytePermissionsPreset",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/reference/DytePermissionsPreset.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "web_core_version": "0.42.0"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DyteParticipant",
+    "permalink": "/rn-core/reference/DyteParticipant"
+  },
+  "next": {
+    "title": "DyteMeta",
+    "permalink": "/rn-core/reference/DyteMeta"
+  }
+}

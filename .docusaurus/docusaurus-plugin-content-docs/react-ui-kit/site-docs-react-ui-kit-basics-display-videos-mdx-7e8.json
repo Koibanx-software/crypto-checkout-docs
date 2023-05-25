@@ -1,0 +1,29 @@
+{
+  "unversionedId": "basics/display-videos",
+  "id": "basics/display-videos",
+  "title": "Render participant videos",
+  "description": "To display the videos of all participants you need to show on the screen, you",
+  "source": "@site/docs/react-ui-kit/basics/display-videos.mdx",
+  "sourceDirName": "basics",
+  "slug": "/basics/display-videos",
+  "permalink": "/react-ui-kit/basics/display-videos",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/basics/display-videos.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Prerequisite",
+    "permalink": "/react-ui-kit/basics/integrate"
+  },
+  "next": {
+    "title": "Gallery",
+    "permalink": "/react-ui-kit/components"
+  }
+}

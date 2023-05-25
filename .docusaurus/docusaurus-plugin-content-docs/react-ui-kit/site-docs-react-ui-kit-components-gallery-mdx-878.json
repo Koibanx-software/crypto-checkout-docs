@@ -1,0 +1,30 @@
+{
+  "unversionedId": "components/gallery",
+  "id": "components/gallery",
+  "title": "Gallery",
+  "description": "Here are all the available components, grouped according the",
+  "source": "@site/docs/react-ui-kit/components/gallery.mdx",
+  "sourceDirName": "components",
+  "slug": "/components",
+  "permalink": "/react-ui-kit/components",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-ui-kit/components/gallery.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/components"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Render participant videos",
+    "permalink": "/react-ui-kit/basics/display-videos"
+  },
+  "next": {
+    "title": "DyteAudioVisualizer",
+    "permalink": "/react-ui-kit/components/dyte-audio-visualizer"
+  }
+}

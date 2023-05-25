@@ -1,0 +1,41 @@
+{
+  "unversionedId": "quickstart",
+  "id": "quickstart",
+  "title": "Quickstart",
+  "description": "Quickstart guide for iOS mobile core.",
+  "source": "@site/docs/ios-core/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/ios-core/",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ios-core/quickstart.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/ios-core/tags/mobile-core"
+    },
+    {
+      "label": "quickstart",
+      "permalink": "/ios-core/tags/quickstart"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Quickstart",
+    "description": "Quickstart guide for iOS mobile core.",
+    "sidebar_position": 1,
+    "tags": [
+      "mobile-core",
+      "quickstart"
+    ],
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/ios-core/local-user/introduction"
+  }
+}

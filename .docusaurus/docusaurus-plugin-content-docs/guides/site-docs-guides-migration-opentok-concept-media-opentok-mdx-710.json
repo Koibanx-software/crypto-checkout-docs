@@ -1,0 +1,30 @@
+{
+  "unversionedId": "migration/opentok/concept-media-opentok",
+  "id": "migration/opentok/concept-media-opentok",
+  "title": "Concepts: Media",
+  "description": "This topic compares how OpenTok and Dyte handle media publishing and subscription behavior.",
+  "source": "@site/docs/guides/migration/opentok/concept-media-opentok.mdx",
+  "sourceDirName": "migration/opentok",
+  "slug": "/migration/opentok/concept-media-opentok",
+  "permalink": "/guides/migration/opentok/concept-media-opentok",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/migration/opentok/concept-media-opentok.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Concepts: Media",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concepts: Basic",
+    "permalink": "/guides/migration/opentok/concepts-opentok-vs-dyte"
+  },
+  "next": {
+    "title": "Migrate from OpenTok to Dyte with Shim",
+    "permalink": "/guides/migration/opentok/opentok-shim-by-dyte"
+  }
+}

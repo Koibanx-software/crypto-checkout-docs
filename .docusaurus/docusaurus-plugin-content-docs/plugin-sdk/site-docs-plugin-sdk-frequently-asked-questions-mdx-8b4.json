@@ -1,0 +1,26 @@
+{
+  "unversionedId": "frequently-asked-questions",
+  "id": "frequently-asked-questions",
+  "title": "Frequently Asked Questions",
+  "description": "Here are some frequently asked questions about the Plugin SDK.",
+  "source": "@site/docs/plugin-sdk/frequently-asked-questions.mdx",
+  "sourceDirName": ".",
+  "slug": "/frequently-asked-questions",
+  "permalink": "/plugin-sdk/frequently-asked-questions",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/plugin-sdk/frequently-asked-questions.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Frequently Asked Questions",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exchange data between plugin and meeting",
+    "permalink": "/plugin-sdk/guides/exchange-data-between-plugin-and-meeting"
+  }
+}

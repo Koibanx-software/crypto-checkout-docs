@@ -1,0 +1,32 @@
+{
+  "label": "self",
+  "permalink": "/ios-core/tags/self",
+  "allTagsPath": "/ios-core/tags",
+  "count": 4,
+  "items": [
+    {
+      "id": "local-user/events",
+      "title": "Events",
+      "description": "Local user events guide.",
+      "permalink": "/ios-core/local-user/events"
+    },
+    {
+      "id": "local-user/introduction",
+      "title": "Introduction",
+      "description": "Local user setup guide.",
+      "permalink": "/ios-core/local-user/introduction"
+    },
+    {
+      "id": "local-user/manage-permissions",
+      "title": "Media Permissions",
+      "description": "Local user media guide to manage media permissions.",
+      "permalink": "/ios-core/local-user/manage-permissions"
+    },
+    {
+      "id": "participants/events",
+      "title": "Participant Events",
+      "description": "Event handling for participants.",
+      "permalink": "/ios-core/participants/events"
+    }
+  ]
+}

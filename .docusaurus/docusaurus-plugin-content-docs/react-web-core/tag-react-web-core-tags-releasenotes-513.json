@@ -1,0 +1,14 @@
+{
+  "label": "releasenotes",
+  "permalink": "/react-web-core/tags/releasenotes",
+  "allTagsPath": "/react-web-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "release-notes",
+      "title": "Release Notes",
+      "description": "The release notes lists all new features, resolved issues, and known issues of React Web Core in chronological order.",
+      "permalink": "/react-web-core/release-notes"
+    }
+  ]
+}

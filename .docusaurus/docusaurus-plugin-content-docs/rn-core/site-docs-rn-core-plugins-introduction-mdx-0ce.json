@@ -1,0 +1,44 @@
+{
+  "unversionedId": "plugins/introduction",
+  "id": "plugins/introduction",
+  "title": "Introduction",
+  "description": "Manage plugins in a meeting.",
+  "source": "@site/docs/rn-core/plugins/introduction.mdx",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/introduction",
+  "permalink": "/rn-core/plugins/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/plugins/introduction.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "plugins",
+      "permalink": "/rn-core/tags/plugins"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction",
+    "description": "Manage plugins in a meeting.",
+    "sidebar_position": 1,
+    "tags": [
+      "web-core",
+      "plugins"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Other poll functions",
+    "permalink": "/rn-core/polls/other-poll-functions"
+  },
+  "next": {
+    "title": "Functions to enable plugins",
+    "permalink": "/rn-core/plugins/enable-plugin"
+  }
+}

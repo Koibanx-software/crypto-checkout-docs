@@ -1,0 +1,28 @@
+{
+  "unversionedId": "components/dyte-remote-access-manager",
+  "id": "components/dyte-remote-access-manager",
+  "title": "dyte-remote-access-manager",
+  "description": "A component which lets a user manage remote access requests for their screen.",
+  "source": "@site/docs/ui-kit/components/dyte-remote-access-manager.mdx",
+  "sourceDirName": "components",
+  "slug": "/components/dyte-remote-access-manager",
+  "permalink": "/ui-kit/components/dyte-remote-access-manager",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/ui-kit/components/dyte-remote-access-manager.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {
+    "image": "/static/ui-kit/1.x.x/components/dyte-remote-access-manager.svg"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "dyte-recording-toggle",
+    "permalink": "/ui-kit/components/dyte-recording-toggle"
+  },
+  "next": {
+    "title": "dyte-screen-share-toggle",
+    "permalink": "/ui-kit/components/dyte-screen-share-toggle"
+  }
+}

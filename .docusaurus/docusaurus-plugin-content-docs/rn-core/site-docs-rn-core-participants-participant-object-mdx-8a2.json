@@ -1,0 +1,49 @@
+{
+  "unversionedId": "participants/participant-object",
+  "id": "participants/participant-object",
+  "title": "The participant object",
+  "description": "The object corresponding to a particular participant.",
+  "source": "@site/docs/rn-core/participants/participant-object.mdx",
+  "sourceDirName": "participants",
+  "slug": "/participants/participant-object",
+  "permalink": "/rn-core/participants/participant-object",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/rn-core/participants/participant-object.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/rn-core/tags/web-core"
+    },
+    {
+      "label": "participants",
+      "permalink": "/rn-core/tags/participants"
+    },
+    {
+      "label": "participant",
+      "permalink": "/rn-core/tags/participant"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "The participant object",
+    "description": "The object corresponding to a particular participant.",
+    "sidebar_position": 2,
+    "tags": [
+      "web-core",
+      "participants",
+      "participant"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participants",
+    "permalink": "/rn-core/participants/"
+  },
+  "next": {
+    "title": "Participant Events",
+    "permalink": "/rn-core/participants/events"
+  }
+}

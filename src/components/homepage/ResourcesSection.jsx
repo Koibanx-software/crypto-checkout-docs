@@ -41,9 +41,8 @@ export default function ResourcesSection() {
                   {resource.type}
                 </div>
                 <div className="text-text-400 text-sm">
-                  {`${resource.duration} ${
-                    resource.type === 'Video' ? 'watch' : 'read'
-                  }`}
+                  {`${resource.duration} ${resource.type === 'Video' ? 'watch' : 'read'
+                    }`}
                 </div>
               </div>
             </Link>
@@ -55,19 +54,6 @@ export default function ResourcesSection() {
           <div className="flex gap-2">
             <Link className="underline underline-offset-8" href="/guides/quickstart">
               Guides
-            </Link>
-            <Link
-              className="underline underline-offset-8"
-              href="https://www.youtube.com/channel/UCUBSgG-Tk6w7Pe9loUR3yhw"
-            >
-              Videos
-            </Link>
-            <Link
-              className="underline underline-offset-8"
-              href="https://dyte.io/blog"
-              target="_blank"
-            >
-              Blogs
             </Link>
           </div>
         </div>

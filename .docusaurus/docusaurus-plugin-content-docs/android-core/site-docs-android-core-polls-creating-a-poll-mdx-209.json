@@ -1,0 +1,49 @@
+{
+  "unversionedId": "polls/creating-a-poll",
+  "id": "polls/creating-a-poll",
+  "title": "Creating a poll",
+  "description": "Create polls in a meeting.",
+  "source": "@site/docs/android-core/polls/creating-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/creating-a-poll",
+  "permalink": "/android-core/polls/creating-a-poll",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/android-core/polls/creating-a-poll.mdx",
+  "tags": [
+    {
+      "label": "mobile-core",
+      "permalink": "/android-core/tags/mobile-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/android-core/tags/polls"
+    },
+    {
+      "label": "create",
+      "permalink": "/android-core/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Creating a poll",
+    "description": "Create polls in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "mobile-core",
+      "polls",
+      "create"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/android-core/polls/introduction"
+  },
+  "next": {
+    "title": "Voting on a poll",
+    "permalink": "/android-core/polls/voting-on-a-poll"
+  }
+}

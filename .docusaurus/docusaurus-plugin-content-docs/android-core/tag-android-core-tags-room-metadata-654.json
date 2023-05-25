@@ -1,0 +1,14 @@
+{
+  "label": "room-metadata",
+  "permalink": "/android-core/tags/room-metadata",
+  "allTagsPath": "/android-core/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "room-metadata",
+      "title": "Room Metadata",
+      "description": "All metadata pertaining to a meeting.",
+      "permalink": "/android-core/room-metadata"
+    }
+  ]
+}

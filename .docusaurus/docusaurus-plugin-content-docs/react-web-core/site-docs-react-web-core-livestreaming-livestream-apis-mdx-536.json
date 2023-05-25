@@ -1,0 +1,30 @@
+{
+  "unversionedId": "livestreaming/livestream-apis",
+  "id": "livestreaming/livestream-apis",
+  "title": "Livestreaming: Properties, Functions, and Events",
+  "description": "This topic talks about how you can use livestreaming properties, events, and functions.",
+  "source": "@site/docs/react-web-core/livestreaming/livestream-apis.mdx",
+  "sourceDirName": "livestreaming",
+  "slug": "/livestreaming/livestream-apis",
+  "permalink": "/react-web-core/livestreaming/livestream-apis",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/livestreaming/livestream-apis.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Livestreaming: Properties, Functions, and Events",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Livestreaming State Management APIs",
+    "permalink": "/react-web-core/livestreaming/state-management-apis"
+  },
+  "next": {
+    "title": "Debug System Error Codes",
+    "permalink": "/react-web-core/error-codes/error-code"
+  }
+}

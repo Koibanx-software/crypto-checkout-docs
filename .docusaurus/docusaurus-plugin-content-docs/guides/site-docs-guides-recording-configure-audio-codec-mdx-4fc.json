@@ -1,0 +1,30 @@
+{
+  "unversionedId": "recording/configure-audio-codec",
+  "id": "recording/configure-audio-codec",
+  "title": "Set Audio Configurations",
+  "description": "Recording audio requires configuring the codec and channel parameters to guarantee optimal quality and compatibility with your application's demands.",
+  "source": "@site/docs/guides/recording/configure-audio-codec.mdx",
+  "sourceDirName": "recording",
+  "slug": "/recording/configure-audio-codec",
+  "permalink": "/guides/recording/configure-audio-codec",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/recording/configure-audio-codec.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Set Audio Configurations",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Add Watermark to your Recording",
+    "permalink": "/guides/recording/add-watermark"
+  },
+  "next": {
+    "title": "Livestream the Recording to an External RTMP Endpoint",
+    "permalink": "/guides/recording/livestream-recording"
+  }
+}

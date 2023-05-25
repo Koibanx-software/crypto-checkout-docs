@@ -1,0 +1,26 @@
+{
+  "unversionedId": "livestream/index",
+  "id": "livestream/index",
+  "title": "Interactive Livestreaming",
+  "description": "Learn how to build an interactive livestreaming experience with Dyte. Using Dyte you can livestream any video via RTMP, a Dyte meeting via HLS, or other platforms like YouTube or Twitch.",
+  "source": "@site/docs/guides/livestream/index.mdx",
+  "sourceDirName": "livestream",
+  "slug": "/livestream/",
+  "permalink": "/guides/livestream/",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/guides/livestream/index.mdx",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Verify Webhooks Using Dyte's Signature and Webhook ID",
+    "permalink": "/guides/webhooks/signatures"
+  },
+  "next": {
+    "title": "Interactive Livestreaming Overview",
+    "permalink": "/guides/livestream/livestream-overview"
+  }
+}

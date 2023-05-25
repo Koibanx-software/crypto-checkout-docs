@@ -1,0 +1,49 @@
+{
+  "unversionedId": "polls/creating-a-poll",
+  "id": "polls/creating-a-poll",
+  "title": "Creating a poll",
+  "description": "Create polls in a meeting.",
+  "source": "@site/docs/react-web-core/polls/creating-a-poll.mdx",
+  "sourceDirName": "polls",
+  "slug": "/polls/creating-a-poll",
+  "permalink": "/react-web-core/polls/creating-a-poll",
+  "draft": false,
+  "editUrl": "https://github.com/dyte-in/docs/tree/main/docs/react-web-core/polls/creating-a-poll.mdx",
+  "tags": [
+    {
+      "label": "web-core",
+      "permalink": "/react-web-core/tags/web-core"
+    },
+    {
+      "label": "polls",
+      "permalink": "/react-web-core/tags/polls"
+    },
+    {
+      "label": "create",
+      "permalink": "/react-web-core/tags/create"
+    }
+  ],
+  "version": "current",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "14 oct 2018",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Creating a poll",
+    "description": "Create polls in a meeting.",
+    "sidebar_position": 2,
+    "tags": [
+      "web-core",
+      "polls",
+      "create"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/react-web-core/polls/introduction"
+  },
+  "next": {
+    "title": "Voting on a poll",
+    "permalink": "/react-web-core/polls/voting-on-a-poll"
+  }
+}
