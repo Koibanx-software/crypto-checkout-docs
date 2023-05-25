@@ -1,22 +1,15 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://dyte.io">
-    <img src="https://assets.dyte.io/logo-outlined.png" alt="Logo" width="120">
+    <img src="./static/logo/koibanx.svg" alt="Logo" width="120">
   </a>
 
-  <h2 align="center">Dyte Docs</h3>
+  <h2 align="center">Crypto Checkout Docs</h3>
 
   <p align="center">
-    Dyte's documentation portal, built with Docusaurus.
-    <br />
-    <a href="https://docs.dyte.io"><strong>Explore the docs »</strong></a>
+    Crypto checkout documentation portal, built with Docusaurus.
     <br />
     <br />
-    <a href="https://app.dyte.io">View Demo</a>
-    ·
-    <a href="https://github.com/dyte-in/docs/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/dyte-in/docs/issues">Request Feature</a>
   </p>
 </p>
 
@@ -67,7 +60,7 @@ This section describes how you can get our documentation portal up and running o
 1. Clone the repo
 
 ```sh
-git clone https://github.com/dyte-in/docs.git
+git clone https://github.com/Koibanx-software/crypto-checkout-docs
 ```
 
 2. Install NPM packages
