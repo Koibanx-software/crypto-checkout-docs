@@ -11,7 +11,7 @@ export default function V2API() {
     <Redirect
       to={{
         pathname: '/api',
-        search: 'v=v2',
+        search: 'v=v1',
         hash: router.location.hash,
       }}
     />

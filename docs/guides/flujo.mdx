@@ -1,0 +1,38 @@
+---
+title: 'Front end Flujo'
+sidebar_position: 2
+---
+
+# Quickstart
+
+
+:::tip Note
+
+Esta es una version inicial del flujo completo para poder forma a la documentacion
+
+:::
+
+### 1 Crear usuario
+
+Primero que nada necesitamos crear un usuario. para esto lo crearemos con el endpoint [Create User](/api/?v=v1#/paths/v1-user/post)
+
+
+### 2 Enviar OTP
+
+Generaremos una contraseña temporal para verificar al usuario con el enpoint [Create OTP](/api/?v=v1#/paths/v1-auth-otp/post)
+
+### 3 Verificar OTP
+
+Verificaremos que el OTP sea correcto y obtendremos un token con el endpoint [Login](/api/?v=v1#/paths/v1-auth-sign-in/post) 
+
+### 4 Actualizar contraseña 
+
+Actualizaremos la contraseña con el sigueinte enpoint [change password](/api/?v=v1#/paths/v1-auth-change-password/put)
+
+### 5 Crear tienda
+
+crearemos la tienda para el usuario con el endpoint [Create Store](/api/?v=v1#/paths/v1-store/post)
+
+### 6 Obtener Perfil
+
+Obtendremos la informacion del usuario actual con el siguiente endpoint [Profile](/api/?v=v1#/paths/v1-auth-profile/get)

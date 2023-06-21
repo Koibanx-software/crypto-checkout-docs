@@ -54,12 +54,12 @@ export default function Home() {
     `https://docs.dyte.io${location.pathname}${location.search}`
   );
 
-  const currentVersion = url.searchParams.get('v') || 'v2';
+  const currentVersion = url.searchParams.get('v') || 'v1';
 
   return (
     <Layout
       title="API Reference"
-      description="Dyte REST API Reference"
+      description="Crypto Checkout REST API Reference"
       noFooter
       wrapperClassName="api-reference"
     >
@@ -93,7 +93,6 @@ export default function Home() {
             defaultValue={currentVersion}
             values={[
               { name: 'v1', docId: 'v1' },
-              { name: 'v2', docId: 'v2' },
             ]}
             onValueChange={(version) => {
               router.push(`/api/?v=${version}`);

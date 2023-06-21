@@ -56,9 +56,9 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
   const configFacetFilters = props.searchParameters?.facetFilters ?? [];
   const facetFilters = contextualSearch
     ? // Merge contextual search filters with config filters
-      mergeFacetFilters(contextualSearchFacetFilters, configFacetFilters)
+    mergeFacetFilters(contextualSearchFacetFilters, configFacetFilters)
     : // ... or use config facetFilters
-      configFacetFilters;
+    configFacetFilters;
   // We let user override default searchParameters if she wants to
   const searchParameters = {
     ...props.searchParameters,
@@ -118,12 +118,12 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
   const transformItems = useRef((items) =>
     props.transformItems
       ? // Custom transformItems
-        props.transformItems(items)
+      props.transformItems(items)
       : // Default transformItems
-        items.map((item) => ({
-          ...item,
-          url: processSearchResultUrl(item.url),
-        }))
+      items.map((item) => ({
+        ...item,
+        url: processSearchResultUrl(item.url),
+      }))
   ).current;
   const resultsFooterComponent = useMemo(
     () => (footerProps) => <ResultsFooter {...footerProps} onClose={onClose} />,
@@ -174,19 +174,6 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
       </Head>
 
       <div className="relative flex items-center gap-2">
-        <div
-          className="group flex h-9 cursor-pointer items-center gap-2 rounded-lg border-2 border-transparent bg-[var(--docsearch-searchbox-background)] px-3 transition-colors hover:border-primary hover:dark:border-primary-100"
-          title="Dyte AI Chatbot"
-          onClick={() => {
-            setSelectedIndex(0);
-            onOpen();
-          }}
-        >
-          <DyteAISearchIcon className="h-6 w-6" />
-          <span className="sr-only pointer-events-none text-xs font-medium text-[var(--docsearch-muted-color)] transition-all group-hover:xl:not-sr-only">
-            Dyte AI
-          </span>
-        </div>
 
         <DocSearchButton
           onTouchStart={importDocSearchModalIfNeeded}
@@ -210,7 +197,7 @@ function DocSearch({ contextualSearch, externalUrlRegex, ...props }) {
             className={clsx(
               'fixed inset-0 z-[300] flex flex-col overflow-y-auto',
               selectedIndex === 0 &&
-                'bg-gradient-to-br from-blue-600/40 to-red-600/40'
+              'bg-gradient-to-br from-blue-600/40 to-red-600/40'
             )}
             onClick={(e) => {
               if (

@@ -12,7 +12,7 @@ export default function HeroSection() {
       </Head>
       <div className="mx-auto flex max-w-7xl flex-col items-center lg:h-[540px] lg:flex-row">
         <div className="flex-1 text-center lg:text-left">
-          <h1 className="mb-6 font-jakarta text-4xl font-bold lg:text-6xl">
+          <h1 className="mb-6 text-4xl font-bold lg:text-6xl">
             Build with Checkout
           </h1>
           <p className="text-sm text-text-400 lg:max-w-lg lg:text-base">
