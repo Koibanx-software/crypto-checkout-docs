@@ -1,6 +1,6 @@
 const RESOURCES = [
   {
-    url: '/guides/v2-migration-guide',
+    url: 'https://www.koibanx.com/',
     type: 'Guide',
     title: 'Resource 1',
     description: 'Nam aliquam purus est. Donec scelerisque leo sit amet ex laoreet imperdiet. Fusce semper consequat eros, eu fermentum purus maximus condimentum.',

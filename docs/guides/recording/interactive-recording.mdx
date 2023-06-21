@@ -37,7 +37,7 @@ To add interactivity to your Dyte recording, perform the following steps:
 
 This parameter enables you to add timed metadata to your recordings, which is made available to clients in HLS format via ID3 tags. The output files are packaged as a tar file.
 
-2. In [DyteClient](/web-core/reference/DyteClient), call the `broadcastMessage` method with the parameters, `ID3` (as a string) and `yourData` (the data you want to send as timed metadata) on the [participants](/web-core/reference/DyteClient#module_DyteClient+participants) object.
+2. In , call the `broadcastMessage` method with the parameters, `ID3` (as a string) and `yourData` (the data you want to send as timed metadata) on the  object.
 
 ```ts
 client.participants.broadcastMessage(“ID3”, yourData);
