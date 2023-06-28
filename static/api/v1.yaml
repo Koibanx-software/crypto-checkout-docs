@@ -1,1356 +1,892 @@
-openapi: 3.0.3
+openapi: 3.0.0
+info:
+  title: Crypto checkout
+  version: 1.0.0
 paths:
-  /v1/auth/profile:
-    get:
-      tags:
-        - AuthController
-      summary: Get profile
-      description: This endpoint retrieves the profile information of a user.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  email:
-                    type: string
-                    format: email
-                  isDeleted:
-                    type: boolean
-                  name:
-                    type: string
-                  roleName:
-                    type: string
-                  cryptoCheckoutAccountId:
-                    type: string
-                  isTermsAcepted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                    format: date-time
-                  updatedAt:
-                    type: string
-                    format: date-time
-                required:
-                  - _id
-                  - email
-                  - isDeleted
-                  - name
-                  - roleName
-                  - cryptoCheckoutAccountId
-                  - isTermsAcepted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/auth/sign-in:
-    post:
-      tags:
-        - AuthController
-      summary: Iniciar sesion
-      description: This endpoint allows a user to sign in to the system.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  email:
-                    type: string
-                  expiration:
-                    type: number
-                  refresh:
-                    type: string
-                  refreshExpiration:
-                    type: number
-                required:
-                  - email
-                  - expiration
-                  - refresh
-                  - refreshExpiration
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/auth/otp:
-    post:
-      tags:
-        - AuthController
-      summary: Generar codigo OTP
-      description: envia un codigo otp al usuario
-      parameters: []
-      deprecated: false
-      requestBody:
-        content:
-          json/application:
-            schema:
-              type: object
-              properties:
-                email:
-                  type: string
-                  format: email
-              required:
-                - email
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  email:
-                    type: string
-                  otp:
-                    type: string
-                required:
-                  - email
-                  - otp
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/auth/change-password:
-    put:
-      tags:
-        - AuthController
-      summary: Cambiar password
-      description: Cambia el password de un usuario
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  email:
-                    type: string
-                  otp:
-                    type: string
-                required:
-                  - email
-                  - otp
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/store:
-    post:
-      tags:
-        - StoreController
-      summary: Create store
-      description: This endpoint allows creating a new store.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-      deprecated: false
-      requestBody:
-        content:
-          json/application:
-            schema:
-              type: object
-              properties:
-                name:
-                  type: string
-                cuit:
-                  type: string
-                service:
-                  type: string
-              required:
-                - name
-                - cuit
-                - service
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  name:
-                    type: string
-                  apiKey:
-                    type: string
-                  owner:
-                    type: string
-                  cashiers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  viewers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  isDeleted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                  updatedAt:
-                    type: string
-                required:
-                  - _id
-                  - name
-                  - apiKey
-                  - owner
-                  - cashiers
-                  - viewers
-                  - isDeleted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-    get:
-      tags:
-        - StoreController
-      summary: Get all stores
-      description: This endpoint retrieves the information of all stores in the system.
-      parameters:
-        - name: name
-          in: query
-          required: false
-        - name: sort
-          in: query
-          required: false
-        - name: limit
-          in: query
-          required: false
-        - name: page
-          in: query
-          required: false
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  page:
-                    type: number
-                  pages:
-                    type: number
-                  total:
-                    type: number
-                  limit:
-                    type: number
-                  results:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        _id:
-                          type: string
-                          pattern: ^[0-9a-fA-F]{24}$
-                        name:
-                          type: string
-                        apiKey:
-                          type: string
-                        owner:
-                          type: string
-                        cashiers:
-                          type: array
-                          items:
-                            type: string
-                            pattern: ^[0-9a-fA-F]{24}$
-                        viewers:
-                          type: array
-                          items:
-                            type: string
-                            pattern: ^[0-9a-fA-F]{24}$
-                        isDeleted:
-                          type: boolean
-                        createdAt:
-                          type: string
-                        updatedAt:
-                          type: string
-                      required:
-                        - _id
-                        - name
-                        - apiKey
-                        - owner
-                        - cashiers
-                        - viewers
-                        - isDeleted
-                        - createdAt
-                        - updatedAt
-                required:
-                  - page
-                  - pages
-                  - total
-                  - limit
-                  - results
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/store/{id}:
-    get:
-      tags:
-        - StoreController
-      summary: Get store by id
-      description: This endpoint retrieves the store information based on the provided ID.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  name:
-                    type: string
-                  apiKey:
-                    type: string
-                  owner:
-                    type: string
-                  cashiers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  viewers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  isDeleted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                  updatedAt:
-                    type: string
-                required:
-                  - _id
-                  - name
-                  - apiKey
-                  - owner
-                  - cashiers
-                  - viewers
-                  - isDeleted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-    put:
-      tags:
-        - StoreController
-      summary: Update store
-      description: This endpoint allows updating the information of a store.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      requestBody:
-        content:
-          json/application:
-            schema:
-              type: object
-              properties:
-                name:
-                  type: string
-                cuit:
-                  type: string
-                service:
-                  type: string
-              required:
-                - name
-                - cuit
-                - service
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  name:
-                    type: string
-                  apiKey:
-                    type: string
-                  owner:
-                    type: string
-                  cashiers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  viewers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  isDeleted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                  updatedAt:
-                    type: string
-                required:
-                  - _id
-                  - name
-                  - apiKey
-                  - owner
-                  - cashiers
-                  - viewers
-                  - isDeleted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-    delete:
-      tags:
-        - StoreController
-      summary: Delete store by id
-      description: This endpoint deletes a store from the system based on the provided ID.
-      parameters:
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      responses:
-        '202':
-          description: Accepted
-          content: {}
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/store/{id}/user-invite:
-    post:
-      tags:
-        - StoreController
-      summary: Add user to store
-      description: This endpoint allows adding a user to a store.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      requestBody:
-        content:
-          json/application:
-            schema:
-              type: object
-              properties:
-                userId:
-                  type: string
-                role:
-                  type: string
-                  enum:
-                    - cashier
-                    - viewer
-              required:
-                - userId
-                - role
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  name:
-                    type: string
-                  apiKey:
-                    type: string
-                  owner:
-                    type: string
-                  cashiers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  viewers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  isDeleted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                  updatedAt:
-                    type: string
-                required:
-                  - _id
-                  - name
-                  - apiKey
-                  - owner
-                  - cashiers
-                  - viewers
-                  - isDeleted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/store/{id}/user-role:
-    put:
-      tags:
-        - StoreController
-      summary: Update user role store
-      description: This endpoint allows updating the role of a user in a store.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      requestBody:
-        content:
-          json/application:
-            schema:
-              type: object
-              properties:
-                userId:
-                  type: string
-                role:
-                  type: string
-                  enum:
-                    - cashier
-                    - viewer
-              required:
-                - userId
-                - role
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  name:
-                    type: string
-                  apiKey:
-                    type: string
-                  owner:
-                    type: string
-                  cashiers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  viewers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  isDeleted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                  updatedAt:
-                    type: string
-                required:
-                  - _id
-                  - name
-                  - apiKey
-                  - owner
-                  - cashiers
-                  - viewers
-                  - isDeleted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/store/{id}/user:
-    delete:
-      tags:
-        - StoreController
-      summary: Remove user from store
-      description: This endpoint allows removing a user from a store.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      requestBody:
-        content:
-          json/application:
-            schema:
-              type: object
-              properties:
-                userId:
-                  type: string
-              required:
-                - userId
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  name:
-                    type: string
-                  apiKey:
-                    type: string
-                  owner:
-                    type: string
-                  cashiers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  viewers:
-                    type: array
-                    items:
-                      type: string
-                      pattern: ^[0-9a-fA-F]{24}$
-                  isDeleted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                  updatedAt:
-                    type: string
-                required:
-                  - _id
-                  - name
-                  - apiKey
-                  - owner
-                  - cashiers
-                  - viewers
-                  - isDeleted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
   /v1/user:
     post:
+      operationId: PostV1User
+      responses:
+        "200":
+          description: POST /v1/user Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      user:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                          name:
+                            type: string
+                          lastName:
+                            type: string
+                          email:
+                            type: string
+                            format: email
+                          roleName:
+                            type: string
+                          cryptoCheckoutAccountId:
+                            type: string
+                        required:
+                          - name
+                          - lastName
+                          - email
+                          - roleName
+                          - cryptoCheckoutAccountId
+                    required:
+                      - user
+                required:
+                  - status
+                  - data
+        "400":
+          description: POST /v1/user Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Creacion de usuarios
+      summary: Creacion de usuarios
       tags:
-        - UserController
-      summary: Create user
-      description: Este endpoint ter permite crear un usuario
-      parameters: []
-      deprecated: false
+        - users
       requestBody:
+        description: POST /v1/user request body
         content:
-          json/application:
+          application/json:
             schema:
               type: object
               properties:
                 name:
                   type: string
+                lastName:
+                  type: string
                 email:
                   type: string
                   format: email
-                password:
-                  type: string
                 isTermsAcepted:
                   type: boolean
               required:
                 - name
+                - lastName
                 - email
-                - password
                 - isTermsAcepted
+  /v1/store:
+    post:
+      operationId: PostV1Store
       responses:
-        '200':
-          description: ''
+        "200":
+          description: POST /v1/store Successful response
           content:
-            json/application:
+            application/json:
               schema:
                 type: object
                 properties:
-                  _id:
+                  status:
                     type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  email:
-                    type: string
-                    format: email
-                  isDeleted:
-                    type: boolean
-                  name:
-                    type: string
-                  roleName:
-                    type: string
-                  cryptoCheckoutAccountId:
-                    type: string
-                  isTermsAcepted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                    format: date-time
-                  updatedAt:
-                    type: string
-                    format: date-time
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      cuit:
+                        type: string
+                      service:
+                        type: string
+                      address:
+                        type: object
+                        properties:
+                          street:
+                            type: string
+                        required:
+                          - street
+                      img:
+                        type: string
+                      files:
+                        type: object
+                        properties:
+                          address:
+                            type: string
+                        required:
+                          - address
+                      slug:
+                        type: string
+                      phone:
+                        type: string
+                      apiKey:
+                        type: string
+                    required:
+                      - name
+                      - cuit
+                      - service
+                      - address
+                      - img
+                      - files
+                      - slug
+                      - phone
+                      - apiKey
                 required:
-                  - _id
-                  - email
-                  - isDeleted
-                  - name
-                  - roleName
-                  - cryptoCheckoutAccountId
-                  - isTermsAcepted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
+                  - status
+                  - data
+        "400":
+          description: POST /v1/store Error response
           content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-    get:
-      tags:
-        - UserController
-      summary: Get all users
-      description: This endpoint retrieves the information of all users in the system.
-      parameters:
-        - name: name
-          in: query
-          required: false
-        - name: email
-          in: query
-          required: false
-        - name: sort
-          in: query
-          required: false
-        - name: limit
-          in: query
-          required: false
-        - name: page
-          in: query
-          required: false
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
+            application/json:
               schema:
                 type: object
                 properties:
-                  page:
-                    type: number
-                  pages:
-                    type: number
-                  total:
-                    type: number
-                  limit:
-                    type: number
-                  results:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        _id:
-                          type: string
-                          pattern: ^[0-9a-fA-F]{24}$
-                        email:
-                          type: string
-                          format: email
-                        isDeleted:
-                          type: boolean
-                        name:
-                          type: string
-                        roleName:
-                          type: string
-                        cryptoCheckoutAccountId:
-                          type: string
-                        isTermsAcepted:
-                          type: boolean
-                        createdAt:
-                          type: string
-                          format: date-time
-                        updatedAt:
-                          type: string
-                          format: date-time
-                      required:
-                        - _id
-                        - email
-                        - isDeleted
-                        - name
-                        - roleName
-                        - cryptoCheckoutAccountId
-                        - isTermsAcepted
-                        - createdAt
-                        - updatedAt
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
                 required:
-                  - page
-                  - pages
-                  - total
-                  - limit
-                  - results
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-  /v1/user/{id}:
-    get:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Crear store
+      summary: Crear Store
       tags:
-        - UserController
-      summary: Get user by id
-      description: This endpoint retrieves the user information based on the provided ID.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      responses:
-        '200':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: object
-                properties:
-                  _id:
-                    type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  email:
-                    type: string
-                    format: email
-                  isDeleted:
-                    type: boolean
-                  name:
-                    type: string
-                  roleName:
-                    type: string
-                  cryptoCheckoutAccountId:
-                    type: string
-                  isTermsAcepted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                    format: date-time
-                  updatedAt:
-                    type: string
-                    format: date-time
-                required:
-                  - _id
-                  - email
-                  - isDeleted
-                  - name
-                  - roleName
-                  - cryptoCheckoutAccountId
-                  - isTermsAcepted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-    delete:
-      tags:
-        - UserController
-      summary: Delete user by id
-      description: This endpoint deletes a user from the system based on the provided ID.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
-      responses:
-        '202':
-          description: Accepted
-          content: {}
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
-                    data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
-                  required:
-                    - status
-                    - data
-    put:
-      tags:
-        - UserController
-      summary: Update user
-      description: This endpoint allows updating the information of a user.
-      parameters:
-        - name: authorization
-          in: header
-          required: false
-        - name: id
-          in: path
-          required: true
-      deprecated: false
+        - stores
       requestBody:
+        description: POST /v1/store request body
         content:
-          json/application:
+          application/json:
+            schema:
+              allOf:
+                - type: object
+                  properties: {}
+                - type: object
+                  properties:
+                    id:
+                      type: string
+                    img:
+                      type: string
+                    name:
+                      type: string
+                    address:
+                      type: object
+                      properties:
+                        street:
+                          type: string
+                      required:
+                        - street
+                    files:
+                      type: object
+                      properties:
+                        address:
+                          type: string
+                      required:
+                        - address
+                    cuit:
+                      type: string
+                    service:
+                      type: string
+                    phone:
+                      type: string
+                  required:
+                    - img
+                    - name
+                    - address
+                    - files
+                    - cuit
+                    - service
+                    - phone
+      security:
+        - APIKEY_1: []
+    put:
+      operationId: PutV1Store
+      responses:
+        "200":
+          description: PUT /v1/store Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      cuit:
+                        type: string
+                      service:
+                        type: string
+                      address:
+                        type: object
+                        properties:
+                          street:
+                            type: string
+                        required:
+                          - street
+                      img:
+                        type: string
+                      files:
+                        type: object
+                        properties:
+                          address:
+                            type: string
+                        required:
+                          - address
+                      slug:
+                        type: string
+                      phone:
+                        type: string
+                      apiKey:
+                        type: string
+                    required:
+                      - name
+                      - cuit
+                      - service
+                      - address
+                      - img
+                      - files
+                      - slug
+                      - phone
+                      - apiKey
+                required:
+                  - status
+                  - data
+        "400":
+          description: PUT /v1/store Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Actualizar store
+      summary: Actualizar Store
+      tags:
+        - stores
+      requestBody:
+        description: PUT /v1/store request body
+        content:
+          application/json:
+            schema:
+              allOf:
+                - type: object
+                  properties: {}
+                - type: object
+                  properties:
+                    id:
+                      type: string
+                    img:
+                      type: string
+                    name:
+                      type: string
+                    address:
+                      type: object
+                      properties:
+                        street:
+                          type: string
+                      required:
+                        - street
+                    cuit:
+                      type: string
+                    service:
+                      type: string
+                    phone:
+                      type: string
+                  required:
+                    - id
+                    - img
+                    - name
+                    - address
+                    - cuit
+                    - service
+                    - phone
+      security:
+        - APIKEY_1: []
+    get:
+      operationId: GetV1Store
+      responses:
+        "200":
+          description: GET /v1/store Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      stores:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            name:
+                              type: string
+                            cuit:
+                              type: string
+                            service:
+                              type: string
+                            address:
+                              type: object
+                              properties:
+                                street:
+                                  type: string
+                              required:
+                                - street
+                            img:
+                              type: string
+                            files:
+                              type: object
+                              properties:
+                                address:
+                                  type: string
+                              required:
+                                - address
+                            slug:
+                              type: string
+                            phone:
+                              type: string
+                            apiKey:
+                              type: string
+                          required:
+                            - name
+                            - cuit
+                            - service
+                            - address
+                            - img
+                            - files
+                            - slug
+                            - phone
+                            - apiKey
+                    required:
+                      - stores
+                required:
+                  - status
+                  - data
+        "400":
+          description: GET /v1/store Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Obtener store
+      summary: Obtener Store
+      tags:
+        - stores
+      security:
+        - APIKEY_1: []
+  /v1/auth/otp:
+    post:
+      operationId: PostV1AuthOtp
+      responses:
+        "200":
+          description: POST /v1/auth/otp Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      otp:
+                        format: any
+                required:
+                  - status
+                  - data
+        "400":
+          description: POST /v1/auth/otp Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Envio de One time password
+      summary: Envio OTP
+      tags:
+        - auth
+      requestBody:
+        description: POST /v1/auth/otp request body
+        content:
+          application/json:
             schema:
               type: object
               properties:
-                name:
-                  type: string
                 email:
                   type: string
                   format: email
-                password:
-                  type: string
-                isTermsAcepted:
-                  type: boolean
+              required:
+                - email
+  /v1/auth/sign-in:
+    post:
+      operationId: PostV1AuthSignIn
       responses:
-        '200':
-          description: ''
+        "200":
+          description: POST /v1/auth/sign-in Successful response
           content:
-            json/application:
+            application/json:
               schema:
                 type: object
                 properties:
-                  _id:
+                  status:
                     type: string
-                    pattern: ^[0-9a-fA-F]{24}$
-                  email:
-                    type: string
-                    format: email
-                  isDeleted:
-                    type: boolean
-                  name:
-                    type: string
-                  roleName:
-                    type: string
-                  cryptoCheckoutAccountId:
-                    type: string
-                  isTermsAcepted:
-                    type: boolean
-                  createdAt:
-                    type: string
-                    format: date-time
-                  updatedAt:
-                    type: string
-                    format: date-time
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      jwt:
+                        type: string
+                      expiration:
+                        type: number
+                        format: double
+                        minimum: 5e-324
+                        exclusiveMinimum: false
+                        maximum: 1.7976931348623157e+308
+                        exclusiveMaximum: false
+                      refresh:
+                        type: string
+                      refreshExpiration:
+                        type: number
+                        format: double
+                        minimum: 5e-324
+                        exclusiveMinimum: false
+                        maximum: 1.7976931348623157e+308
+                        exclusiveMaximum: false
+                    required:
+                      - jwt
+                      - expiration
+                      - refresh
+                      - refreshExpiration
+                    example:
+                      jwt: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
+                      expiration: 1688766803
+                      refresh: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
+                      refreshExpiration: 1688766803
                 required:
-                  - _id
-                  - email
-                  - isDeleted
-                  - name
-                  - roleName
-                  - cryptoCheckoutAccountId
-                  - isTermsAcepted
-                  - createdAt
-                  - updatedAt
-        '400':
-          description: ''
-          content:
-            json/application:
-              schema:
-                type: array
-                items:
-                  type: object
-                  properties:
-                    status:
-                      type: number
+                  - status
+                  - data
+              examples:
+                example1:
+                  value:
+                    status: success
                     data:
-                      type: object
-                      properties:
-                        reason:
-                          type: string
-                        msg:
-                          type: string
-                      required:
-                        - reason
-                        - msg
+                      jwt: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
+                      expiration: 1688766803
+                      refresh: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
+                      refreshExpiration: 1688766803
+        "400":
+          description: POST /v1/auth/sign-in Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: inicio de sesion
+      summary: Inicio de sesion
+      tags:
+        - auth
+      requestBody:
+        description: POST /v1/auth/sign-in request body
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+              required:
+                - username
+                - password
+  /v1/auth/change-password:
+    put:
+      operationId: PutV1AuthChangePassword
+      responses:
+        "200":
+          description: PUT /v1/auth/change-password Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties: {}
+                required:
+                  - status
+                  - data
+        "400":
+          description: PUT /v1/auth/change-password Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Cambiar password
+      summary: Cambiar password
+      tags:
+        - auth
+      requestBody:
+        description: PUT /v1/auth/change-password request body
+        content:
+          application/json:
+            schema:
+              allOf:
+                - type: object
+                  properties: {}
+                - type: object
+                  properties:
+                    password:
+                      type: string
                   required:
-                    - status
-                    - data
-components: {}
-info:
-  title: Crypto Checkout
-  description: Crypto Checkout
-  version: 1.0.0
+                    - password
+      security:
+        - APIKEY_1: []
+  /v1/auth/profile:
+    get:
+      operationId: GetV1AuthProfile
+      responses:
+        "200":
+          description: GET /v1/auth/profile Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      user:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                          name:
+                            type: string
+                          lastName:
+                            type: string
+                          email:
+                            type: string
+                            format: email
+                          roleName:
+                            type: string
+                          cryptoCheckoutAccountId:
+                            type: string
+                        required:
+                          - name
+                          - lastName
+                          - email
+                          - roleName
+                          - cryptoCheckoutAccountId
+                    required:
+                      - user
+                required:
+                  - status
+                  - data
+        "400":
+          description: GET /v1/auth/profile Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Obtener perfil
+      summary: Obtener perfil
+      tags:
+        - auth
+      security:
+        - APIKEY_1: []
+  /v1/file/uploadPublic:
+    post:
+      operationId: PostV1FileUploadpublic
+      responses:
+        "200":
+          description: POST /v1/file/uploadPublic Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - success
+                  data:
+                    type: object
+                    properties:
+                      file:
+                        type: object
+                        properties:
+                          name:
+                            type: string
+                          path:
+                            type: string
+                        required:
+                          - name
+                          - path
+                    required:
+                      - file
+                required:
+                  - status
+                  - data
+        "400":
+          description: POST /v1/file/uploadPublic Error response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - error
+                  error:
+                    type: object
+                    properties:
+                      message:
+                        type: string
+                    required:
+                      - message
+                required:
+                  - status
+                  - error
+              examples:
+                example1:
+                  value:
+                    status: error
+                    error:
+                      message: Sample error message
+      description: Subir Archivo
+      summary: Subir Archivo
+      tags:
+        - files
+      requestBody:
+        description: POST /v1/file/uploadPublic request body
+        content:
+          multipart/form-data:
+            schema:
+              allOf:
+                - type: object
+                  properties: {}
+                - type: object
+                  properties:
+                    file:
+                      type: string
+                      format: binary
+                  required:
+                    - file
+      security:
+        - APIKEY_1: []
+components:
+  schemas: {}
+  responses: {}
+  parameters: {}
+  examples: {}
+  requestBodies: {}
+  headers: {}
+  securitySchemes:
+    APIKEY_1:
+      type: apiKey
+      in: header
+      name: Authorization
+  links: {}
+  callbacks: {}
+tags:
+  - name: users
+    description: Control de usuarios
+  - name: auth
+    description: Control de autenticacion
+  - name: files
+    description: Control de archivos
+  - name: stores
+    description: Control de tiendas
 servers:
-  - url: http://localhost:3000
-    description: LOCAL
+  - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
+

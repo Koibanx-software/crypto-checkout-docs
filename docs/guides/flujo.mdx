@@ -14,25 +14,28 @@ Esta es una version inicial del flujo completo para poder forma a la documentaci
 
 ### 1 Crear usuario
 
-Primero que nada necesitamos crear un usuario. para esto lo crearemos con el endpoint [Create User](/api/?v=v1#/paths/v1-user/post)
+Primero que nada necesitamos crear un usuario. para esto lo crearemos con el endpoint [Create User](/api#/operations/PostV1User)
 
 
 ### 2 Enviar OTP
 
-Generaremos una contraseña temporal para verificar al usuario con el enpoint [Create OTP](/api/?v=v1#/paths/v1-auth-otp/post)
+Generaremos una contraseña temporal para verificar al usuario con el enpoint [Create OTP](api#/operations/PostV1AuthOtp)
 
 ### 3 Verificar OTP
 
-Verificaremos que el OTP sea correcto y obtendremos un token con el endpoint [Login](/api/?v=v1#/paths/v1-auth-sign-in/post) 
+Verificaremos que el OTP sea correcto y obtendremos un token con el endpoint [Login](api#/operations/PostV1AuthSignIn) 
 
 ### 4 Actualizar contraseña 
 
-Actualizaremos la contraseña con el sigueinte enpoint [change password](/api/?v=v1#/paths/v1-auth-change-password/put)
+Actualizaremos la contraseña con el sigueinte enpoint [change password](api#/operations/PutV1AuthChangePassword)
 
 ### 5 Crear tienda
 
-crearemos la tienda para el usuario con el endpoint [Create Store](/api/?v=v1#/paths/v1-store/post)
+crearemos la tienda para el usuario con el endpoint [Create Store](api#/operations/PostV1Store)
 
+el objeto address y files los contenidos de deben ser url de archivos y para subir archivos tenemos el enpoint para subirlos [Subir archivos](api#/operations/PostV1FileUploadpublic)
+y la url a guardar sera el **path** de la respuesta al guardar el archivo
+l
 ### 6 Obtener Perfil
 
-Obtendremos la informacion del usuario actual con el siguiente endpoint [Profile](/api/?v=v1#/paths/v1-auth-profile/get)
+Obtendremos la informacion del usuario actual con el siguiente endpoint [Profile](api#/operations/GetV1AuthProfile)
