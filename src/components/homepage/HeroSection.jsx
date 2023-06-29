@@ -36,8 +36,8 @@ export default function HeroSection() {
         <div className="mt-6 flex-1 lg:mt-0 xl:flex-none">
           <ThemedImage
             sources={{
-              light: '/static/landing-page/hero-light.png',
-              dark: '/static/landing-page/hero-dark.png',
+              light: '/static/landing-page/wallet.png',
+              dark: '/static/landing-page/wallet.png',
             }}
             alt="Preview of using Dyte SDKs"
             className="max-w-[420px] lg:max-w-[560px]"
