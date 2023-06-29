@@ -1,0 +1,73 @@
+---
+title: 'Flujo de pago'
+sidebar_position: 2
+---
+<br/>
+<img
+  src="/static/guides/flujo-pago2.png"
+  width="900"
+  alt="webhook-id"
+  className="webhook-id-use"
+/>
+<br/>
+
+
+### Generar una orden de pago
+
+Primero que nada tenemos que [crear una orden de pago](/api#/operations/PostV1User) y el tipo 
+de [tipo de pago](/api#/operations/PostV1User) que se quiere generar para obtener un respuesta como esta
+
+```json
+{
+  "success": true,
+  "data": {
+    "id": "497f6eca-6276-4993-bfeb-53cbbbba6f08",
+    "amount": 1000,
+    "curerncy": "eth",
+    "product": "Chamarra",
+    "wallet": "0x2134122sdas",
+    "time_expire": "2019-08-24T14:15:22Z",
+    "url":"https://crypto-checkout.com?id=497f6eca-6276-4993-bfeb-53cbbbba6f08"
+  }
+}
+```
+
+
+### Integracion
+
+Un vez que tengamos la respuesta podremos integrar nuestro metodo de pago
+
+
+#### Integracion Personalizada
+
+Nosotros te damos todos los datos necesarios para que tu puedas generar una checkout Personalizada
+a tu gusto
+
+
+<br/>
+<img
+  src="/static/guides/integration.png"
+  width="900"
+  alt="webhook-id"
+  className="webhook-id-use"
+/>
+<br/>
+
+
+#### Integracion nativa
+
+En la respuesta tendremos una propiedad llamada url donde tendras a tu disposicion
+una url donde tendras un dashboard como este.
+
+<br/>
+<img
+  src="/static/guides/checkout2.png"
+  width="900"
+  alt="webhook-id"
+  className="webhook-id-use"
+/>
+<br/>
+
+
+De esta manera solo tendras que usar los links que se generan en las ordenes de pago y podras recibir crypto 
+de manera sencilla
