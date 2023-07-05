@@ -19,23 +19,40 @@ Primero que nada necesitamos crear un usuario. para esto lo crearemos con el end
 
 ### 2 Enviar OTP
 
-Generaremos una contraseña temporal para verificar al usuario con el enpoint [Create OTP](api#/operations/PostV1AuthOtp)
+Generaremos una contraseña temporal para verificar al usuario con el enpoint [Create OTP](/api#/operations/PostV1AuthOtp)
 
 ### 3 Verificar OTP
 
-Verificaremos que el OTP sea correcto y obtendremos un token con el endpoint [Login](api#/operations/PostV1AuthSignIn) 
+Verificaremos que el OTP sea correcto y obtendremos un token con el endpoint [Login](/api#/operations/PostV1AuthSignIn) 
 
 ### 4 Actualizar contraseña 
 
-Actualizaremos la contraseña con el sigueinte enpoint [change password](api#/operations/PutV1AuthChangePassword)
+Actualizaremos la contraseña con el sigueinte enpoint [change password](/api#/operations/PutV1AuthChangePassword)
 
 ### 5 Crear tienda
 
-crearemos la tienda para el usuario con el endpoint [Create Store](api#/operations/PostV1Store)
+crearemos la tienda para el usuario con el endpoint [Create Store](/api#/operations/PostV1Store)
 
-el objeto address y files los contenidos de deben ser url de archivos y para subir archivos tenemos el enpoint para subirlos [Subir archivos](api#/operations/PostV1FileUploadpublic)
+el objeto address y files los contenidos de deben ser url de archivos y para subir archivos tenemos el enpoint para subirlos [Subir archivos](/api#/operations/PostV1FileUploadpublic)
 y la url a guardar sera el **path** de la respuesta al guardar el archivo
 l
 ### 6 Obtener Perfil
 
-Obtendremos la informacion del usuario actual con el siguiente endpoint [Profile](api#/operations/GetV1AuthProfile)
+Obtendremos la informacion del usuario actual con el siguiente endpoint [Profile](/api#/operations/GetV1AuthProfile)
+
+
+## Olvide el password
+
+### 1 enviar correo
+
+para cambiar el password el usuario tendra que enviar su correo y recibira un link para poder cambiar el password [endpont](/api#/operations/PostV1AuthForgotPassword) 
+
+despues el se tendra que enviar la nueva pass con el token que se recibe por la url esto lo tendra que integrar el front 
+
+ejemplo del link
+
+```
+https://store-pointv2.dev.build.koibanx.com/change-password?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDk5ZjhhOWVlNGE4MjAwMTJhZDZjZDUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODk0NTAwNzQsImlhdCI6MTY4ODU4NjA3NH0.YIw29VFYxRd_50zs7ChhL612-5lR3PGtXCVGTt1ttVu88YTqCRwX4D2-UwVoWpAAzO43zgOO6CI1GdFQP7LBE8lfALwRvvXnJjreb3Ue6RDzhLrsTL_GH_qY8K4BnXvypLKkQ-Z_60d8gUDn5yx2hMQVXCupT0xpT29StwoLxwLlTyhcBrw4Y_fN9XZ5k30Vj72oRtxvwBEAhkQm9G8p6RBrALGdi0sZ7EZjI8bPko1ioNJ6jYu8PTRzbVJF6XN4HVOYlMFybaK6sdqjNUg-FXRJC_HQUCvoXvOtuHlPoiRgbxMHFodE7R7S08cikXAyMQPWkTRZyvhTSgwVfFQ_Uw
+
+```
+y despues enviar el nuevo pass en el siguiente [endpoint](/api#/operations/PutV1AuthChangePassword)

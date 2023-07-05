@@ -1,892 +1,693 @@
-openapi: 3.0.0
-info:
-  title: Crypto checkout
-  version: 1.0.0
-paths:
-  /v1/user:
-    post:
-      operationId: PostV1User
-      responses:
-        "200":
-          description: POST /v1/user Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
+    openapi: 3.0.0
+    info:
+      title: Crypto checkout
+      version: 1.0.0
+    paths:
+      /v1/order:
+        post:
+          operationId: PostV1Order
+          responses:
+            "200":
+              description: POST /v1/order Successful response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      user:
-                        type: object
-                        properties:
-                          id:
-                            type: string
-                          name:
-                            type: string
-                          lastName:
-                            type: string
-                          email:
-                            type: string
-                            format: email
-                          roleName:
-                            type: string
-                          cryptoCheckoutAccountId:
-                            type: string
-                        required:
-                          - name
-                          - lastName
-                          - email
-                          - roleName
-                          - cryptoCheckoutAccountId
-                    required:
-                      - user
-                required:
-                  - status
-                  - data
-        "400":
-          description: POST /v1/user Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
+                    properties: {}
+            "400":
+              description: POST /v1/order Error response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Creacion de usuarios
-      summary: Creacion de usuarios
-      tags:
-        - users
-      requestBody:
-        description: POST /v1/user request body
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                name:
-                  type: string
-                lastName:
-                  type: string
-                email:
-                  type: string
-                  format: email
-                isTermsAcepted:
-                  type: boolean
-              required:
-                - name
-                - lastName
-                - email
-                - isTermsAcepted
-  /v1/store:
-    post:
-      operationId: PostV1Store
-      responses:
-        "200":
-          description: POST /v1/store Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
-                    type: object
-                    properties:
-                      id:
-                        type: string
-                      name:
-                        type: string
-                      cuit:
-                        type: string
-                      service:
-                        type: string
-                      address:
-                        type: object
-                        properties:
-                          street:
-                            type: string
-                        required:
-                          - street
-                      img:
-                        type: string
-                      files:
-                        type: object
-                        properties:
-                          address:
-                            type: string
-                        required:
-                          - address
-                      slug:
-                        type: string
-                      phone:
-                        type: string
-                      apiKey:
-                        type: string
-                    required:
-                      - name
-                      - cuit
-                      - service
-                      - address
-                      - img
-                      - files
-                      - slug
-                      - phone
-                      - apiKey
-                required:
-                  - status
-                  - data
-        "400":
-          description: POST /v1/store Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
-                    type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Crear store
-      summary: Crear Store
-      tags:
-        - stores
-      requestBody:
-        description: POST /v1/store request body
-        content:
-          application/json:
-            schema:
-              allOf:
-                - type: object
-                  properties: {}
-                - type: object
+                    properties: {}
+          description: Creacion de ordenes
+          summary: Creacion de ordenes
+          tags:
+            - order
+          requestBody:
+            description: POST /v1/order request body
+            content:
+              application/json:
+                schema:
+                  type: object
                   properties:
-                    id:
-                      type: string
-                    img:
-                      type: string
-                    name:
-                      type: string
-                    address:
-                      type: object
-                      properties:
-                        street:
-                          type: string
-                      required:
-                        - street
-                    files:
-                      type: object
-                      properties:
-                        address:
-                          type: string
-                      required:
-                        - address
-                    cuit:
-                      type: string
-                    service:
-                      type: string
-                    phone:
+                    amount:
+                      type: number
+                      format: double
+                      minimum: 5e-324
+                      exclusiveMinimum: false
+                      maximum: 1.7976931348623157e+308
+                      exclusiveMaximum: false
+                    accountId:
                       type: string
                   required:
-                    - img
+                    - amount
+                    - accountId
+        get:
+          operationId: GetV1Order
+          responses:
+            "200":
+              description: GET /v1/order Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: GET /v1/order Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: obtener ordenes
+          summary: obtener ordenes
+          tags:
+            - order
+          parameters:
+            - name: limit
+              in: query
+              required: false
+              description: GET /v1/order parameter
+              schema:
+                type: number
+                format: double
+                minimum: 5e-324
+                exclusiveMinimum: false
+                maximum: 1.7976931348623157e+308
+                exclusiveMaximum: false
+            - name: page
+              in: query
+              required: false
+              description: GET /v1/order parameter
+              schema:
+                type: number
+                format: double
+                minimum: 5e-324
+                exclusiveMinimum: false
+                maximum: 1.7976931348623157e+308
+                exclusiveMaximum: false
+      /v1/user:
+        post:
+          operationId: PostV1User
+          responses:
+            "200":
+              description: POST /v1/user Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: POST /v1/user Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: Creacion de usuarios
+          summary: Creacion de usuarios
+          tags:
+            - users
+          requestBody:
+            description: POST /v1/user request body
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    lastName:
+                      type: string
+                    email:
+                      type: string
+                      format: email
+                    isTermsAcepted:
+                      type: boolean
+                  required:
                     - name
-                    - address
-                    - files
-                    - cuit
-                    - service
-                    - phone
-      security:
-        - APIKEY_1: []
-    put:
-      operationId: PutV1Store
-      responses:
-        "200":
-          description: PUT /v1/store Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
+                    - lastName
+                    - email
+                    - isTermsAcepted
+        put:
+          operationId: PutV1User
+          responses:
+            "200":
+              description: PUT /v1/user Successful response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      id:
-                        type: string
-                      name:
-                        type: string
-                      cuit:
-                        type: string
-                      service:
-                        type: string
-                      address:
-                        type: object
-                        properties:
-                          street:
-                            type: string
-                        required:
-                          - street
-                      img:
-                        type: string
-                      files:
-                        type: object
-                        properties:
-                          address:
-                            type: string
-                        required:
-                          - address
-                      slug:
-                        type: string
-                      phone:
-                        type: string
-                      apiKey:
-                        type: string
-                    required:
-                      - name
-                      - cuit
-                      - service
-                      - address
-                      - img
-                      - files
-                      - slug
-                      - phone
-                      - apiKey
-                required:
-                  - status
-                  - data
-        "400":
-          description: PUT /v1/store Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
+                    properties: {}
+            "400":
+              description: PUT /v1/user Error response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Actualizar store
-      summary: Actualizar Store
-      tags:
-        - stores
-      requestBody:
-        description: PUT /v1/store request body
-        content:
-          application/json:
-            schema:
-              allOf:
-                - type: object
-                  properties: {}
-                - type: object
+                    properties: {}
+          description: Actualizacion de usuarios
+          summary: Actualizacion de usuarios
+          tags:
+            - users
+          requestBody:
+            description: PUT /v1/user request body
+            content:
+              application/json:
+                schema:
+                  type: object
                   properties:
                     id:
                       type: string
-                    img:
-                      type: string
                     name:
                       type: string
-                    address:
-                      type: object
-                      properties:
-                        street:
-                          type: string
-                      required:
-                        - street
-                    cuit:
+                    lastName:
                       type: string
-                    service:
+                    email:
                       type: string
-                    phone:
-                      type: string
+                      format: email
                   required:
                     - id
-                    - img
                     - name
-                    - address
-                    - cuit
-                    - service
-                    - phone
-      security:
-        - APIKEY_1: []
-    get:
-      operationId: GetV1Store
-      responses:
-        "200":
-          description: GET /v1/store Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
+                    - lastName
+                    - email
+      /v1/store:
+        post:
+          operationId: PostV1Store
+          responses:
+            "200":
+              description: POST /v1/store Successful response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      stores:
-                        type: array
-                        items:
+                    properties: {}
+            "400":
+              description: POST /v1/store Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: Crear store
+          summary: Crear Store
+          tags:
+            - stores
+          requestBody:
+            description: POST /v1/store request body
+            content:
+              application/json:
+                schema:
+                  allOf:
+                    - type: object
+                      properties: {}
+                    - type: object
+                      properties:
+                        id:
+                          type: string
+                        img:
+                          type: string
+                        name:
+                          type: string
+                        address:
                           type: object
                           properties:
-                            id:
+                            street:
                               type: string
-                            name:
+                          required:
+                            - street
+                        files:
+                          type: object
+                          properties:
+                            address:
+                              type: string
+                            identity:
                               type: string
                             cuit:
                               type: string
-                            service:
-                              type: string
-                            address:
-                              type: object
-                              properties:
-                                street:
-                                  type: string
-                              required:
-                                - street
-                            img:
-                              type: string
-                            files:
-                              type: object
-                              properties:
-                                address:
-                                  type: string
-                              required:
-                                - address
-                            slug:
-                              type: string
-                            phone:
-                              type: string
-                            apiKey:
+                            bank:
                               type: string
                           required:
-                            - name
-                            - cuit
-                            - service
                             - address
-                            - img
-                            - files
-                            - slug
-                            - phone
-                            - apiKey
-                    required:
-                      - stores
-                required:
-                  - status
-                  - data
-        "400":
-          description: GET /v1/store Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
-                    type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Obtener store
-      summary: Obtener Store
-      tags:
-        - stores
-      security:
-        - APIKEY_1: []
-  /v1/auth/otp:
-    post:
-      operationId: PostV1AuthOtp
-      responses:
-        "200":
-          description: POST /v1/auth/otp Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
-                    type: object
-                    properties:
-                      otp:
-                        format: any
-                required:
-                  - status
-                  - data
-        "400":
-          description: POST /v1/auth/otp Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
-                    type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Envio de One time password
-      summary: Envio OTP
-      tags:
-        - auth
-      requestBody:
-        description: POST /v1/auth/otp request body
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                email:
-                  type: string
-                  format: email
-              required:
-                - email
-  /v1/auth/sign-in:
-    post:
-      operationId: PostV1AuthSignIn
-      responses:
-        "200":
-          description: POST /v1/auth/sign-in Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
-                    type: object
-                    properties:
-                      jwt:
-                        type: string
-                      expiration:
-                        type: number
-                        format: double
-                        minimum: 5e-324
-                        exclusiveMinimum: false
-                        maximum: 1.7976931348623157e+308
-                        exclusiveMaximum: false
-                      refresh:
-                        type: string
-                      refreshExpiration:
-                        type: number
-                        format: double
-                        minimum: 5e-324
-                        exclusiveMinimum: false
-                        maximum: 1.7976931348623157e+308
-                        exclusiveMaximum: false
-                    required:
-                      - jwt
-                      - expiration
-                      - refresh
-                      - refreshExpiration
-                    example:
-                      jwt: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
-                      expiration: 1688766803
-                      refresh: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
-                      refreshExpiration: 1688766803
-                required:
-                  - status
-                  - data
-              examples:
-                example1:
-                  value:
-                    status: success
-                    data:
-                      jwt: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
-                      expiration: 1688766803
-                      refresh: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiI2NDlhMDE0OGVlNGE4MjAwMTJhZDZlOGUiLCJhcGlLZXkiOiI1Y2I2ZWE5OC1kY2IwLTQ4MWItYTlkOC0yYzkwOWQyMDU5OWQiLCJhcHBpZCI6IjY0ODc2ZjIyZGQ5YzI1MDAxMjAwODg4ZCIsImV4cGlyYXRpb24iOjE2ODg3NjY4MDMsImlhdCI6MTY4NzkwMjgwM30.QnhGvhKQWzLAcR3QapDOD67PdI1DPJ0qcbs9vVh7cg2dgOSCI-rpX1CyIX6yy9cCtGmRd8xN7rjXrXwRroBpBaixzA9xt4nvKb-mpTjzlT88PPX8SEqTwhfh_XKsynwgBA_9dMwjuxXd8h3yC_0mSQQ8x8nOI1tRRSGqPz8kZYoBtLgFKTPnbvoaWaMYMr7f-_0k9AEQRjMflr8q7YBSJmFu5uv-zupjJoJynCnu--wFKEdsZbDIFNvPzc1NG1YS_o8jwWiQg_8c-AoGtKQvXXmhN1mJ608ygW4Ak4CZ5vl0t0F3jxoiMWfBqeqjHOeCcDAfBOKT3DCS9uLZ9UL1a
-                      refreshExpiration: 1688766803
-        "400":
-          description: POST /v1/auth/sign-in Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
-                    type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: inicio de sesion
-      summary: Inicio de sesion
-      tags:
-        - auth
-      requestBody:
-        description: POST /v1/auth/sign-in request body
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                username:
-                  type: string
-                password:
-                  type: string
-              required:
-                - username
-                - password
-  /v1/auth/change-password:
-    put:
-      operationId: PutV1AuthChangePassword
-      responses:
-        "200":
-          description: PUT /v1/auth/change-password Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
+                            - identity
+                            - cuit
+                            - bank
+                        cuit:
+                          type: string
+                        service:
+                          type: string
+                        phone:
+                          type: string
+                      required:
+                        - img
+                        - name
+                        - address
+                        - files
+                        - cuit
+                        - service
+                        - phone
+          security:
+            - APIKEY_1: []
+        put:
+          operationId: PutV1Store
+          responses:
+            "200":
+              description: PUT /v1/store Successful response
+              content:
+                application/json:
+                  schema:
                     type: object
                     properties: {}
-                required:
-                  - status
-                  - data
-        "400":
-          description: PUT /v1/auth/change-password Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
+            "400":
+              description: PUT /v1/store Error response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Cambiar password
-      summary: Cambiar password
-      tags:
-        - auth
-      requestBody:
-        description: PUT /v1/auth/change-password request body
-        content:
-          application/json:
-            schema:
-              allOf:
-                - type: object
-                  properties: {}
-                - type: object
+                    properties: {}
+          description: Actualizar store
+          summary: Actualizar Store
+          tags:
+            - stores
+          requestBody:
+            description: PUT /v1/store request body
+            content:
+              application/json:
+                schema:
+                  allOf:
+                    - type: object
+                      properties: {}
+                    - type: object
+                      properties:
+                        id:
+                          type: string
+                        img:
+                          type: string
+                        name:
+                          type: string
+                        address:
+                          type: object
+                          properties:
+                            street:
+                              type: string
+                          required:
+                            - street
+                        cuit:
+                          type: string
+                        service:
+                          type: string
+                        phone:
+                          type: string
+                      required:
+                        - id
+                        - img
+                        - name
+                        - address
+                        - cuit
+                        - service
+                        - phone
+          security:
+            - APIKEY_1: []
+        get:
+          operationId: GetV1Store
+          responses:
+            "200":
+              description: GET /v1/store Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: GET /v1/store Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: Obtener store
+          summary: Obtener Store
+          tags:
+            - stores
+          security:
+            - APIKEY_1: []
+      /v1/store/add-user:
+        post:
+          operationId: PostV1StoreAddUser
+          responses:
+            "200":
+              description: POST /v1/store/add-user Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: POST /v1/store/add-user Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: agregar usuario a la tienda
+          summary: agrega un usuario a la la tienda
+          tags:
+            - stores
+          requestBody:
+            description: POST /v1/store/add-user request body
+            content:
+              application/json:
+                schema:
+                  allOf:
+                    - type: object
+                      properties: {}
+                    - type: object
+                      properties:
+                        id:
+                          type: string
+                        role:
+                          type: string
+                        email:
+                          type: string
+                          format: email
+                      required:
+                        - id
+                        - role
+                        - email
+          security:
+            - APIKEY_1: []
+      /v1/store/edit-user:
+        put:
+          operationId: PutV1StoreEditUser
+          responses:
+            "200":
+              description: PUT /v1/store/edit-user Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: PUT /v1/store/edit-user Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: edita usuario a la tienda
+          summary: edita un usuario a la la tienda
+          tags:
+            - stores
+          requestBody:
+            description: PUT /v1/store/edit-user request body
+            content:
+              application/json:
+                schema:
+                  allOf:
+                    - type: object
+                      properties: {}
+                    - type: object
+                      properties:
+                        id:
+                          type: string
+                        role:
+                          type: string
+                        email:
+                          type: string
+                          format: email
+                      required:
+                        - id
+                        - role
+                        - email
+          security:
+            - APIKEY_1: []
+      /v1/store/remove-user:
+        delete:
+          operationId: DeleteV1StoreRemoveUser
+          responses:
+            "200":
+              description: DELETE /v1/store/remove-user Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: DELETE /v1/store/remove-user Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: elimina usuario a la tienda
+          summary: elimina un usuario a la la tienda
+          tags:
+            - stores
+          parameters:
+            - name: id
+              in: query
+              required: true
+              description: DELETE /v1/store/remove-user parameter
+              schema:
+                type: string
+            - name: userId
+              in: query
+              required: true
+              description: DELETE /v1/store/remove-user parameter
+              schema:
+                type: string
+          security:
+            - APIKEY_1: []
+      /v1/auth/otp:
+        post:
+          operationId: PostV1AuthOtp
+          responses:
+            "200":
+              description: POST /v1/auth/otp Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: POST /v1/auth/otp Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: Envio de One time password
+          summary: Envio OTP
+          tags:
+            - auth
+          requestBody:
+            description: POST /v1/auth/otp request body
+            content:
+              application/json:
+                schema:
+                  type: object
                   properties:
+                    email:
+                      type: string
+                      format: email
+                  required:
+                    - email
+      /v1/auth/sign-in:
+        post:
+          operationId: PostV1AuthSignIn
+          responses:
+            "200":
+              description: POST /v1/auth/sign-in Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: POST /v1/auth/sign-in Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: inicio de sesion
+          summary: Inicio de sesion
+          tags:
+            - auth
+          requestBody:
+            description: POST /v1/auth/sign-in request body
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties:
+                    username:
+                      type: string
                     password:
                       type: string
                   required:
+                    - username
                     - password
-      security:
-        - APIKEY_1: []
-  /v1/auth/profile:
-    get:
-      operationId: GetV1AuthProfile
-      responses:
-        "200":
-          description: GET /v1/auth/profile Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
+      /v1/auth/change-password:
+        put:
+          operationId: PutV1AuthChangePassword
+          responses:
+            "200":
+              description: PUT /v1/auth/change-password Successful response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      user:
-                        type: object
-                        properties:
-                          id:
-                            type: string
-                          name:
-                            type: string
-                          lastName:
-                            type: string
-                          email:
-                            type: string
-                            format: email
-                          roleName:
-                            type: string
-                          cryptoCheckoutAccountId:
-                            type: string
-                        required:
-                          - name
-                          - lastName
-                          - email
-                          - roleName
-                          - cryptoCheckoutAccountId
-                    required:
-                      - user
-                required:
-                  - status
-                  - data
-        "400":
-          description: GET /v1/auth/profile Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
+                    properties: {}
+            "400":
+              description: PUT /v1/auth/change-password Error response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Obtener perfil
-      summary: Obtener perfil
-      tags:
-        - auth
-      security:
-        - APIKEY_1: []
-  /v1/file/uploadPublic:
-    post:
-      operationId: PostV1FileUploadpublic
-      responses:
-        "200":
-          description: POST /v1/file/uploadPublic Successful response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - success
-                  data:
+                    properties: {}
+          description: Cambiar password
+          summary: Cambiar password
+          tags:
+            - auth
+          requestBody:
+            description: PUT /v1/auth/change-password request body
+            content:
+              application/json:
+                schema:
+                  allOf:
+                    - type: object
+                      properties: {}
+                    - type: object
+                      properties:
+                        password:
+                          type: string
+                      required:
+                        - password
+          security:
+            - APIKEY_1: []
+      /v1/auth/forgot-password:
+        post:
+          operationId: PostV1AuthForgotPassword
+          responses:
+            "200":
+              description: POST /v1/auth/forgot-password Successful response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      file:
-                        type: object
-                        properties:
-                          name:
-                            type: string
-                          path:
-                            type: string
-                        required:
-                          - name
-                          - path
-                    required:
-                      - file
-                required:
-                  - status
-                  - data
-        "400":
-          description: POST /v1/file/uploadPublic Error response
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  status:
-                    type: string
-                    enum:
-                      - error
-                  error:
+                    properties: {}
+            "400":
+              description: POST /v1/auth/forgot-password Error response
+              content:
+                application/json:
+                  schema:
                     type: object
-                    properties:
-                      message:
-                        type: string
-                    required:
-                      - message
-                required:
-                  - status
-                  - error
-              examples:
-                example1:
-                  value:
-                    status: error
-                    error:
-                      message: Sample error message
-      description: Subir Archivo
-      summary: Subir Archivo
-      tags:
-        - files
-      requestBody:
-        description: POST /v1/file/uploadPublic request body
-        content:
-          multipart/form-data:
-            schema:
-              allOf:
-                - type: object
-                  properties: {}
-                - type: object
+                    properties: {}
+          description: password olvidado
+          summary: password olvidado
+          tags:
+            - auth
+          requestBody:
+            description: POST /v1/auth/forgot-password request body
+            content:
+              application/json:
+                schema:
+                  type: object
                   properties:
-                    file:
+                    email:
                       type: string
-                      format: binary
                   required:
-                    - file
-      security:
-        - APIKEY_1: []
-components:
-  schemas: {}
-  responses: {}
-  parameters: {}
-  examples: {}
-  requestBodies: {}
-  headers: {}
-  securitySchemes:
-    APIKEY_1:
-      type: apiKey
-      in: header
-      name: Authorization
-  links: {}
-  callbacks: {}
-tags:
-  - name: users
-    description: Control de usuarios
-  - name: auth
-    description: Control de autenticacion
-  - name: files
-    description: Control de archivos
-  - name: stores
-    description: Control de tiendas
-servers:
-  - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
-
+                    - email
+      /v1/auth/profile:
+        get:
+          operationId: GetV1AuthProfile
+          responses:
+            "200":
+              description: GET /v1/auth/profile Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: GET /v1/auth/profile Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: Obtener perfil
+          summary: Obtener perfil
+          tags:
+            - auth
+          security:
+            - APIKEY_1: []
+      /v1/file/uploadPublic:
+        post:
+          operationId: PostV1FileUploadpublic
+          responses:
+            "200":
+              description: POST /v1/file/uploadPublic Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+            "400":
+              description: POST /v1/file/uploadPublic Error response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties: {}
+          description: Subir Archivo
+          summary: Subir Archivo
+          tags:
+            - files
+          requestBody:
+            description: POST /v1/file/uploadPublic request body
+            content:
+              multipart/form-data:
+                schema:
+                  allOf:
+                    - type: object
+                      properties: {}
+                    - type: object
+                      properties:
+                        file:
+                          type: string
+                          format: binary
+                      required:
+                        - file
+          security:
+            - APIKEY_1: []
+    components:
+      schemas: {}
+      responses: {}
+      parameters: {}
+      examples: {}
+      requestBodies: {}
+      headers: {}
+      securitySchemes:
+        APIKEY_1:
+          type: apiKey
+          in: header
+          name: Authorization
+      links: {}
+      callbacks: {}
+    tags:
+      - name: users
+        description: Control de usuarios
+      - name: auth
+        description: Control de autenticacion
+      - name: files
+        description: Control de archivos
+      - name: stores
+        description: Control de tiendas
+      - name: order
+        description: Control de ordenes
+    servers:
+      - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
