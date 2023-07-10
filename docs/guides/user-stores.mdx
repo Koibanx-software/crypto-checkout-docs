@@ -1,0 +1,36 @@
+---
+title: 'Administrar usuarios de tu tienda'
+sidebar_position: 5
+---
+
+En esta seccion aprenderás como administrar los usuarios de tu tienda.
+
+Estos usuarios tendran algunas capacidades para poder gestiona, visualizar o modificar tu tienda
+entonces debes tener cuidado con los permisos que les asignas a tus usuarios.
+
+Para poder gestionar a tus usuarios tienes dos opciones por API o por el Dashboard
+
+### Roles
+
+- Admnistrador(admin) : puede administrar toda la tienda
+- Cajero(cashier): solo puede generar ordenes de pago nuevas y ver las ordenes de la tienda
+- Vizualizador(reader): solo tiene permisos para vizualisar las ordenes y graficas de la tienda
+
+### Agregar usuario
+
+**API**
+
+Para poder agregar un usuario podemos consumir el endpoint [AGREGAR USUARIO](/api#/operations/PostV1StoreAddUser)
+
+### Editar el role de usuario
+
+**API**
+
+Para poder editar el role del usuario podemos consumir el endpoint [EDITAR ROLE DE USUARIO](/api#/operations/PutV1StoreEditUser)
+
+### Eliminar usuario
+
+**API**
+
+Para poder eliminar que el usuario deje de gestionar o visualizar tu tienda podemos consumir el endpoint [ELIMINAR USUARIO](/api#/operations/DeleteV1StoreRemoveUser)
+
