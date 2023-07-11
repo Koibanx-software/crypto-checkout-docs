@@ -120,6 +120,9 @@
               schema:
                 type: object
                 properties:
+                  id:
+                    type: string
+                    default: ""
                   name:
                     type: string
                   lastName:
@@ -127,8 +130,24 @@
                   email:
                     type: string
                     format: email
+                  role:
+                    type: string
+                    enum:
+                      - cashier
+                      - viewer
+                      - admin
+                    default: viewer
+                  cryptoCheckoutAccountId:
+                    type: string
+                    default: ""
+                  storeId:
+                    type: string
+                    default: ""
                   isTermsAcepted:
                     type: boolean
+                  isDeleted:
+                    type: boolean
+                    default: false
                 required:
                   - name
                   - lastName
@@ -171,11 +190,30 @@
                   email:
                     type: string
                     format: email
+                  role:
+                    type: string
+                    enum:
+                      - cashier
+                      - viewer
+                      - admin
+                    default: viewer
+                  cryptoCheckoutAccountId:
+                    type: string
+                    default: ""
+                  storeId:
+                    type: string
+                    default: ""
+                  isTermsAcepted:
+                    type: boolean
+                  isDeleted:
+                    type: boolean
+                    default: false
                 required:
                   - id
                   - name
                   - lastName
                   - email
+                  - isTermsAcepted
     /v1/store:
       post:
         operationId: PostV1Store
@@ -210,9 +248,12 @@
                     properties:
                       id:
                         type: string
-                      img:
-                        type: string
+                        default: ""
                       name:
+                        type: string
+                      cuit:
+                        type: string
+                      service:
                         type: string
                       address:
                         type: object
@@ -221,6 +262,8 @@
                             type: string
                         required:
                           - street
+                      img:
+                        type: string
                       files:
                         type: object
                         properties:
@@ -237,19 +280,27 @@
                           - identity
                           - cuit
                           - bank
-                      cuit:
+                      slug:
                         type: string
-                      service:
-                        type: string
+                        default: ""
                       phone:
                         type: string
+                      apiKey:
+                        type: string
+                        default: ""
+                      ownerId:
+                        type: string
+                        default: ""
+                      isDeleted:
+                        type: boolean
+                        default: false
                     required:
-                      - img
                       - name
-                      - address
-                      - files
                       - cuit
                       - service
+                      - address
+                      - img
+                      - files
                       - phone
         security:
           - APIKEY_1: []
@@ -286,9 +337,11 @@
                     properties:
                       id:
                         type: string
-                      img:
-                        type: string
                       name:
+                        type: string
+                      cuit:
+                        type: string
+                      service:
                         type: string
                       address:
                         type: object
@@ -297,19 +350,46 @@
                             type: string
                         required:
                           - street
-                      cuit:
+                      img:
                         type: string
-                      service:
+                      files:
+                        type: object
+                        properties:
+                          address:
+                            type: string
+                          identity:
+                            type: string
+                          cuit:
+                            type: string
+                          bank:
+                            type: string
+                        required:
+                          - address
+                          - identity
+                          - cuit
+                          - bank
+                      slug:
                         type: string
+                        default: ""
                       phone:
                         type: string
+                      apiKey:
+                        type: string
+                        default: ""
+                      ownerId:
+                        type: string
+                        default: ""
+                      isDeleted:
+                        type: boolean
+                        default: false
                     required:
                       - id
-                      - img
                       - name
-                      - address
                       - cuit
                       - service
+                      - address
+                      - img
+                      - files
                       - phone
         security:
           - APIKEY_1: []
@@ -370,15 +450,68 @@
                     properties:
                       id:
                         type: string
-                      role:
+                        default: ""
+                      name:
+                        type: string
+                      lastName:
                         type: string
                       email:
                         type: string
                         format: email
+                      role:
+                        type: string
+                        enum:
+                          - cashier
+                          - viewer
+                          - admin
+                        default: viewer
+                      cryptoCheckoutAccountId:
+                        type: string
+                        default: ""
+                      storeId:
+                        type: string
+                        default: ""
+                      isTermsAcepted:
+                        type: boolean
+                      isDeleted:
+                        type: boolean
+                        default: false
                     required:
-                      - id
-                      - role
+                      - name
+                      - lastName
                       - email
+                      - isTermsAcepted
+        security:
+          - APIKEY_1: []
+    /v1/store/get-user:
+      get:
+        operationId: GetV1StoreGetUser
+        responses:
+          "200":
+            description: GET /v1/store/get-user Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/store/get-user Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener usuarios store
+        summary: Obtener usuarios Store
+        tags:
+          - stores
+        parameters:
+          - name: idStore
+            in: query
+            required: true
+            description: GET /v1/store/get-user parameter
+            schema:
+              type: string
         security:
           - APIKEY_1: []
     /v1/store/edit-user:
@@ -413,17 +546,17 @@
                     properties: {}
                   - type: object
                     properties:
-                      id:
+                      idUser:
                         type: string
                       role:
                         type: string
-                      email:
-                        type: string
-                        format: email
+                        enum:
+                          - cashier
+                          - viewer
+                          - admin
+                        default: viewer
                     required:
-                      - id
-                      - role
-                      - email
+                      - idUser
         security:
           - APIKEY_1: []
     /v1/store/remove-user:
@@ -449,12 +582,6 @@
         tags:
           - stores
         parameters:
-          - name: id
-            in: query
-            required: true
-            description: DELETE /v1/store/remove-user parameter
-            schema:
-              type: string
           - name: userId
             in: query
             required: true
