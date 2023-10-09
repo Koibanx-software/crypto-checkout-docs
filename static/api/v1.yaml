@@ -1,3 +1,4 @@
+
   openapi: 3.0.0
   info:
     title: Crypto checkout
@@ -87,6 +88,35 @@
                         type: string
                         enum:
                           - algo
+                      referenceId:
+                        type: string
+                        default: ""
+                      products:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            name:
+                              type: string
+                            pricing:
+                              type: number
+                              format: double
+                              minimum: 5e-324
+                              exclusiveMinimum: false
+                              maximum: 1.7976931348623157e+308
+                              exclusiveMaximum: false
+                            img:
+                              type: string
+                            storeId:
+                              type: string
+                          required:
+                            - id
+                            - name
+                            - pricing
+                            - img
+                            - storeId
                     required:
                       - amount
                       - name
@@ -305,19 +335,12 @@
                   email:
                     type: string
                     format: email
-                  role:
-                    type: string
-                    enum:
-                      - cashier
-                      - viewer
-                      - admin
                   isTermsAcepted:
                     type: boolean
                 required:
                   - name
                   - lastName
                   - email
-                  - role
                   - isTermsAcepted
       put:
         operationId: PutV1User
@@ -345,19 +368,24 @@
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  id:
-                    type: string
-                  name:
-                    type: string
-                  lastName:
-                    type: string
-                  email:
-                    type: string
-                    format: email
-                required:
-                  - id
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      lastName:
+                        type: string
+                      email:
+                        type: string
+                        format: email
+                    required:
+                      - id
+        security:
+          - APIKEY_1: []
     /v1/user/balance:
       get:
         operationId: GetV1UserBalance
@@ -421,37 +449,6 @@
                     required:
                       - startDate
                       - endDate
-        security:
-          - APIKEY_1: []
-    "/v1/store/{id}":
-      get:
-        operationId: GetV1StoreId
-        responses:
-          "200":
-            description: GET /v1/store/:id Successful response
-            content:
-              application/json:
-                schema:
-                  type: object
-                  properties: {}
-          "400":
-            description: GET /v1/store/:id Error response
-            content:
-              application/json:
-                schema:
-                  type: object
-                  properties: {}
-        description: Obtener un store
-        summary: Obtener un store
-        tags:
-          - stores
-        parameters:
-          - name: id
-            in: path
-            required: true
-            description: GET /v1/store/:id parameter
-            schema:
-              type: string
         security:
           - APIKEY_1: []
     /v1/store:
@@ -648,23 +645,22 @@
                       email:
                         type: string
                         format: email
-                      role:
-                        type: string
-                        enum:
-                          - cashier
-                          - viewer
-                          - admin
                       isTermsAcepted:
                         type: boolean
                       storeId:
                         type: string
+                      role:
+                        type: string
+                        enum:
+                          - cashier
+                          - auditor
                     required:
                       - name
                       - lastName
                       - email
-                      - role
                       - isTermsAcepted
                       - storeId
+                      - role
         security:
           - APIKEY_1: []
     /v1/store/get-user:
@@ -736,9 +732,10 @@
                         type: string
                         enum:
                           - cashier
-                          - viewer
+                          - auditor
                           - admin
-                        default: viewer
+                          - root
+                        default: auditor
                     required:
                       - idUser
         security:
@@ -796,6 +793,119 @@
         summary: Obtener Profile Store
         tags:
           - stores
+        security:
+          - APIKEY_1: []
+    /v1/store/send-invitation-user:
+      put:
+        operationId: PutV1StoreSendInvitationUser
+        responses:
+          "200":
+            description: PUT /v1/store/send-invitation-user Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/store/send-invitation-user Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Actualizar last invitation de un usuario de la tienda
+        summary: Actualizar last invitation de un usuario de la ti…
+        tags:
+          - stores
+        requestBody:
+          description: PUT /v1/store/send-invitation-user request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      userId:
+                        type: string
+                      callback:
+                        type: string
+                    required:
+                      - userId
+                      - callback
+        security:
+          - APIKEY_1: []
+    /v1/store/user-registration-completed:
+      put:
+        operationId: PutV1StoreUserRegistrationCompleted
+        responses:
+          "200":
+            description: PUT /v1/store/user-registration-completed Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/store/user-registration-completed Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Actualizar accepted invitation de un usuario de la tienda
+        summary: Actualizar accepted invitation de un usuario de l…
+        tags:
+          - stores
+        requestBody:
+          description: PUT /v1/store/user-registration-completed request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      userId:
+                        type: string
+                      callback:
+                        type: string
+                    required:
+                      - userId
+                      - callback
+        security:
+          - APIKEY_1: []
+    "/v1/store/{id}":
+      get:
+        operationId: GetV1StoreId
+        responses:
+          "200":
+            description: GET /v1/store/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/store/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener un store
+        summary: Obtener un store
+        tags:
+          - stores
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: GET /v1/store/:id parameter
+            schema:
+              type: string
         security:
           - APIKEY_1: []
     /v1/auth/otp:
@@ -1284,6 +1394,270 @@
                   - status
                   - chargeId
                   - amount
+    /v1/product:
+      post:
+        operationId: PostV1Product
+        responses:
+          "200":
+            description: POST /v1/product Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: POST /v1/product Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Crear product
+        summary: Crear product
+        tags:
+          - products
+        requestBody:
+          description: POST /v1/product request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      name:
+                        type: string
+                      pricing:
+                        type: number
+                        format: double
+                        minimum: 5e-324
+                        exclusiveMinimum: false
+                        maximum: 1.7976931348623157e+308
+                        exclusiveMaximum: false
+                      img:
+                        type: string
+                    required:
+                      - name
+                      - pricing
+        security:
+          - APIKEY_1: []
+      put:
+        operationId: PutV1Product
+        responses:
+          "200":
+            description: PUT /v1/product Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/product Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Actualizar product
+        summary: Actualizar product
+        tags:
+          - products
+        requestBody:
+          description: PUT /v1/product request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      pricing:
+                        type: number
+                        format: double
+                        minimum: 5e-324
+                        exclusiveMinimum: false
+                        maximum: 1.7976931348623157e+308
+                        exclusiveMaximum: false
+                      img:
+                        type: string
+                    required:
+                      - id
+        security:
+          - APIKEY_1: []
+      get:
+        operationId: GetV1Product
+        responses:
+          "200":
+            description: GET /v1/product Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/product Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener mis products
+        summary: Obtener mis products
+        tags:
+          - products
+        security:
+          - APIKEY_1: []
+    "/v1/product/{id}":
+      get:
+        operationId: GetV1ProductId
+        responses:
+          "200":
+            description: GET /v1/product/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/product/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener un product
+        summary: Obtener un product
+        tags:
+          - products
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: GET /v1/product/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
+      delete:
+        operationId: DeleteV1ProductId
+        responses:
+          "200":
+            description: DELETE /v1/product/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: DELETE /v1/product/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Eliminar un product
+        summary: Eliminar un product
+        tags:
+          - products
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: DELETE /v1/product/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
+    "/v1/root/store/{id}/activate":
+      put:
+        operationId: PutV1RootStoreIdActivate
+        responses:
+          "200":
+            description: PUT /v1/root/store/:id/activate Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/root/store/:id/activate Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Activar store
+        summary: Activar Store
+        tags:
+          - stores
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: PUT /v1/root/store/:id/activate parameter
+            schema:
+              type: string
+        requestBody:
+          description: PUT /v1/root/store/:id/activate request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties: {}
+                    required: []
+        security:
+          - APIKEY_1: []
+    "/v1/root/store/{id}/deactivate":
+      put:
+        operationId: PutV1RootStoreIdDeactivate
+        responses:
+          "200":
+            description: PUT /v1/root/store/:id/deactivate Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/root/store/:id/deactivate Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Desactivar store
+        summary: Desactivar Store
+        tags:
+          - stores
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: PUT /v1/root/store/:id/deactivate parameter
+            schema:
+              type: string
+        requestBody:
+          description: PUT /v1/root/store/:id/deactivate request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties: {}
+                    required: []
+        security:
+          - APIKEY_1: []
   components:
     schemas: {}
     responses: {}
@@ -1317,5 +1691,7 @@
       description: Control de charges
     - name: chart
       description: Control de charts
+    - name: products
+      description: Control de products
   servers:
     - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
