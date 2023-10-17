@@ -2152,5 +2152,7 @@
       description: Control de products
     - name: faq
       description: Control de preguntas y respuestas frecuentas
+    - name: businessActivity
+      description: Control de giro actividad comercial
   servers:
     - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
