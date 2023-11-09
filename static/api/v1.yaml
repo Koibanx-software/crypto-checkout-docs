@@ -49,9 +49,6 @@
                       description:
                         type: string
                         default: ""
-                      img:
-                        type: string
-                        default: ""
                       currency:
                         type: string
                         enum:
@@ -109,9 +106,6 @@
                         maximum: 1.7976931348623157e+308
                         exclusiveMaximum: false
                         default: 0
-                      paymentType:
-                        type: string
-                        default: link
                     required:
                       - amount
                       - name
@@ -206,7 +200,7 @@
                       - payerAddressExternal
         security:
           - APIKEY_1: []
-    "/v1/order/{id}":
+    /v1/order/{id}:
       get:
         operationId: GetV1OrderId
         responses:
@@ -455,9 +449,6 @@
                         type: string
                       lastName:
                         type: string
-                      email:
-                        type: string
-                        format: email
                     required:
                       - id
         security:
@@ -527,6 +518,84 @@
                       - endDate
         security:
           - APIKEY_1: []
+    /v1/user/request-email-change:
+      put:
+        operationId: PutV1UserRequestEmailChange
+        responses:
+          "200":
+            description: PUT /v1/user/request-email-change Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/user/request-email-change Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Solicitud cambio de email del usuario
+        summary: Solicitud cambio de email del usuario
+        tags:
+          - users
+        requestBody:
+          description: PUT /v1/user/request-email-change request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      newEmail:
+                        type: string
+                    required:
+                      - newEmail
+        security:
+          - APIKEY_1: []
+    /v1/user/change-email:
+      put:
+        operationId: PutV1UserChangeEmail
+        responses:
+          "200":
+            description: PUT /v1/user/change-email Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/user/change-email Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Cambio de email del usuario
+        summary: Cambio de email del usuario
+        tags:
+          - users
+        requestBody:
+          description: PUT /v1/user/change-email request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      newEmail:
+                        type: string
+                      codeVerification:
+                        type: string
+                    required:
+                      - newEmail
+        security:
+          - APIKEY_1: []
     /v1/store:
       post:
         operationId: PostV1Store
@@ -563,8 +632,6 @@
                         type: string
                       cuit:
                         type: string
-                      service:
-                        type: string
                       address:
                         type: object
                         properties:
@@ -574,34 +641,49 @@
                           - street
                       img:
                         type: string
-                      files:
-                        type: object
-                        properties:
-                          address:
-                            type: string
-                          identity:
-                            type: string
-                          cuit:
-                            type: string
-                          bank:
-                            type: string
-                        required:
-                          - address
-                          - identity
-                          - cuit
-                          - bank
                       phone:
                         type: string
                       cbu:
                         nullable: true
                         type: string
+                      businessActivity:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                          title:
+                            type: string
+                        required:
+                          - id
+                          - title
+                      isActivated:
+                        oneOf:
+                          - type: boolean
+                          - type: string
+                          - type: string
+                            nullable: true
+                            format: "null"
+                        default: true
+                      location:
+                        type: object
+                        properties:
+                          countryCode:
+                            type: string
+                          countryName:
+                            type: string
+                          stateCode:
+                            type: string
+                          stateName:
+                            type: string
+                          cityCode:
+                            type: string
+                          cityName:
+                            type: string
                     required:
                       - name
                       - cuit
-                      - service
                       - address
                       - img
-                      - files
                       - phone
         security:
           - APIKEY_1: []
@@ -640,16 +722,7 @@
                         type: string
                       name:
                         type: string
-                      phone:
-                        type: string
-                      webhooks:
-                        type: object
-                        properties:
-                          orderStatus:
-                            type: string
-                        required:
-                          - orderStatus
-                      img:
+                      cuit:
                         type: string
                       address:
                         type: object
@@ -658,9 +731,66 @@
                             type: string
                         required:
                           - street
+                      files:
+                        type: object
+                        properties:
+                          address:
+                            type: string
+                          identity:
+                            type: string
+                          cuit:
+                            type: string
+                          bank:
+                            type: string
+                      img:
+                        type: string
+                      phone:
+                        type: string
                       cbu:
                         nullable: true
                         type: string
+                      businessActivity:
+                        type: object
+                        properties:
+                          id:
+                            type: string
+                          title:
+                            type: string
+                        required:
+                          - id
+                          - title
+                      isActivated:
+                        oneOf:
+                          - type: boolean
+                          - type: string
+                          - type: string
+                            nullable: true
+                            format: "null"
+                        default: true
+                      webhooks:
+                        type: object
+                        properties:
+                          orderStatus:
+                            type: string
+                        required:
+                          - orderStatus
+                      slug:
+                        type: string
+                      location:
+                        type: object
+                        properties:
+                          countryCode:
+                            type: string
+                          countryName:
+                            type: string
+                          stateCode:
+                            type: string
+                          stateName:
+                            type: string
+                          cityCode:
+                            type: string
+                          cityName:
+                            type: string
                     required:
                       - id
         security:
@@ -998,7 +1128,7 @@
                       - callback
         security:
           - APIKEY_1: []
-    "/v1/store/{id}":
+    /v1/store/{id}:
       get:
         operationId: GetV1StoreId
         responses:
@@ -1092,6 +1222,9 @@
               schema:
                 type: object
                 properties:
+                  autoOTP:
+                    type: boolean
+                    default: false
                   username:
                     type: string
                   password:
@@ -1133,8 +1266,10 @@
                     properties:
                       password:
                         type: string
-                    required:
-                      - password
+                      passwordOld:
+                        type: string
+                      passwordNew:
+                        type: string
         security:
           - APIKEY_1: []
     /v1/auth/forgot-password:
@@ -1168,6 +1303,7 @@
                 properties:
                   email:
                     type: string
+                    format: email
                 required:
                   - email
     /v1/auth/profile:
@@ -1212,8 +1348,8 @@
                 schema:
                   type: object
                   properties: {}
-        description: Subir Archivo
-        summary: Subir Archivo
+        description: Subir genérico
+        summary: Subir archivo genérico
         tags:
           - files
         requestBody:
@@ -1308,7 +1444,7 @@
                       - description
         security:
           - APIKEY_1: []
-    "/v1/notification/{id}":
+    /v1/notification/{id}:
       put:
         operationId: PutV1NotificationId
         responses:
@@ -1587,6 +1723,8 @@
                     properties:
                       name:
                         type: string
+                      description:
+                        type: string
                       pricing:
                         oneOf:
                           - type: number
@@ -1646,6 +1784,8 @@
                         type: string
                       name:
                         type: string
+                      description:
+                        type: string
                       pricing:
                         oneOf:
                           - type: number
@@ -1691,7 +1831,47 @@
         tags:
           - products
         parameters:
+          - name: page
+            in: query
+            required: false
+            description: GET /v1/product parameter
+            schema:
+              oneOf:
+                - type: number
+                  format: double
+                  minimum: 5e-324
+                  exclusiveMinimum: false
+                  maximum: 1.7976931348623157e+308
+                  exclusiveMaximum: false
+                - type: string
+              default: 1
+          - name: limit
+            in: query
+            required: false
+            description: GET /v1/product parameter
+            schema:
+              oneOf:
+                - type: number
+                  format: double
+                  minimum: 5e-324
+                  exclusiveMinimum: false
+                  maximum: 1.7976931348623157e+308
+                  exclusiveMaximum: false
+                - type: string
+              default: 10
+          - name: sort
+            in: query
+            required: false
+            description: GET /v1/product parameter
+            schema:
+              format: any
           - name: name
+            in: query
+            required: false
+            description: GET /v1/product parameter
+            schema:
+              type: string
+          - name: description
             in: query
             required: false
             description: GET /v1/product parameter
@@ -1730,7 +1910,46 @@
               default: true
         security:
           - APIKEY_1: []
-    "/v1/product/{id}":
+    /v1/product/bulk:
+      post:
+        operationId: PostV1ProductBulk
+        responses:
+          "200":
+            description: POST /v1/product/bulk Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: POST /v1/product/bulk Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Carga masiva de productos
+        summary: Carga masiva de productos
+        tags:
+          - products
+        requestBody:
+          description: POST /v1/product/bulk request body
+          content:
+            multipart/form-data:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      file:
+                        type: string
+                        format: binary
+                    required:
+                      - file
+        security:
+          - APIKEY_1: []
+    /v1/product/{id}:
       get:
         operationId: GetV1ProductId
         responses:
@@ -1791,6 +2010,196 @@
               type: string
         security:
           - APIKEY_1: []
+    /v1/gallery:
+      post:
+        operationId: PostV1Gallery
+        responses:
+          "200":
+            description: POST /v1/gallery Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: POST /v1/gallery Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Subir una imagen para la galeria de la tienda
+        summary: Subir una imagen para la galeria de la tienda
+        tags:
+          - gallery
+        requestBody:
+          description: POST /v1/gallery request body
+          content:
+            multipart/form-data:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      name:
+                        type: string
+                      file:
+                        type: string
+                        format: binary
+                    required:
+                      - file
+        security:
+          - APIKEY_1: []
+      get:
+        operationId: GetV1Gallery
+        responses:
+          "200":
+            description: GET /v1/gallery Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/gallery Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas las imágenes de la galeria de la tienda
+        summary: Obtener todas las imágenes de la galeria de la ti…
+        tags:
+          - gallery
+        parameters:
+          - name: page
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              oneOf:
+                - type: number
+                  format: double
+                  minimum: 5e-324
+                  exclusiveMinimum: false
+                  maximum: 1.7976931348623157e+308
+                  exclusiveMaximum: false
+                - type: string
+              default: 1
+          - name: limit
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              oneOf:
+                - type: number
+                  format: double
+                  minimum: 5e-324
+                  exclusiveMinimum: false
+                  maximum: 1.7976931348623157e+308
+                  exclusiveMaximum: false
+                - type: string
+              default: 10
+          - name: sort
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              format: any
+          - name: name
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              type: string
+          - name: img
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              type: string
+          - name: s3Key
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              type: string
+          - name: isEnabled
+            in: query
+            required: false
+            description: GET /v1/gallery parameter
+            schema:
+              oneOf:
+                - type: boolean
+                - type: string
+                - type: string
+                  nullable: true
+                  format: "null"
+              default: true
+        security:
+          - APIKEY_1: []
+    /v1/gallery/{id}:
+      get:
+        operationId: GetV1GalleryId
+        responses:
+          "200":
+            description: GET /v1/gallery/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/gallery/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener una imagen de la galeria de la tienda
+        summary: Obtener una imagen de la galeria de la tienda
+        tags:
+          - gallery
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: GET /v1/gallery/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
+      delete:
+        operationId: DeleteV1GalleryId
+        responses:
+          "200":
+            description: DELETE /v1/gallery/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: DELETE /v1/gallery/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Eliminar una imagen para la galeria de la tienda
+        summary: Eliminar una imagen para la galeria de la tienda
+        tags:
+          - gallery
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: DELETE /v1/gallery/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
     /v1/faq:
       get:
         operationId: GetV1Faq
@@ -1815,7 +2224,7 @@
           - faq
         security:
           - APIKEY_1: []
-    "/v1/faq/{id}":
+    /v1/faq/{id}:
       get:
         operationId: GetV1FaqId
         responses:
@@ -1846,79 +2255,310 @@
               type: string
         security:
           - APIKEY_1: []
-    "/v1/root/store/{id}/activate":
-      put:
-        operationId: PutV1RootStoreIdActivate
+    /v1/business-activity:
+      get:
+        operationId: GetV1BusinessActivity
         responses:
           "200":
-            description: PUT /v1/root/store/:id/activate Successful response
+            description: GET /v1/business-activity Successful response
             content:
               application/json:
                 schema:
                   type: object
                   properties: {}
           "400":
-            description: PUT /v1/root/store/:id/activate Error response
+            description: GET /v1/business-activity Error response
             content:
               application/json:
                 schema:
                   type: object
                   properties: {}
-        description: Activar una tienda
-        summary: Activar una tienda
-        tags:
-          - stores
-        parameters:
-          - name: id
-            in: path
-            required: true
-            description: PUT /v1/root/store/:id/activate parameter
-            schema:
-              type: string
-        requestBody:
-          description: PUT /v1/root/store/:id/activate request body
-          content:
-            application/json:
-              schema:
-                allOf:
-                  - type: object
-                    properties: {}
-                  - type: object
-                    properties: {}
-                    required: []
+        description: Obtener todas los giros actividades comerciales
+        summary: Obtener todas los giros actividades comerciales
+        tags: &a3
+          - businessActivity
         security:
           - APIKEY_1: []
-    "/v1/root/store/{id}/deactivate":
-      put:
-        operationId: PutV1RootStoreIdDeactivate
+    /v1/business-activity/{id}:
+      get:
+        operationId: GetV1BusinessActivityId
         responses:
           "200":
-            description: PUT /v1/root/store/:id/deactivate Successful response
+            description: GET /v1/business-activity/:id Successful response
             content:
               application/json:
                 schema:
                   type: object
                   properties: {}
           "400":
-            description: PUT /v1/root/store/:id/deactivate Error response
+            description: GET /v1/business-activity/:id Error response
             content:
               application/json:
                 schema:
                   type: object
                   properties: {}
-        description: Desactivar una tienda
-        summary: Desactivar una tienda
-        tags:
-          - stores
+        description: Obtener un giro actividad comercial
+        summary: Obtener un giro actividad comercial
+        tags: &a4
+          - businessActivity
         parameters:
           - name: id
             in: path
             required: true
-            description: PUT /v1/root/store/:id/deactivate parameter
+            description: GET /v1/business-activity/:id parameter
             schema:
               type: string
+        security:
+          - APIKEY_1: []
+    /v1/country-state-city/get-all-countries:
+      get:
+        operationId: GetV1CountryStateCityGetAllCountries
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-all-countries Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-all-countries Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todos los paises
+        summary: Obtener todos los paises
+        tags:
+          - countryStateCity
+    /v1/country-state-city/get-all-states:
+      get:
+        operationId: GetV1CountryStateCityGetAllStates
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-all-states Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-all-states Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todos los provincias (departamentos)
+        summary: Obtener todos los provincias (departamentos)
+        tags:
+          - countryStateCity
+    /v1/country-state-city/get-all-cities:
+      get:
+        operationId: GetV1CountryStateCityGetAllCities
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-all-cities Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-all-cities Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas las ciudades
+        summary: Obtener todas las ciudades
+        tags:
+          - countryStateCity
+    /v1/country-state-city/get-country-by-code:
+      get:
+        operationId: GetV1CountryStateCityGetCountryByCode
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-country-by-code Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-country-by-code Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener el detalle de un pais
+        summary: Obtener el detalle de un pais
+        tags:
+          - countryStateCity
+        parameters:
+          - name: countryCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-country-by-code parameter
+            schema:
+              type: string
+    /v1/country-state-city/get-states-of-country:
+      get:
+        operationId: GetV1CountryStateCityGetStatesOfCountry
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-states-of-country Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-states-of-country Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas las provincias (departamentos) de un pais
+        summary: Obtener todas las provincias (departamentos) de u…
+        tags:
+          - countryStateCity
+        parameters:
+          - name: countryCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-states-of-country parameter
+            schema:
+              type: string
+    /v1/country-state-city/get-state-by-code-and-country:
+      get:
+        operationId: GetV1CountryStateCityGetStateByCodeAndCountry
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-state-by-code-and-country Successful
+              response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-state-by-code-and-country Error
+              response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener el detalle de una provincia (departamento)
+        summary: Obtener el detalle de una provincia (departamento)
+        tags:
+          - countryStateCity
+        parameters:
+          - name: stateCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-state-by-code-and-country parameter
+            schema:
+              type: string
+          - name: countryCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-state-by-code-and-country parameter
+            schema:
+              type: string
+    /v1/country-state-city/get-cities-of-state:
+      get:
+        operationId: GetV1CountryStateCityGetCitiesOfState
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-cities-of-state Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-cities-of-state Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas las ciudades de un pais y provincia (departamento)
+        summary: Obtener todas las ciudades de un pais y provincia…
+        tags:
+          - countryStateCity
+        parameters:
+          - name: countryCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-cities-of-state parameter
+            schema:
+              type: string
+          - name: stateCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-cities-of-state parameter
+            schema:
+              type: string
+    /v1/country-state-city/get-cities-of-country:
+      get:
+        operationId: GetV1CountryStateCityGetCitiesOfCountry
+        responses:
+          "200":
+            description: GET /v1/country-state-city/get-cities-of-country Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/country-state-city/get-cities-of-country Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas las ciudades de un pais
+        summary: Obtener todas las ciudades de un pais
+        tags:
+          - countryStateCity
+        parameters:
+          - name: countryCode
+            in: query
+            required: true
+            description: GET /v1/country-state-city/get-cities-of-country parameter
+            schema:
+              type: string
+    /v1/root/store/activate:
+      put:
+        operationId: PutV1RootStoreActivate
+        responses:
+          "200":
+            description: PUT /v1/root/store/activate Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/root/store/activate Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Activar o desactivar una tienda
+        summary: Activar o desactivar una tienda
+        tags:
+          - stores
         requestBody:
-          description: PUT /v1/root/store/:id/deactivate request body
+          description: PUT /v1/root/store/activate request body
           content:
             application/json:
               schema:
@@ -1926,8 +2566,19 @@
                   - type: object
                     properties: {}
                   - type: object
-                    properties: {}
-                    required: []
+                    properties:
+                      id:
+                        type: string
+                      isActivated:
+                        oneOf:
+                          - type: boolean
+                          - type: string
+                          - type: string
+                            nullable: true
+                            format: "null"
+                        default: true
+                    required:
+                      - id
         security:
           - APIKEY_1: []
     /v1/root/faq:
@@ -2054,7 +2705,7 @@
         tags: *a1
         security:
           - APIKEY_1: []
-    "/v1/root/faq/{id}":
+    /v1/root/faq/{id}:
       get:
         operationId: GetV1RootFaqId
         responses:
@@ -2114,6 +2765,169 @@
               type: string
         security:
           - APIKEY_1: []
+    /v1/root/business-activity:
+      post:
+        operationId: PostV1RootBusinessActivity
+        responses:
+          "200":
+            description: POST /v1/root/business-activity Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: POST /v1/root/business-activity Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Crear un giro actividad comercial
+        summary: Crear un giro actividad comercial
+        tags:
+          - businessActivity
+        requestBody:
+          description: POST /v1/root/business-activity request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      title:
+                        type: string
+                      description:
+                        type: string
+                    required:
+                      - title
+        security:
+          - APIKEY_1: []
+      put:
+        operationId: PutV1RootBusinessActivity
+        responses:
+          "200":
+            description: PUT /v1/root/business-activity Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/root/business-activity Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Actualizar un giro actividad comercial
+        summary: Actualizar un giro actividad comercial
+        tags:
+          - businessActivity
+        requestBody:
+          description: PUT /v1/root/business-activity request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      id:
+                        type: string
+                      title:
+                        type: string
+                      description:
+                        type: string
+                    required:
+                      - id
+        security:
+          - APIKEY_1: []
+      get:
+        operationId: GetV1RootBusinessActivity
+        responses:
+          "200":
+            description: GET /v1/root/business-activity Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/root/business-activity Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas los giros actividades comerciales
+        summary: Obtener todas los giros actividades comerciales
+        tags: *a3
+        security:
+          - APIKEY_1: []
+    /v1/root/business-activity/{id}:
+      get:
+        operationId: GetV1RootBusinessActivityId
+        responses:
+          "200":
+            description: GET /v1/root/business-activity/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/root/business-activity/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener un giro actividad comercial
+        summary: Obtener un giro actividad comercial
+        tags: *a4
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: GET /v1/root/business-activity/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
+      delete:
+        operationId: DeleteV1RootBusinessActivityId
+        responses:
+          "200":
+            description: DELETE /v1/root/business-activity/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: DELETE /v1/root/business-activity/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Elimnar un giro actividad comercial
+        summary: Elimnar un giro actividad comercial
+        tags:
+          - businessActivity
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: DELETE /v1/root/business-activity/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
   components:
     schemas: {}
     responses: {}
@@ -2153,5 +2967,9 @@
       description: Control de preguntas y respuestas frecuentas
     - name: businessActivity
       description: Control de giro actividad comercial
+    - name: countryStateCity
+      description: Control de countries, states y cities
+    - name: gallery
+      description: Control de galería de una tienda
   servers:
     - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
