@@ -201,6 +201,43 @@
                       - payerAddressExternal
         security:
           - APIKEY_1: []
+    /v1/order/export-order:
+      get:
+        operationId: GetV1OrderExportOrder
+        responses:
+          "200":
+            description: GET /v1/order/export-order Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/order/export-order Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Exportar una determinada orden
+        summary: Exportar una determinada orden
+        tags:
+          - order
+        parameters:
+          - name: orderId
+            in: query
+            required: true
+            description: GET /v1/order/export-order parameter
+            schema:
+              type: string
+          - name: filename
+            in: query
+            required: true
+            description: GET /v1/order/export-order parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
     /v1/order/{id}:
       get:
         operationId: GetV1OrderId
@@ -219,8 +256,8 @@
                 schema:
                   type: object
                   properties: {}
-        description: Obtener una orden para una determinada tienda
-        summary: Obtener una orden
+        description: Obtener una determinada orden
+        summary: Obtener una determinada orden
         tags:
           - order
         parameters:
@@ -862,11 +899,14 @@
                         type: boolean
                       storeId:
                         type: string
+                      storeBranchId:
+                        type: string
                       role:
                         type: string
                         enum:
                           - cashier
                           - auditor
+                          - supervisor
                     required:
                       - name
                       - lastName
@@ -927,6 +967,7 @@
               enum:
                 - cashier
                 - auditor
+                - supervisor
                 - admin
                 - root
           - name: isEnabled
@@ -988,6 +1029,7 @@
                         enum:
                           - cashier
                           - auditor
+                          - supervisor
                     required:
                       - id
         security:
@@ -1120,12 +1162,9 @@
                     properties: {}
                   - type: object
                     properties:
-                      userId:
-                        type: string
                       callback:
                         type: string
                     required:
-                      - userId
                       - callback
         security:
           - APIKEY_1: []
@@ -1443,6 +1482,44 @@
                         type: string
                     required:
                       - description
+        security:
+          - APIKEY_1: []
+    /v1/notification/watched:
+      put:
+        operationId: PutV1NotificationWatched
+        responses:
+          "200":
+            description: PUT /v1/notification/watched Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/notification/watched Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Marcar como leídas o sin leer todas mis notificaciones
+        summary: Marcar como leídas o sin leer todas mis notificac…
+        tags:
+          - notifications
+        requestBody:
+          description: PUT /v1/notification/watched request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      watched:
+                        type: boolean
+                    required:
+                      - watched
         security:
           - APIKEY_1: []
     /v1/notification/{id}:
@@ -2007,6 +2084,228 @@
             in: path
             required: true
             description: DELETE /v1/product/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
+    /v1/store-branch:
+      post:
+        operationId: PostV1StoreBranch
+        responses:
+          "200":
+            description: POST /v1/store-branch Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: POST /v1/store-branch Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Crear una sucursal para una tienda
+        summary: Crear una sucursal
+        tags:
+          - storeBranch
+        requestBody:
+          description: POST /v1/store-branch request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      name:
+                        type: string
+                    required:
+                      - name
+        security:
+          - APIKEY_1: []
+      put:
+        operationId: PutV1StoreBranch
+        responses:
+          "200":
+            description: PUT /v1/store-branch Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: PUT /v1/store-branch Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Actualizar una sucursal determinada de una tienda
+        summary: Actualizar una sucursal
+        tags:
+          - storeBranch
+        requestBody:
+          description: PUT /v1/store-branch request body
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - type: object
+                    properties: {}
+                  - type: object
+                    properties:
+                      id:
+                        type: string
+                      name:
+                        type: string
+                      isEnabled:
+                        oneOf:
+                          - type: boolean
+                          - type: string
+                          - type: string
+                            nullable: true
+                            format: "null"
+                        default: true
+                    required:
+                      - id
+        security:
+          - APIKEY_1: []
+      get:
+        operationId: GetV1StoreBranch
+        responses:
+          "200":
+            description: GET /v1/store-branch Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/store-branch Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener todas las sucursales de una tienda
+        summary: Obtener todas las sucursales
+        tags:
+          - storeBranch
+        parameters:
+          - name: page
+            in: query
+            required: false
+            description: GET /v1/store-branch parameter
+            schema:
+              oneOf:
+                - type: number
+                  format: double
+                  minimum: 5e-324
+                  exclusiveMinimum: false
+                  maximum: 1.7976931348623157e+308
+                  exclusiveMaximum: false
+                - type: string
+              default: 1
+          - name: limit
+            in: query
+            required: false
+            description: GET /v1/store-branch parameter
+            schema:
+              oneOf:
+                - type: number
+                  format: double
+                  minimum: 5e-324
+                  exclusiveMinimum: false
+                  maximum: 1.7976931348623157e+308
+                  exclusiveMaximum: false
+                - type: string
+              default: 10
+          - name: sort
+            in: query
+            required: false
+            description: GET /v1/store-branch parameter
+            schema:
+              format: any
+          - name: name
+            in: query
+            required: false
+            description: GET /v1/store-branch parameter
+            schema:
+              type: string
+          - name: isEnabled
+            in: query
+            required: false
+            description: GET /v1/store-branch parameter
+            schema:
+              oneOf:
+                - type: boolean
+                - type: string
+                - type: string
+                  nullable: true
+                  format: "null"
+              default: true
+        security:
+          - APIKEY_1: []
+    /v1/store-branch/{id}:
+      get:
+        operationId: GetV1StoreBranchId
+        responses:
+          "200":
+            description: GET /v1/store-branch/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: GET /v1/store-branch/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Obtener una sucursal determinada de una tienda
+        summary: Obtener una sucursal
+        tags:
+          - storeBranch
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: GET /v1/store-branch/:id parameter
+            schema:
+              type: string
+        security:
+          - APIKEY_1: []
+      delete:
+        operationId: DeleteV1StoreBranchId
+        responses:
+          "200":
+            description: DELETE /v1/store-branch/:id Successful response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+          "400":
+            description: DELETE /v1/store-branch/:id Error response
+            content:
+              application/json:
+                schema:
+                  type: object
+                  properties: {}
+        description: Eliminar una sucursal para una tienda
+        summary: Eliminar una sucursal
+        tags:
+          - storeBranch
+        parameters:
+          - name: id
+            in: path
+            required: true
+            description: DELETE /v1/store-branch/:id parameter
             schema:
               type: string
         security:
@@ -2972,5 +3271,7 @@
       description: Control de countries, states y cities
     - name: gallery
       description: Control de galería de una tienda
+    - name: storeBranch
+      description: Control de sucursales
   servers:
     - url: https://crypto-checkout-v2.dev.build.koibanx.com/v1
